@@ -1,0 +1,186 @@
+POST http://localhost:8001/notif/message/
+Accept: application/json; q=1.0, */*
+Accept-Language: en-US,en;q=0.9,hi;q=0.8
+Connection: keep-alive
+Cookie: csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab
+DNT: 1
+Origin: http://localhost:8000
+Referer: http://localhost:8000/notif/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+X-CSRFTOKEN: Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6
+Authorization: Token 21bfd6ffffe43740c2939453f946147d47dec7a6
+X-Requested-With: XMLHttpRequest
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Content-Type: application/json
+
+{
+  "receiver": "1958f130-8b91-445e-ace8-041d7c66d8e0",
+  "t": "Def",
+  "context": "hi",
+  "message_content": "hi",
+  "text": ""
+}
+###
+
+GET http://localhost:8001/notif/message/?offset=2
+Accept: application/json; q=1.0, */*
+Accept-Language: en-US,en;q=0.9,hi;q=0.8
+Connection: keep-alive
+Cookie: csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab
+DNT: 1
+Origin: http://localhost:8000
+Referer: http://localhost:8000/notif/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+X-CSRFTOKEN: Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6
+Authorization: Token 21bfd6ffffe43740c2939453f946147d47dec7a6
+X-Requested-With: XMLHttpRequest
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Content-Type: application/json
+
+###
+
+GET http://localhost:8001/notif/message/?offset=2&archived=True
+Accept: application/json; q=1.0, */*
+Accept-Language: en-US,en;q=0.9,hi;q=0.8
+Connection: keep-alive
+Cookie: csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab
+DNT: 1
+Origin: http://localhost:8000
+Referer: http://localhost:8000/notif/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+X-CSRFTOKEN: Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6
+Authorization: Token 21bfd6ffffe43740c2939453f946147d47dec7a6
+X-Requested-With: XMLHttpRequest
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Content-Type: application/json
+
+###
+PUT http://localhost:8001/notif/message/
+Accept: application/json; q=1.0, */*
+Accept-Language: en-US,en;q=0.9,hi;q=0.8
+Connection: keep-alive
+Cookie: csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab
+DNT: 1
+Origin: http://localhost:8000
+Referer: http://localhost:8000/notif/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+X-CSRFTOKEN: Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6
+Authorization: Token 21bfd6ffffe43740c2939453f946147d47dec7a6
+X-Requested-With: XMLHttpRequest
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Content-Type: application/json
+
+{
+  "id": "f647037f-85e1-4176-a2ea-116406271316",
+  "seen": true
+}
+
+###
+DELETE http://localhost:8001/notif/message/
+Accept: application/json; q=1.0, */*
+Accept-Language: en-US,en;q=0.9,hi;q=0.8
+Connection: keep-alive
+Cookie: csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab
+DNT: 1
+Origin: http://localhost:8000
+Referer: http://localhost:8000/notif/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+X-CSRFTOKEN: Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6
+Authorization: Token 21bfd6ffffe43740c2939453f946147d47dec7a6
+X-Requested-With: XMLHttpRequest
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Content-Type: application/json
+
+{
+  "id": "9e3fec34-46a3-4a04-aa32-2262d24ccedd"
+}
+
+###
+PUT http://localhost:8001/notif/message/
+Accept: application/json; q=1.0, */*
+Accept-Language: en-US,en;q=0.9,hi;q=0.8
+Connection: keep-alive
+Cookie: csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab
+DNT: 1
+Origin: http://localhost:8000
+Referer: http://localhost:8000/notif/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+X-CSRFTOKEN: Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6
+Authorization: Token 21bfd6ffffe43740c2939453f946147d47dec7a6
+X-Requested-With: XMLHttpRequest
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Content-Type: application/json
+
+{
+  "id": "55dd6fd0-96ee-4ae8-8909-ee03798291a0",
+  "archived": true
+}
+
+
+###
+POST http://localhost:8000/user/register/
+Accept: text/html; q=1.0, */*
+Accept-Language: en-US,en;q=0.9,hi;q=0.8
+Connection: keep-alive
+Cookie: csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; tabstyle=raw-tab
+DNT: 1
+Origin: http://localhost:8000
+Referer: http://localhost:8000/user/register/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+X-CSRFTOKEN: YJwRyQcd1Bwm3yjl9uyIqzT99imDgW8CxeIMkBIqi89YsgRZkPzTxBqA7siSJK4d
+X-Requested-With: XMLHttpRequest
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Content-Type: application/json
+
+{
+  "username": "hi1",
+  "email": "hi@hi.hi1",
+  "password": "ji"
+}
+
+###
+
+POST http://localhost:8000/user/login/
+Content-Type: application/json
+
+{
+  "username": "hi1",
+  "password": "ji"
+}
+
+
