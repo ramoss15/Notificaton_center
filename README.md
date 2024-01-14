@@ -96,8 +96,8 @@ Include this header in all notification
 For any questions or inquiries, please feel free to reach out to us:
 - **Name:** Ram Pratap
 
-- **Email:** [Email](rampratap305@gmail.com)
-- **Phone:** [7888924374](7888924374)
+- **Email:** [Email](mailto:rampratap305@gmail.com)
+- **Phone:** [7888924374](tel:7888924374)
 
 
 
