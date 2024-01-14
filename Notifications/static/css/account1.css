@@ -1,0 +1,133 @@
+#accounttopbuffer{
+	width:100%;
+	height:60px;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+#accountmaindiv{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+.account_header{
+  	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	padding:50px 10%;
+}
+
+.account_header > div{
+	width:100%;
+	max-width: 1000px;
+	padding:2rem;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+	border:1px solid #e8e8e8;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	position: relative;
+}
+.account_header > div > div > p:first-of-type{
+	margin-bottom: 2rem;
+}
+.account_header > div > div > p.error{
+	margin-bottom: 2rem;
+	display: none;
+	font-size: .9rem;
+}
+.account_header > div > div > form > p{
+	margin-top: 2rem;
+	font-size: .9rem;
+}
+
+.account_header > div > div form{
+	display: block;
+	clear: both;
+}
+.account_header > div > div div.fieldbox{
+	clear: both;
+	margin-top: 1rem;
+}
+.account_header > div > div div.double input[type=text], .account_header > div > div div.double select, .account_header > div > div div.double input[type=password]{
+	width:49.2%;
+	display: inline-block;
+}
+.account_header > div > div div.double input[type=text]+input[type=text], .account_header > div > div div.double select+select, .account_header > div > div div.double input[type=text]+input[type=password]{
+	margin-left: 1.6%;
+}
+.account_header > div > div div.double:last-child > table{
+	float: left;
+	width: auto;
+}
+.account_header > div > div div.double:last-child > button{
+	float: right;
+}
+
+.account_postsignup{display: none;}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1100px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+.account_header{
+	padding:20px 20px;
+}
+.account_header > div{
+	max-width: 100%;
+	padding: 1.5rem;
+}
+
+.account_header > div > div div.double input[type=text], .account_header > div > div div.double select{
+	width:100%;
+	display: block;
+}
+.account_header > div > div div.double input[type=text]+input[type=text], .account_header > div > div div.double select+select{
+	margin:1rem 0 0;
+}
+
+.account_header > div > div div.double:last-child > table{
+	float: none;
+	width: auto;
+	margin: auto;
+}
+.account_header > div > div div.double:last-child > button{
+	float: none;
+	margin: 1.5rem auto 0;
+}
+
+
+}
+
+@media only screen and (max-width: 600px) {
+.account_header{
+	padding:10px 10px;
+}
+.account_header > div{
+	padding: .5rem;
+}
+.account_header > div > div div.double:last-child > button{
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	width: 100%;
+}
+}

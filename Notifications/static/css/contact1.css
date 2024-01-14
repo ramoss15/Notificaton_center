@@ -1,0 +1,75 @@
+.contactcard{
+	width:250px;
+	height:auto;
+	clear:both;
+	overflow:hidden;
+	font-family:'Cabin-Regular', sans-serif;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:always;
+	}
+.contactcardupperouter{
+	clear:both;
+	overflow:hidden;
+	width:250px;
+	height:50px;
+	}
+.contactcardimage{
+	float:left;
+	overflow:hidden;
+	width:50px;
+	height:50px;
+	background:#fcfcfc;
+	}
+.contactcardright{
+	float:left;
+	background:#fcfcfc;
+	width:200px;
+	height:50px;
+	overflow:hidden;
+	text-align:left;
+	}
+.contactcardrightname{
+	padding:0px 10px;
+	font-size:16px;
+	width:180px;
+	height:50px;
+	text-decoration:none;
+	color:#565656;
+	font-family:'Cabin-Medium', sans-serif;
+	}
+.contactcardbottom{
+	clear:both;
+	overflow:hidden;
+	width:250px;
+	height:50px;
+}
+.contactcardbottomleft{
+	float:left;
+	overflow:hidden;
+	width:80px;
+	height:30px;
+	padding:0px 10px;
+	font-size:14px;
+	text-decoration:none;
+	color:#fcfcfc;
+	text-align:center;
+	overflow:hidden;
+	font-family:Lato, sans-serif;
+	font-weight:900;
+	cursor:pointer;
+	}
+.contactcardbottomright{
+	float:left;
+	overflow:hidden;
+	width:130px;
+	height:30px;
+	background:#f9f9f9;
+	padding:0px 10px;
+	font-size:14px;
+	text-decoration:none;
+	color:#2980b9;
+	text-align:center;
+	overflow:hidden;
+	font-family:Lato, sans-serif;
+	font-weight:700;
+	}

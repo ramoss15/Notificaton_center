@@ -1,0 +1,1070 @@
+#supporttopbuffer{
+	width:100%;
+	height:60px;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+#supportmaindiv{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+	font-family: 'hurme1regular';
+}
+
+.feedback_header{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	padding:0px 10%;
+}
+
+.feedback_header > .background {
+	z-index: -3;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.feedback_header .stripes {
+    z-index: -2;
+    width: 100%;
+    height: 500px;
+    top:0;
+    left: 0;
+//    background-image: linear-gradient(45deg, #C9D900, #E39D1C);
+    background-image: linear-gradient(45deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+}
+
+
+
+.feedback_header > div.main{
+	width:100%;
+	height: 350px;
+	margin:auto;
+	padding-top: 60px;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center
+}
+.feedback_header > div.main > div{
+	width:80%;
+	height:auto;
+	margin:auto;
+	margin-left: 0;
+}
+
+.feedback_header > div.main h1{
+	font-size:3.25rem;
+	line-height:3.75rem;
+}
+.feedback_header > div.main h1 span{
+	font-size:3.25rem;
+	line-height:3.75rem;
+}
+.feedback_header > div.main h2{
+	font-size:1.5rem;
+	line-height:1.75rem;
+	margin-bottom: 0;
+}
+
+
+
+
+.feedback_header > div.card{
+	width:100%;
+	max-width: 60%;
+	height:auto;
+	margin:auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.feedback_header > div.card > div.feedback_prefeedback > p:first-of-type{
+	margin-bottom: 2rem;
+}
+.feedback_header > div.card > div.feedback_prefeedback > p.error{
+	margin-bottom: 2rem;
+	display: none;
+	font-size: .9rem;
+}
+.feedback_header > div.card > div.feedback_prefeedback > form > p{
+	margin-top: 2rem;
+	font-size: .9rem;
+}
+
+.feedback_header > div.card > div.feedback_prefeedback form{
+	display: block;
+	clear: both;
+}
+.feedback_header > div.card > div.feedback_prefeedback div.fieldbox{
+	clear: both;
+	margin-top: 1rem;
+}
+.feedback_header > div.card > div.feedback_prefeedback div.double input[type=text], .feedback_header > div.card > div div.double select, .feedback_header > div.card > div div.double input[type=password]{
+	width:49.2%;
+	display: inline-block;
+}
+.feedback_header > div.card > div.feedback_prefeedback div.double input[type=text]+input[type=text], .feedback_header > div.card > div div.double select+select, .feedback_header > div.card > div div.double input[type=text]+input[type=password]{
+	margin-left: 1.6%;
+}
+.feedback_header > div.card > div.feedback_prefeedback div.double:last-child > table{
+	float: left;
+	width: auto;
+}
+.feedback_header > div.card > div.feedback_prefeedback div.double:last-child > button{
+	float: right;
+}
+.feedback_header > div.card > div.feedback_prefeedback div.fieldbox:last-child > button{
+	float: right;
+}
+
+.feedback_postfeedback{display: none;}
+.feedback_postfeedback p{margin-bottom: 0;}
+
+
+
+
+
+
+
+
+.support_header{
+	clear: both;
+  	width: 100%;
+  	padding:0px 10%;
+  	height: auto;
+  	overflow: hidden;
+}
+
+.support_header > .background {
+	z-index: -3;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.support_header .stripes {
+    z-index: -2;
+    width: 100%;
+    height: 500px;
+    top:0;
+    left: 0;
+//    background-image: linear-gradient(45deg, #C9D900, #E39D1C);
+    background-image: linear-gradient(45deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+}
+
+
+
+.support_header > div.main{
+	width:100%;
+	height: 350px;
+	margin:auto;
+	padding-top: 60px;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center
+}
+
+
+.support_header > div.main > div{
+	width:60%;
+	height:auto;
+	margin:auto;
+	margin-left: 0;
+}
+
+.support_header > div.main h1{
+	font-size:3.25rem;
+	line-height:3.75rem;
+}
+.support_header > div.main h1 span{
+	font-size:3.25rem;
+	line-height:3.75rem;
+}
+.support_header > div.main h2{
+	font-size:1.75rem;
+	line-height:2rem;
+	margin-bottom: 0;
+}
+
+.support_header > div.intro{
+	width:100%;
+	padding:0px 0;
+	height:auto;
+	margin:auto;
+	margin-top: 60px;
+	margin-bottom: 160px;
+}
+.support_header > div.intro > div{
+	width:60%;
+	height:auto;
+	margin:auto;
+}
+
+.support_header > div.intro h1{
+	color: #439fe0;
+}
+.support_header > div.intro h1 span{
+}
+.support_header > div.intro p{
+	margin-bottom: 0;
+}
+
+
+
+
+
+.support_header .illust{
+    width: 370px;
+    height: 370px;
+    top:350px;
+    right:-100px;
+	background-size:350px 350px;
+	background-repeat: no-repeat;
+	background-image:url('https://derbiicdn.storage.googleapis.com/images/life-buoy.png')
+}
+
+
+
+
+
+
+
+.intro_cards_outermost{
+	width: 100%;
+	margin:auto;
+	margin-top: 0px;
+	padding: 0px 0px 60px;
+	text-align: center;
+}
+
+
+.intro_card_outer{
+	display: inline-block;
+	width: 25%;
+	margin:auto;
+	padding: 0px 10px;
+	clear: both;
+	text-align: center;
+}
+
+.intro_card_outer:nth-child(1), .intro_card_outer:nth-child(2) {
+  -webkit-transform: translate(2px, 0px);
+  -moz-transform: translate(2px, 0px);
+  -ms-transform: translate(2px, 0px);
+  -o-transform: translate(2px, 0px);
+  transform: translate(2px, 0px);
+}
+.intro_card_outer:nth-child(3), .intro_card_outer:nth-child(4) {
+  -webkit-transform: translate(-3px, 0px);
+  -moz-transform: translate(-3px, 0px);
+  -ms-transform: translate(-3px, 0px);
+  -o-transform: translate(-3px, 0px);
+  transform: translate(-3px, 0px);
+}
+
+
+.intro_card {
+	width: 100%;
+	padding: 30px 20px;
+	position: relative;
+	margin: auto;
+	transition-property: all;
+  transition-duration: 220ms;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.intro_card p{
+	font-size: 1.1rem;
+	width: 100%;
+}
+.intro_card p+p{
+	font-size: .9rem;
+	line-height: 1rem;
+	height: 2.5rem;
+}
+.intro_card_outer div.image{
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:60px 60px;
+	height: 60px;
+	width: 60px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.intro_card_outer:nth-child(1) div.image{
+	background-image:url('https://derbiicdn.storage.googleapis.com/images/em_fbmsngr.png')
+}
+.intro_card_outer:nth-child(2) div.image{
+	background-image:url('https://derbiicdn.storage.googleapis.com/images/em_call.png')
+}
+.intro_card_outer:nth-child(3) div.image{
+	background-image:url('https://derbiicdn.storage.googleapis.com/images/em_email.png')
+}
+.intro_card_outer:nth-child(4) div.image{
+	background-image:url('https://derbiicdn.storage.googleapis.com/images/em_feedback1.png')
+}
+
+
+
+
+
+
+
+
+.hello_support{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	padding:100px 10% 200px;
+}
+.hello_support > div{
+	width:1000px;
+	max-width: 1000px;
+	height:auto;
+	margin:auto;
+	clear:both;
+	overflow:visible;
+}
+
+.hello_support > div > h1{
+	font-size:2rem;
+	line-height:2.5rem;
+	margin-bottom: 2rem;
+}
+.hello_support > div > img{
+	top:-1rem;
+}
+
+.support_main{
+	width: 75%;
+	margin-left: 25%;
+}
+
+.support_main ul.sections{
+	list-style:none;margin-left:0;margin-bottom:0;padding: 0;
+}
+.support_main ul.sections > li{
+	padding:0 0 0;
+	margin-top: 5rem;
+	margin-left:0;
+}
+.support_main ul.sections > li h3{
+	width: 100%;
+	padding:0 0 0;
+	padding-left: 1rem;
+//	font-size:1.75rem;
+	line-height:4rem;
+	margin-bottom: 2px;
+}
+
+.support_main ul.questions{
+	list-style:none;margin-left:0;margin-bottom:0;padding: 0;
+}
+
+.support_main ul.questions li{
+//	padding:1.375rem 0 .875rem;
+	padding:2rem 0 2rem;
+	border-bottom:2px solid #e8e8e8;
+	margin-left:0;
+}
+.support_main ul.questions li h4{margin-bottom:0; width: 100%;}
+.support_main ul.questions li.expanded h4{margin-bottom:2rem;}
+.support_main ul.questions li h4 a{display:block;position:relative;padding-left:1rem; padding-right:5rem;}
+.support_main ul.questions li h4 a:hover{text-decoration:none;}
+.support_main ul.questions li h4 a i.fa:before{display:block;position:absolute;top:0;right:1rem;font-size:1.5rem;color:#439fe0;}
+.support_main ul.questions li.expanded h4 a i.fa:before{color:#999999;}
+.support_main ul.questions li.expanded:hover h4 a i.fa:before{color:#999999;}
+.support_main ul.questions li p,.support_main ul.questions li ul{display:none;padding-left:1rem;padding-right:5rem;font-size:1rem;line-height:1.25rem;color: #656565;}
+.support_main ul.questions li.expanded p,.support_main ul.questions li.expanded ul{display:block;}
+.support_main ul.questions li p a{color: #439fe0;text-decoration: underline;}
+.support_main ul.questions li li{border-bottom:none;margin-bottom:.75rem;padding-top:0;padding-bottom:0;list-style-type:disc;}
+.support_main ul.questions li.expanded h4 a i.ts_icon:before{color:#9e9ea6}
+.support_main ul.questions li.expanded p,.support_main ul.questions li.expanded ul{display:block;}
+.support_main ul.questions li:hover{background:#f9f9f9;}
+.support_main ul.questions li.expanded:hover h4 a i.ts_icon:before{color:#3aa3e3;}
+
+
+.sections_nav{position:relative;float:left;transition:transform .15s cubic-bezier(.2,.3,.25,.9); padding-left: 0; padding-right: 0; padding-bottom: 0;}
+.sections_nav h3{display:block;margin-bottom: 30px;padding-left:.875rem;padding-right: .875rem;}
+.sections_nav ul{list-style:none;margin-left:0;padding: 0; margin-bottom: 0;}
+.sections_nav ul li{
+	padding: 0;
+	margin:0;
+}
+.sections_nav ul li a{
+	display:block;width:150px;height:2.75rem;
+	padding-left:.875rem;font-size:1.1rem;color:#565656;transition:padding-left .2s ease-out;
+	line-height: 2.75rem;
+}
+.sections_nav ul li a:hover{padding-left:1.2rem;background-color:rgba(118, 65, 242, .3);color:#439fe0;;text-decoration:none;}
+.sections_nav ul li a.active{padding-left:1.2rem;background-color:#439fe0;;color:#fff;text-decoration:none;cursor:default;}
+.sections_nav.fixed{position:fixed;float:none;}
+.sections_nav.stuck_to_bottom{position:absolute;margin-top:0}
+
+
+
+
+
+.hello_cta{
+  	width: 100%;
+  	padding:0px 10% 150px;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-flex-direction: row;
+	flex-direction: row;
+	align-items: flex-start;
+  	justify-content: center;
+}
+.hello_cta > div{
+	display: inline-block;
+	width:50%;
+	padding: 0 2%;
+//	max-width: 800px;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:visible;
+}
+.hello_cta > div > div{
+	width:100%;
+	height:100%;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+.hello_cta h1{
+	color:#439fe0;
+}
+.hello_cta p{
+	margin-bottom: 0;
+}
+
+
+
+
+@media only screen and (max-width: 1500px) {
+.support_header .illust{
+    width: 350px;
+    height: 350px;
+    top:350px;
+    right:-100px;
+	background-size:330px 330px;
+	background-repeat: no-repeat;
+	background-image:url('https://derbiicdn.storage.googleapis.com/images/life-buoy.png')
+}
+}
+
+
+@media only screen and (max-width: 1366px) {
+.feedback_header{
+  	padding:0px 5%;
+}
+
+.feedback_header .stripes {
+    height: 500px;
+}
+
+.feedback_header > div.main > div{
+	width:80%;
+}
+
+.feedback_header > div.main h1{
+	font-size:3rem;
+	line-height:3.5rem;
+}
+.feedback_header > div.main h1 span{
+	font-size:3rem;
+	line-height:3.5rem;
+}
+.feedback_header > div.main h2{
+	font-size:1.25rem;
+	line-height:1.5rem;
+}
+
+.support_header{
+  	padding:0px 5%;
+}
+
+.support_header .stripes {
+    height: 500px;
+}
+
+.support_header > div.main > div{
+	width:60%;
+}
+
+.support_header > div.main h1{
+	font-size:3rem;
+	line-height:3.5rem;
+}
+.support_header > div.main h1 span{
+	font-size:3rem;
+	line-height:3.5rem;
+}
+.support_header > div.main h2{
+	font-size:1.5rem;
+	line-height:1.75rem;
+}
+
+.support_header .illust{
+    width: 320px;
+    height: 320px;
+    top:350px;
+    right:-120px;
+	background-size:300px 300px;
+	background-repeat: no-repeat;
+	background-image:url('https://derbiicdn.storage.googleapis.com/images/life-buoy.png')
+}
+.support_header > div.intro{
+	width:100%;
+	padding:0px 0;
+	height:auto;
+	margin:auto;
+	margin-top: 60px;
+	margin-bottom: 140px;
+}
+.support_header > div.intro > div{
+	width:70%;
+	height:auto;
+	margin:auto;
+}
+
+
+}
+
+@media only screen and (max-width: 1250px) {
+.support_header{
+  	padding:0px 5%;
+}
+.support_header .illust{
+    width: 320px;
+    height: 320px;
+    top:350px;
+    right:-120px;
+	background-size:300px 300px;
+	background-repeat: no-repeat;
+	background-image:url('https://derbiicdn.storage.googleapis.com/images/life-buoy.png')
+}
+.support_header > div.intro{
+	width:100%;
+	padding:0px 0;
+	height:auto;
+	margin:auto;
+	margin-top: 60px;
+	margin-bottom: 140px;
+}
+.support_header > div.intro > div{
+	width:70%;
+	height:auto;
+	margin:auto;
+}
+
+.support_header > div.intro h1{
+	color: #439fe0;
+}
+.support_header > div.intro h1 span{
+}
+.support_header > div.intro p{
+	font-size: 1rem;
+    line-height: 1.2rem;
+}
+}
+
+
+
+@media only screen and (max-width: 1150px) {
+.feedback_header > div.main > div{
+	width:80%;
+}
+.support_header > div.main > div{
+	width:70%;
+}
+
+.support_header{
+  	padding:0px 5%;
+}
+.support_header .illust{
+    width: 280px;
+    height: 280px;
+    top:350px;
+    right:-120px;
+	background-size:260px 260px;
+	background-repeat: no-repeat;
+	background-image:url('https://derbiicdn.storage.googleapis.com/images/life-buoy.png')
+}
+
+.hello_support{
+	padding:100px 5% 200px;
+}
+.hello_support > div{
+	width:100%;
+	max-width: 100%;
+}
+.sections_nav ul li a{
+	width:150px;
+}
+}
+
+
+
+@media only screen and (max-width: 900px) {
+.feedback_header > div.main > div{
+	width:80%;
+}
+.support_header > div.main > div{
+	width:80%;
+}
+
+.support_header{
+  	padding:0px 5%;
+}
+.support_header .stripes {
+    height: 500px;
+}
+.support_header .illust{
+    width: 280px;
+    height: 280px;
+    top:350px;
+    right:-200px;
+	background-size:260px 260px;
+	background-repeat: no-repeat;
+	background-image:url('https://derbiicdn.storage.googleapis.com/images/life-buoy.png')
+}
+.support_header > div.intro{
+	width:100%;
+	padding:0px 0;
+	height:auto;
+	margin:auto;
+	margin-top: 60px;
+	margin-bottom: 90px;
+}
+.support_header > div.intro > div{
+	width:80%;
+	height:auto;
+	margin:auto;
+}
+
+.support_header > div.intro h1{
+	color: #439fe0;
+}
+.support_header > div.intro h1 span{
+}
+.support_header > div.intro p{
+	font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+
+
+
+
+
+
+
+.intro_card_outer{
+	width: 50%;
+	margin:auto;
+	padding: 30px 5%;
+}
+.intro_card {
+	width: 70%;
+	padding: 30px 20px;
+	position: relative;
+}
+
+.intro_card p{
+	font-size: 1rem;
+	width: 100%;
+}
+.intro_card p+p{
+	font-size: .8rem;
+	line-height: .9rem;
+	height: 2rem;
+}
+.intro_card_outer div.image{
+	background-size:45px 45px;
+	height: 45px;
+	width: 45px;
+	margin-bottom: 15px;
+}
+
+/*
+.hello_support > div > h1{
+	font-size:1.5rem;
+	line-height:2rem;
+	margin-bottom: 2rem;
+}
+.hello_support > div > img{
+	top:-1rem;
+}*/
+
+.sections_nav ul li a{
+	width:100px;
+}
+
+
+
+
+.hello_cta{
+  	padding:0px 10% 150px;
+  	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+.hello_cta > div{
+	display: block;
+	width:100%;
+}
+.hello_cta > div+div{
+	margin-top: 50px;
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+.feedback_header{
+	padding:0px 5%;
+}
+.feedback_header .stripes {
+	height: 400px;
+}
+
+.feedback_header > div.main{
+	height: 250px;
+}
+
+.feedback_header > div.main > div{
+	width:90%;
+}
+
+.feedback_header > div.main h1{
+	font-size:2rem;
+	line-height:2.5rem;
+}
+.feedback_header > div.main h1 span{
+	font-size:2rem;
+	line-height:2.5rem;
+}
+.feedback_header > div.main h2{
+	font-size:1.1rem;
+	line-height:1.25rem;
+}
+
+
+
+.feedback_header > div.card{
+	max-width: 100%;
+	padding: 1.5rem;
+}
+
+.feedback_header > div.card > div.feedback_prefeedback div.double input[type=text], .feedback_header > div.card > div.feedback_prefeedback div.double select{
+	width:100%;
+	display: block;
+}
+.feedback_header > div.card > div.feedback_prefeedback div.double input[type=text]+input[type=text], .feedback_header > div.card > div.feedback_prefeedback div.double select+select{
+	margin:1rem 0 0;
+}
+
+.feedback_header > div.card > div.feedback_prefeedback div.double:last-child > table{
+	float: none;
+	width: auto;
+	margin: auto;
+}
+.feedback_header > div.card > div.feedback_prefeedback div.double:last-child > button{
+	float: none;
+	margin: 1.5rem auto 0;
+}
+.feedback_header > div.card > div.feedback_prefeedback div.fieldbox:last-child > button{
+	float: none;
+	margin: 0 auto 0;
+}
+
+
+
+
+.support_header{
+	padding:0px 5%;
+}
+
+
+
+.support_header > div.main > div{
+	width:90%;
+}
+
+.support_header > div.main h1{
+	font-size:2rem;
+	line-height:2.5rem;
+}
+.support_header > div.main h1 span{
+	font-size:2rem;
+	line-height:2.5rem;
+}
+.support_header > div.main h2{
+	font-size:1.2rem;
+	line-height:1.5rem;
+}
+
+
+.support_header{
+  	padding:0px 5%;
+}
+.support_header .stripes {
+	height: 400px;
+}
+
+.support_header > div.main{
+	height: 250px;
+}
+
+.support_header .illust{
+    width: 280px;
+    height: 280px;
+    top:250px;
+    right:-260px;
+	background-size:260px 260px;
+	background-repeat: no-repeat;
+	background-image:url('https://derbiicdn.storage.googleapis.com/images/life-buoy.png')
+}
+.support_header > div.intro{
+	width:100%;
+	padding:0px 0;
+	height:auto;
+	margin:auto;
+	margin-top: 60px;
+	margin-bottom: 90px;
+}
+.support_header > div.intro > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+}
+
+
+
+.intro_card {
+	width: 100%;
+	padding: 10px 10px;
+	position: relative;
+}
+.intro_cards_outer .intro_card_outer:nth-child(1) .intro_card{
+	margin-right: auto;
+	margin-left: auto;
+}
+.intro_cards_outer .intro_card_outer:nth-child(2) .intro_card{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
+.feedback{
+	padding:20px 20px;
+}
+.support_header > div.card{
+	max-width: 100%;
+	padding: 1.5rem;
+}
+
+.support_header > div.card > div div.double input[type=text], .support_header > div.card > div div.double select{
+	width:100%;
+	display: block;
+}
+.support_header > div.card > div div.double input[type=text]+input[type=text], .support_header > div.card > div div.double select+select{
+	margin:1rem 0 0;
+}
+
+.support_header > div.card > div div.double:last-child > table{
+	float: none;
+	width: auto;
+	margin: auto;
+}
+.support_header > div.card > div div.double:last-child > button{
+	float: none;
+	margin: 1.5rem auto 0;
+}
+.support_header > div.card > div div.fieldbox:last-child > button{
+	float: none;
+	margin: 0 auto 0;
+}
+
+
+
+
+
+
+
+
+.hello_support{
+	padding:100px 2% 200px;
+}
+
+.support_main{
+	width: 100%;
+	margin: auto;
+}
+.sections_nav{display: none;}
+
+}
+
+
+@media only screen and (max-width: 480px){
+
+.feedback_header > div.main h1{
+	font-size:1.5rem;
+	line-height:2rem;
+}
+.feedback_header > div.main h1 span{
+	font-size:1.5rem;
+	line-height:2rem;
+}
+.feedback_header > div.main h2{
+	font-size:.9rem;
+	line-height:1.1rem;
+}
+
+
+
+.support_header{
+  	padding:0px 5%;
+}
+.support_header .illust{
+    width: 200px;
+    height: 200px;
+    top:250px;
+    right:-180px;
+	background-size:180px 180px;
+	background-repeat: no-repeat;
+	background-image:url('https://derbiicdn.storage.googleapis.com/images/life-buoy.png')
+}
+.support_header > div.intro{
+	width:100%;
+	padding:0px 0;
+	height:auto;
+	margin:auto;
+	margin-top: 60px;
+	margin-bottom: 90px;
+}
+.support_header > div.intro > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+	margin-left: 0;
+}
+
+.support_header > div.intro h1{
+	color: #439fe0;
+}
+.support_header > div.intro h1 span{
+}
+.support_header > div.intro p{
+	font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+
+.intro_card_outer{
+	width: 100%;
+	margin:auto;
+	padding: 30px 10px;
+}
+
+.intro_card p{
+	font-size: .9rem;
+	width: 100%;
+}
+.intro_card p+p{
+	font-size: .7rem;
+	line-height: .8rem;
+	height: 2rem;
+}
+.intro_card_outer div.image{
+	background-size:40px 40px;
+	height: 40px;
+	width: 40px;
+	margin-bottom: 15px;
+}
+}
+
+
+@media only screen and (max-width: 320px) {
+
+.feedback_header > div.card{
+	padding: .5rem;
+}
+.feedback_header > div.card > div div.double:last-child > button{
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	width: 100%;
+}
+.feedback_header > div.card > div div.fieldbox:last-child > button{
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	width: 100%;
+}
+
+
+
+
+.feedback{
+	padding:10px 10px;
+}
+.support_header > div.card{
+	padding: .5rem;
+}
+.support_header > div.card > div div.double:last-child > button{
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	width: 100%;
+}
+.support_header > div.card > div div.fieldbox:last-child > button{
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	width: 100%;
+}
+
+
+.intro_block_outer{
+	padding: 0 10px;
+}
+.intro_block_outer .head_text{
+	width:100%;
+}
+
+.intro_card_outer{
+	display: block;
+}
+.intro_card_outer:nth-child(2), .intro_card_outer:nth-child(3), .intro_card_outer:nth-child(4) {
+  	margin-top:40px;
+}
+
+}

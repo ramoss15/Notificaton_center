@@ -1,0 +1,56 @@
+.invoicecontainer{
+	height:1200px;
+	width:800px;
+	clear:both;
+	overflow:hidden;
+	padding:0px;
+	margin:0px;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:always;
+}
+.invoiceouter1{
+	height:300px;
+	width:700px;
+	clear:both;
+	overflow:hidden;
+	padding:0px 50px;
+}
+.invoiceouter1left{
+	height:300px;
+	width:auto;
+	float:left;
+	overflow:hidden;
+}
+.invoiceouter1right{
+	height:300px;
+	width:auto;
+	float:right;
+	overflow:hidden;
+}
+.invoiceouter1rightheading{
+	font-family:Lato, sans-serif;
+	font-weight: 500;
+	text-transform:uppercase;
+	color:#333333;
+	font-size:20px;
+}
+.invoiceouter1righttext{
+	font-family:Lato, sans-serif;
+	font-weight: 500;
+	color:#777777;
+	font-size:13px;
+}
+.invoiceouter2{
+	height:500px;
+	width:700px;
+	clear:both;
+	overflow:hidden;
+	padding:0px 50px;
+}
+.invoiceouter3{
+	height:400px;
+	width:700px;
+	clear:both;
+	overflow:hidden;
+	padding:0px 50px;
+}

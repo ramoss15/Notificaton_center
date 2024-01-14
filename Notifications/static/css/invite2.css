@@ -1,0 +1,595 @@
+#invitetopbuffer{
+	width:100%;
+	height:0px;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+#invitemaindiv{
+	width:100%;
+	height:100vh;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+
+
+
+.invite_main{
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	padding:0px 0;
+	height: 100%;
+/*	background: #e8e8e8;
+  	background: -webkit-linear-gradient(-180deg, #ffffff, #e8e8e8);
+  	background: -o-linear-gradient(-180deg, #ffffff, #e8e8e8);
+  	background: -moz-linear-gradient(-180deg, #ffffff, #e8e8e8);
+  	background: linear-gradient(-180deg, #ffffff, #e8e8e8);*/
+}
+.invite_main > div{
+	width:100%;
+	max-width: 100%;
+	height:100%;
+	margin:auto;
+	clear:both;
+	overflow:hidden;
+	position: relative;
+/*	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;*/
+}
+
+.invite_main > div > div{
+	width:50%;
+	overflow:hidden;
+	padding:0px 0px;
+	position: absolute;
+	padding:0 10%;
+/*	flex: auto;
+	-webkit-flex: auto;*/
+/*	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-flex-direction: row;
+	flex-direction: row;*/
+}
+.invite_main > div > div.postsignup{
+	width:100%;
+	left: 0;
+	top: 0;
+	height: 100vh;
+	z-index: 1;
+	display: none;
+}
+.invite_main > div > div.postsignup > div{
+	width:100%;
+	height:100%;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+.invite_main > div > div.postsignup > div > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+
+}
+
+.invite_main > div > div.left{
+	top:0;
+	left:0;
+	height:100vh;
+	z-index: 1;
+}
+.invite_main > div > div.left > div{
+	width:100%;
+	height:100%;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+.invite_main > div > div.left > div.post{
+//	display: none;
+}
+.invite_main > div > div.left > div > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+
+}
+.invite_main > div > div.left > div.post > div > div{
+	width:100%;
+	height:auto;
+	display: none;
+}
+.invite_main > div > div.left > div.post > div > div+div{
+	margin-top: 1.5rem;
+}
+.invite_main > div > div.left > div.post > div > div > div:not(.bgheading){
+	width:50%;
+	height:auto;
+	display: inline-block;
+}
+.invite_main > div > div.left > div.post > div > div p{
+	margin-left: .8rem;
+}
+
+
+.invite_main > div > div.right{
+	top:0;
+	left:50%;
+	right:0;
+	height:400%;
+}
+
+.invite_main > div > div.popupscreen{
+	top:0;
+	left:50%;
+	right:0;
+	height:100%;
+	z-index: 49;
+	background: rgba(20,20,20,.6);
+	display: none;
+}
+.invite_main > div > div.popup{
+	top:0;
+	left:50%;
+	right:0;
+	height:100%;
+	z-index: 50;
+	display: none;
+}
+.invite_main > div > div.popup > div{
+	width:100%;
+	height:100%;
+	padding: 0px 0px 0px;
+	margin:auto;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+}
+.invite_main > div > div.popup > div > div{
+	width:auto;
+	height:auto;
+	margin: auto;
+	padding: 0px 0px;
+}
+.invite_main > div > div.popup > div > div > div.mainbox{
+	width:auto;
+	height:auto;
+	margin: auto;
+}
+.invite_main > div > div.popup > div > div > div.mainbox > div.box{
+	width:100px;
+	height:100px;
+	margin: auto;
+	font-size: 1rem;
+	line-height: 100px;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-transition:background 0.6s;
+	transition:background 0.6s;
+}
+.invite_main > div > div.popup > div > div > div.mainbox > div.box:hover{
+	background: #e8e8e8;
+	-webkit-transition:background 0.6s;
+	transition:background 0.6s;
+}
+.invite_main > div > div.popup > div > div > div.buttonbox{
+	width:auto;
+	height:auto;
+	margin: auto;
+	padding: 20px;
+	border-top: 1px solid #dddddd;
+}
+.invite_main > div > div.popup > div > div > div.titlebox{
+	width:auto;
+	height:auto;
+	margin: auto;
+	padding: 20px 20px 0px;
+	border-bottom: 1px solid #dddddd;
+}
+
+
+
+.invite_main > div > div.right > div{
+	width:100%;
+	height:25%;
+	padding: 0px 0px 0px;
+	margin:auto;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+
+.invite_main > div > div.right > div > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+}
+
+.invite_main > div > div.right > div > div > div{
+	width:auto;
+	height: auto;
+	margin:auto;
+	margin-top:2.5rem;
+}
+
+.invite_main > div > div.right > div > div > div > div.seatbox{
+	width:auto;
+	height: auto;
+	margin:auto;
+}
+.invite_main > div > div.right > div > div > div > div.seatbox > div.box{
+	width:80px;
+	height: 80px;
+	margin:auto;
+	font-size: 1rem;
+	line-height: 80px;
+	display: inline-block;
+	cursor: pointer;
+	border: 1px solid #FDA55D;
+	color: #FDA55D;
+	background: #FFFFFF;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	-webkit-transition:background 0.6s, color 0.6s;
+	transition:background 0.6s, color 0.6s;
+	margin-top: .8rem;
+}
+.invite_main > div > div.right > div > div > div > div.seatbox > div.box+div.box{
+	margin-left: .8rem;
+}
+.invite_main > div > div.right > div > div > div > div.seatbox > div.box:hover{
+	color: #FFFFFF;
+	background: #FDA55D;
+	-webkit-transition:background 0.6s, color 0.6s;
+	transition:background 0.6s, color 0.6s;
+}
+.invite_main > div > div.right > div > div > div > div.seatbox > div.box.selected{
+	color: #FFFFFF;
+	background: #FDA55D;
+}
+
+.invite_main > div > div.right > div > div > div.timeboxes{
+	margin-top:0;
+	margin-bottom: 1rem;
+}
+
+
+.invite_main > div > div.right > div.about > div > div > div.genderbox{
+	display: inline-block;
+	border: 1px solid #FDA55D;
+	color: #FDA55D;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: .9rem;
+	cursor: pointer;
+	-webkit-transition:background 0.6s, color 0.6s;
+    transition:background 0.6s, color 0.6s;
+}
+.invite_main > div > div.right > div.about > div > div > div.genderbox+div.genderbox{
+	margin-left: 10px;
+}
+.invite_main > div > div.right > div.about > div > div > div.genderbox:hover{
+	background: #FDA55D;
+	color:#ffffff;
+	-webkit-transition:background 0.6s, color 0.6s;
+    transition:background 0.6s, color 0.6s;
+}
+.invite_main > div > div.right > div.about > div > div > div.genderbox.selected{
+	background: #FDA55D;
+	color:#ffffff;
+}
+
+.invite_main > div > div.right > div.schedule > div > div > div.inline{
+	width:auto;
+	height: auto;
+	display: inline-block;
+	padding: 10px 0;
+	font-size: 1.2rem;
+}
+.invite_main > div > div.right > div.schedule > div > div > div.inline+div.inline{
+	margin-left:20px;
+}
+.invite_main > div > div.right > div.schedule > div > div > div.inline.timebox{
+	border: 1px solid #333333;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+.invite_main > div > div.right > div > div > div.double > div{
+	display: inline-block;
+	width: 50%;
+}
+.invite_main > div > div.right > div > div > div #iosbtn{
+	margin-left:1rem;
+}
+
+.invite_main h1{
+	font-size:2rem;
+	line-height:2.5rem;
+}
+.invite_main h1 span{
+	font-size:2rem;
+	line-height: 2.5rem;
+}
+.invite_main h2{
+	font-size:1.5rem;
+	line-height:1.75rem;
+	margin-bottom:1rem;
+}
+.invite_main h3{
+	font-size:1.2rem;
+	line-height:1.5rem;
+	margin-bottom:1rem;
+}
+
+.invite_main > div > div.right h4{
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+.invite_main > div > div.right p{
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	margin-top: 1.5rem;
+}
+.invite_main > div > div.left p{
+	font-size: .9rem;
+	line-height: 1.0rem;
+	margin-top: .7rem;
+}
+
+
+
+.invite_main > div > div.right form{
+	display: block;
+	clear: both;
+}
+.invite_main > div > div.right div.fieldbox{
+	clear: both;
+	margin-top: 2.5rem;
+}
+.invite_main > div > div.right div.fieldbox+div.fieldbox{
+	clear: both;
+	margin-top: 1.5rem;
+}
+.invite_main > div > div.right div.double input[type=text], .invite_main > div > div.right div.double select, .invite_main > div > div.right div.double input[type=password]{
+	width:48%;
+	display: inline-block;
+}
+.invite_main > div > div.right div.double input[type=text]+input[type=text], .invite_main > div > div.right div.double select+select, .invite_main > div > div.right div.double input[type=text]+input[type=password]{
+	margin-left: 4%;
+}
+.invite_main > div > div.right div.double:last-child > table{
+	float: left;
+	width: auto;
+}
+.invite_main > div > div.right div.double:last-child > button{
+	float: right;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+.invite_main > div > div{
+	padding:0 5%;
+}
+
+.invite_main h1{
+	font-size:1.5rem;
+	line-height:2rem;
+}
+.invite_main h1 span{
+	font-size:1.5rem;
+	line-height: 2rem;
+}
+.invite_main h2{
+	font-size:1.25rem;
+	line-height:1.55rem;
+	margin-bottom:1rem;
+}
+.invite_main h3{
+	font-size:1.1rem;
+	line-height:1.25rem;
+	margin-bottom:.8rem;
+}
+
+.invite_main > div > div.right h4{
+	font-size: .9rem;
+	line-height: 1.2rem;
+}
+.invite_main > div > div.right p{
+	font-size: .9rem;
+	line-height: 1.2rem;
+	margin-top: 1.2rem;
+}
+.invite_main > div > div.left p{
+	font-size: .9rem;
+	line-height: 1.0rem;
+	margin-top: .7rem;
+}
+
+
+
+.invite_main > div > div.popup > div > div > div.mainbox > div.box{
+	width:80px;
+	height:80px;
+	margin: auto;
+	font-size: 1rem;
+	line-height: 80px;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-transition:background 0.6s;
+	transition:background 0.6s;
+}
+.invite_main > div > div.right > div > div > div > div.seatbox > div.box{
+	width:60px;
+	height: 60px;
+	margin:auto;
+	font-size: 1rem;
+	line-height: 60px;
+	display: inline-block;
+	cursor: pointer;
+	border: 1px solid #FDA55D;
+	color: #FDA55D;
+	background: #FFFFFF;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	-webkit-transition:background 0.6s, color 0.6s;
+	transition:background 0.6s, color 0.6s;
+	margin-top: .8rem;
+}
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+.invite_main > div > div.left{
+	display: none;
+}
+.invite_main > div > div.right{
+	top:0;
+	left:0;
+	right:0;
+	width: 100%;
+	height:400%;
+}
+
+.invite_main > div > div.popupscreen{
+	top:0;
+	left:0;
+	right:0;
+	width: 100%;
+	height:100%;
+	z-index: 49;
+	background: rgba(20,20,20,.6);
+	display: none;
+}
+.invite_main > div > div.popup{
+	top:0;
+	left:0;
+	right:0;
+	width: 100%;
+	height:100%;
+	z-index: 50;
+	display: none;
+}
+
+.invite_main > div > div.popup > div > div > div.mainbox > div.box{
+	width:60px;
+	height:60px;
+	margin: auto;
+	font-size: .8rem;
+	line-height: 60px;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-transition:background 0.6s;
+	transition:background 0.6s;
+}
+.invite_main > div > div.popup > div > div > div.mainbox > div.box:hover{
+	background: #e8e8e8;
+	-webkit-transition:background 0.6s;
+	transition:background 0.6s;
+}
+.invite_main > div > div.popup > div > div > div.buttonbox{
+	width:auto;
+	height:auto;
+	margin: auto;
+	padding: 10px;
+	border-top: 1px solid #dddddd;
+}
+.invite_main > div > div.popup > div > div > div.titlebox{
+	width:auto;
+	height:auto;
+	margin: auto;
+	padding: 20px 20px 0px;
+	border-bottom: 1px solid #dddddd;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+}
+
+@media only screen and (max-width: 500px) {
+
+}
+
+
+@media only screen and (max-width: 320px) {
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+.invite_header{
+	padding:20px 20px;
+}
+.invite_header > div{
+	max-width: 100%;
+	padding: 1.5rem;
+}
+
+.invite_header > div > div div.double input[type=text], .invite_header > div > div div.double select{
+	width:100%;
+	display: block;
+}
+.invite_header > div > div div.double input[type=text]+input[type=text], .invite_header > div > div div.double select+select{
+	margin:1rem 0 0;
+}
+
+.invite_header > div > div div.double:last-child > table{
+	float: none;
+	width: auto;
+	margin: auto;
+}
+.invite_header > div > div div.double:last-child > button{
+	float: none;
+	margin: 1.5rem auto 0;
+}
+
+
+}

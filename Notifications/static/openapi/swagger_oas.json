@@ -1,0 +1,5985 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "CRAPIS",
+    "description": "TODO: Add Description",
+    "contact": {},
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://dev.eapp.gomechanic.app",
+      "variables": {}
+    },
+    {
+      "url": "https://gomechanic.app/api",
+      "variables": {}
+    },
+    {
+      "url": "http://127.0.0.1:8000",
+      "variables": {}
+    }
+  ],
+  "paths": {
+    "/v1/oauth/leads/get_leads_from_mobile_for_cr": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_leads_from_mobile_for_cr",
+        "description": "TODO: Add Description",
+        "operationId": "GET get_leads_from_mobile_for_cr",
+        "parameters": [
+          {
+            "name": "mobile",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 7054529012
+            }
+          },
+          {
+            "name": "flag",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1
+            }
+          },
+          {
+            "name": "version",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/fleet/package_all": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET fleet/package_all",
+        "description": "TODO: Add Description",
+        "operationId": "GET fleet/package_all",
+        "parameters": [
+          {
+            "name": "status",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/fleet/package": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET fleet/package",
+        "description": "TODO: Add Description",
+        "operationId": "GET fleet/package",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 2019122153602
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/download_estimate": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET download_estimate",
+        "description": "TODO: Add Description",
+        "operationId": "GETdownload_estimate",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 20191111141957
+            }
+          },
+          {
+            "name": "hstOrderActId",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 656489
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/job_card": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET job_card",
+        "description": "TODO: Add Description",
+        "operationId": "GETjob_card",
+        "parameters": [
+          {
+            "name": "fleet_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 8
+            }
+          },
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 20191129151903
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/download_job_card": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET download_job_card",
+        "description": "TODO: Add Description",
+        "operationId": "GETdownload_job_card",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 2019122153602
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/get_new_bill": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "get_new_bill",
+        "description": "TODO: Add Description",
+        "operationId": "get_new_bill",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 20191129151903
+            }
+          },
+          {
+            "name": "is_gomechanic",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "hstOrderActId",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 645820
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/admin/get_all_fleet": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET  get_all_fleet",
+        "description": "TODO: Add Description",
+        "operationId": "GET get_all_fleet",
+        "parameters": [
+          {
+            "name": "without_user",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/get_estimate_order": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_estimate_order",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_estimate_order",
+        "parameters": [
+          {
+            "name": "hstOrderActId",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 663419
+            }
+          },
+          {
+            "name": "is_gomechanic",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 20191129151903
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/admin/get_fleet/23": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "get_fleet_by_id",
+        "description": "TODO: Add Description",
+        "operationId": "get_fleet_by_id",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/fleet/get_all_car_type": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "get_all_car_type",
+        "description": "TODO: Add Description",
+        "operationId": "get_all_car_type",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/get_email_content": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_email_content",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_email_content",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 20191110141566
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/cr/get_cr": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_cr",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_cr",
+        "parameters": [
+          {
+            "name": "limit_users",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/leads/get_lead_call_center_list": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_lead_call_center_list",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_lead_call_center_list",
+        "parameters": [
+          {
+            "name": "limit_users",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/fleet/service_type_all": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET service_type_all",
+        "description": "TODO: Add Description",
+        "operationId": "GETservice_type_all",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/admin/retail-grid": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "get_retail_grid",
+        "description": "TODO: Add Description",
+        "operationId": "get_retail_grid",
+        "parameters": [
+          {
+            "name": "user_type",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "CR"
+            }
+          },
+          {
+            "name": "is_retail",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "order_of",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "Gomechanic"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/cr/get_cr_clusters": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_cr_clusters",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_cr_clusters",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/admin/job_card_filter": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "job_card_filter(Low)",
+        "description": "TODO: Add Description",
+        "operationId": "job_card_filter(Low)",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/leads/get_agent_trans_count": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET agent_trans_count(low)",
+        "description": "TODO: Add Description",
+        "operationId": "GETagent_trans_count(low)",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/logout": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET log_out",
+        "description": "TODO: Add Description",
+        "operationId": "GETlog_out",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/insurance/new_package_name": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET new_package_name",
+        "description": "TODO: Add Description",
+        "operationId": "GETnew_package_name",
+        "parameters": [
+          {
+            "name": "package_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "car_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 265
+            }
+          },
+          {
+            "name": "version",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "package_car_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 265
+            }
+          },
+          {
+            "name": "garage_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "deal_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 13
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/insurance/new_service_part_name": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET new_service_part_name",
+        "description": "TODO: Add Description",
+        "operationId": "GETnew_service_part_name",
+        "parameters": [
+          {
+            "name": "value",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "axle"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/insurance/detail_of_service_part": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET detail_of_service_part",
+        "description": "TODO: Add Description",
+        "operationId": "GETdetail_of_service_part",
+        "parameters": [
+          {
+            "name": "cpm_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "gm_num",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1074003969
+            }
+          },
+          {
+            "name": "garage_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "deal_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 13
+            }
+          },
+          {
+            "name": "version",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "car_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 5
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/admin/garage": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET garage",
+        "description": "TODO: Add Description",
+        "operationId": "GETgarage",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/inventory": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET inventory",
+        "description": "TODO: Add Description",
+        "operationId": "GETinventory",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 20198794090
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/leads/car_spects": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET car_spects",
+        "description": "TODO: Add Description",
+        "operationId": "GETcar_spects",
+        "parameters": [
+          {
+            "name": "car_type_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 265
+            }
+          },
+          {
+            "name": "flag",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/leads/get_lead_with_id": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_lead_with_id",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_lead_with_id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 3
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/garage/send_cr": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET send_cr(very low)",
+        "description": "TODO: Add Description",
+        "operationId": "GETsend_cr(verylow)",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 20191110141566
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/customer/deal_all_packages": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET deal_all_packages",
+        "description": "TODO: Add Description",
+        "operationId": "GETdeal_all_packages",
+        "parameters": [
+          {
+            "name": "car_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 264
+            }
+          },
+          {
+            "name": "retail_deal_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 13
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/admin/order_status": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "order_status",
+        "description": "TODO: Add Description",
+        "operationId": "order_status",
+        "parameters": [
+          {
+            "name": "status_type",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 101
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/cr/dashboard": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "get_cr_dashboard",
+        "description": "TODO: Add Description",
+        "operationId": "get_cr_dashboard",
+        "parameters": [
+          {
+            "name": "start_date",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "2019-10-30 00:00:00"
+            }
+          },
+          {
+            "name": "end_date",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "2019-11-29 23:59:59"
+            }
+          },
+          {
+            "name": "version",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/subscription/coupons_list": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET coupons_list",
+        "description": "TODO: Add Description",
+        "operationId": "GETcoupons_list",
+        "parameters": [
+          {
+            "name": "model_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 424
+            }
+          },
+          {
+            "name": "fuel_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "channel",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "RetailApp"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/get_coupon": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_coupon",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_coupon",
+        "parameters": [
+          {
+            "name": "coupon_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1461793
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/subscription/get-coupon-by-code": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_coupon_by_code",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_coupon_by_code",
+        "parameters": [
+          {
+            "name": "code",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "GOCR1NJAL7ST"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/car/get_car_type": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_car_type",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_car_type",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/cr/retail/get_car_user": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_car_user",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_car_user",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 173526
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/get_new_insurance_bill": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_new_ insurance_bill",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_new_insurance_bill",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 2019122153602
+            }
+          },
+          {
+            "name": "is_gomech",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/car/get_car_variant": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_car_variant",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_car_variant",
+        "parameters": [
+          {
+            "name": "brand_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 9
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/get_all_cities": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_all_cities",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_all_cities",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/fleet/service_all": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_all_services",
+        "description": "get_all_services",
+        "operationId": "GET get_all_services",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/admin/get_users": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_users",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_users",
+        "parameters": [
+          {
+            "name": "user_type",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "BDE"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/cr/retail/search_retail_user": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET search_retail_user",
+        "description": "TODO: Add Description",
+        "operationId": "GETsearch_retail_user",
+        "parameters": [
+          {
+            "name": "mobile",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 9417196243
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/fleet/deal_package": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_all_deal_package",
+        "description": "TODO: Add Description",
+        "operationId": "GET get_all_deal_package",
+        "parameters": [
+          {
+            "name": "fleet_deal_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 13
+            }
+          },
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 20191129151966
+            }
+          },
+          {
+            "name": "car_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 45
+            }
+          },
+          {
+            "name": "package_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/get_config": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_config",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_config",
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "RetailApp"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/car/get_car_by_multiple_attr_with_count": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_car_by_multiple_attr_with_count",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_car_by_multiple_attr_with_count",
+        "parameters": [
+          {
+            "name": "registration_no",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 299638
+            }
+          },
+          {
+            "name": "with_order",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/admin/get_order_by_multiple_attr_with_count": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_car_by_multiple_attr_with_count",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_car_by_multiple_attr_with_count",
+        "parameters": [
+          {
+            "name": "fleet_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 11
+            }
+          },
+          {
+            "name": "order_detail",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 0
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 50
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 0
+            }
+          },
+          {
+            "name": "complete",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 0
+            }
+          },
+          {
+            "name": "search_reg",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": ""
+            }
+          },
+          {
+            "name": "personalized",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 0
+            }
+          },
+          {
+            "name": "cr_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 2790
+            }
+          },
+          {
+            "name": "count_type",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 0
+            }
+          },
+          {
+            "name": "has_garage",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/admin/job_card_images": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET delete job_card_image",
+        "description": "TODO: Add Description",
+        "operationId": "GETdeletejob_card_image",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 7
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/get_customer_cart": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_customer_cart",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_customer_cart",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 201971987373
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/send_fleet_approval": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET send_fleet_approval",
+        "description": "TODO: Add Description",
+        "operationId": "GETsend_fleet_approval",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 20191110141566
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/gst_bill_for_garage": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET gst_bill_for_garage",
+        "description": "TODO: Add Description",
+        "operationId": "GETgst_bill_for_garage",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 201971987373
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/get_checklist": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_checklist",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_checklist",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 2019122153602
+            }
+          },
+          {
+            "name": "is_gomechanic",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/payments": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET payments",
+        "description": "TODO: Add Description",
+        "operationId": "GETpayments",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 2019122153602
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      },
+      "post": {
+        "tags": [
+          "POST APIs"
+        ],
+        "summary": "POST  payments",
+        "description": "TODO: Add Description",
+        "operationId": "POSTpayments",
+        "parameters": [
+          {
+            "name": "collected_by",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 2
+            }
+          },
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 201971987373
+            }
+          },
+          {
+            "name": "transaction_status",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 300
+            }
+          },
+          {
+            "name": "transaction_amount",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 2
+            }
+          },
+          {
+            "name": "channel",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 3
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/fleet/fleet_by_role": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET fleet_by_role",
+        "description": "TODO: Add Description",
+        "operationId": "GETfleet_by_role",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/leads/get_lead_sources": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_lead_sources",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_lead_sources",
+        "parameters": [
+          {
+            "name": "channel",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "Retail App"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/leads/lead_estimate": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET lead_estimate",
+        "description": "TODO: Add Description",
+        "operationId": "GETlead_estimate",
+        "parameters": [
+          {
+            "name": "lead_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "L2019122472404"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/leads/get_lead_activities": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_lead_activities",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_lead_activities",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 10
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 2
+            }
+          },
+          {
+            "name": "lead_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "L2019122472404"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/gst_bill": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET gst_bill",
+        "description": "TODO: Add Description",
+        "operationId": "GETgst_bill",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 201971987373
+            }
+          },
+          {
+            "name": "hstOrderActId",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 656489
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/leads/get_leads_from_mobile": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_leads_from_mobile",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_leads_from_mobile",
+        "parameters": [
+          {
+            "name": "mobile",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 7054529012
+            }
+          },
+          {
+            "name": "flag",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "version",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/leads/get_earnings_by_agent": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_earnings_by_agent(low)",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_earnings_by_agent(low)",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 10
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 5
+            }
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/leads/get_verified_leads_with_count": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_verified_leads_with_count",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_verified_leads_with_count",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 10
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 5
+            }
+          },
+          {
+            "name": "start_created_at",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "2019/10/01"
+            }
+          },
+          {
+            "name": "end_created_at",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "2019/11/01"
+            }
+          },
+          {
+            "name": "date_filter_type",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "flag",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/leads/get_leads_by_agent": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_leads_by_agent(v.low)",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_leads_by_agent(v.low)",
+        "parameters": [
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 5
+            }
+          },
+          {
+            "name": "start_created_at",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "2019/10/01"
+            }
+          },
+          {
+            "name": "end_created_at",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "2019/11/01"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/admin/get_address": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET admin/get_address",
+        "description": "TODO: Add Description",
+        "operationId": "GETadmin/get_address",
+        "parameters": [
+          {
+            "name": "object_type",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "COBJ"
+            }
+          },
+          {
+            "name": "object_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/customer/address_by_type": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_address_by_type",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_address_by_type",
+        "parameters": [
+          {
+            "name": "object_type",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "COBJ"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/insurance/get_insurance_data": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_insurance_data",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_insurance_data",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 20191129151903
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/fleet/garage_fleet_deal_list": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET garage_fleet_deal_list",
+        "description": "TODO: Add Description",
+        "operationId": "GETgarage_fleet_deal_list",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/insurance/get_insurance_company_name": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_insurance_company_name",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_insurance_company_name",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/insurance/get_insurance_brokers": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_insurance_brokers",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_insurance_brokers",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/document/car_document": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET car_document(mid)",
+        "description": "TODO: Add Description",
+        "operationId": "GETcar_document(mid)",
+        "parameters": [
+          {
+            "name": "car_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 186593
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      },
+      "post": {
+        "tags": [
+          "POST APIs"
+        ],
+        "summary": "POST  car_document",
+        "description": "TODO: Add Description",
+        "operationId": "POSTcar_document",
+        "parameters": [
+          {
+            "name": "validity_start_dt",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "2019-11-30"
+            }
+          },
+          {
+            "name": "car_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 60743
+            }
+          },
+          {
+            "name": "validity_end_dt",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "2019-12-17"
+            }
+          },
+          {
+            "name": "document_type_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 31
+            }
+          },
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "description": "",
+            "required": false,
+            "style": "simple",
+            "schema": {
+              "type": "string",
+              "example": "application/json"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/get-order-history": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get-order-history",
+        "description": "TODO: Add Description",
+        "operationId": "GETget-order-history",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 20191111141957
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/send_to_fleet": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET send_to_fleet",
+        "description": "TODO: Add Description",
+        "operationId": "GETsend_to_fleet",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 2019122153602
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/leads/agent_data_by_status": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET agent_data_by_status(v.low)",
+        "description": "TODO: Add Description",
+        "operationId": "GETagent_data_by_status(v.low)",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 10
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 2
+            }
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 2
+            }
+          },
+          {
+            "name": "filter_by",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/document/document_type": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET document_type(mid)",
+        "description": "TODO: Add Description",
+        "operationId": "GETdocument_type(mid)",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/send_approval_for_checklist": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET send_approval_for_checklist",
+        "description": "TODO: Add Description",
+        "operationId": "GETsend_approval_for_checklist",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 2019122153602
+            }
+          },
+          {
+            "name": "hstOrderActId",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 663419
+            }
+          },
+          {
+            "name": "auto_approval",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "checklist_flag",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "response_type",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "email_string",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "Adsadsfwegf_sefesef"
+            }
+          },
+          {
+            "name": "email",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "kartikeya.96.misra@gmail.com"
+            }
+          },
+          {
+            "name": "mobile",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 7054529012
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/customer/get_address": {
+      "get": {
+        "tags": [
+          "GET APIs"
+        ],
+        "summary": "GET get_address",
+        "description": "TODO: Add Description",
+        "operationId": "GETget_address",
+        "parameters": [
+          {
+            "name": "object_type",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "COBJ"
+            }
+          },
+          {
+            "name": "no_http_error",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "object_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/login_api": {
+      "post": {
+        "tags": [
+          "POST APIs"
+        ],
+        "summary": "POST  login_api",
+        "description": "TODO: Add Description",
+        "operationId": "POSTlogin_api",
+        "parameters": [
+          {
+            "name": "login_type",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "user_name",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "palaksachdeva89@gmail.com"
+            }
+          },
+          {
+            "name": "hash_key",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "FSymm8e5HrK"
+            }
+          },
+          {
+            "name": "app_name",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "CR App"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/login": {
+      "post": {
+        "tags": [
+          "POST APIs"
+        ],
+        "summary": "POST  login",
+        "description": "TODO: Add Description",
+        "operationId": "POSTlogin",
+        "parameters": [
+          {
+            "name": "username",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "palaksachdeva89@gmail.com"
+            }
+          },
+          {
+            "name": "password",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 123456
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/customer/activate_account": {
+      "post": {
+        "tags": [
+          "POST APIs"
+        ],
+        "summary": "POST  activate_account",
+        "description": "TODO: Add Description",
+        "operationId": "POSTactivate_account",
+        "parameters": [
+          {
+            "name": "otp_type",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 4
+            }
+          },
+          {
+            "name": "app_name",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "CR App"
+            }
+          },
+          {
+            "name": "mobile",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 8742932231
+            }
+          },
+          {
+            "name": "code",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 8518
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/admin/add_fleet_car": {
+      "post": {
+        "tags": [
+          "POST APIs"
+        ],
+        "summary": "POST  add_fleet_car",
+        "description": "TODO: Add Description",
+        "operationId": "POSTadd_fleet_car",
+        "parameters": [
+          {
+            "name": "car_type_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 390
+            }
+          },
+          {
+            "name": "driver_name",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "hshs"
+            }
+          },
+          {
+            "name": "odometer_reading",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 99
+            }
+          },
+          {
+            "name": "contract_type",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 100
+            }
+          },
+          {
+            "name": "driver_contact",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "98w8388e83"
+            }
+          },
+          {
+            "name": "user_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 0
+            }
+          },
+          {
+            "name": "registration_no",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "HH"
+            }
+          },
+          {
+            "name": "fleet_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 2
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/admin/place_order": {
+      "post": {
+        "tags": [
+          "POST APIs"
+        ],
+        "summary": "POST  place_order",
+        "description": "TODO: Add Description",
+        "operationId": "POSTplace_order",
+        "parameters": [
+          {
+            "name": "garage_gst_status",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "order_from",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "insurance_company_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 4
+            }
+          },
+          {
+            "name": "garage_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 12
+            }
+          },
+          {
+            "name": "odometer_reading",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 55
+            }
+          },
+          {
+            "name": "phone",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 8742932231
+            }
+          },
+          {
+            "name": "arrival_mode",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 2
+            }
+          },
+          {
+            "name": "car",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 116446
+            }
+          },
+          {
+            "name": "fleet_type",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "claim_no",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fleet_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 11
+            }
+          },
+          {
+            "name": "amount",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 0
+            }
+          },
+          {
+            "name": "insurance_address_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 58
+            }
+          },
+          {
+            "name": "version",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "car_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 60782
+            }
+          },
+          {
+            "name": "pick_date",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "2019-11-30"
+            }
+          },
+          {
+            "name": "surveyor_email",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "surveyor_phone",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "order_type",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 103
+            }
+          },
+          {
+            "name": "channel",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "CR App"
+            }
+          },
+          {
+            "name": "variant",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 51
+            }
+          },
+          {
+            "name": "address",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "delivery_time",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "10:30"
+            }
+          },
+          {
+            "name": "insurance_order_type",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "insurance_order_of",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "gomechanic"
+            }
+          },
+          {
+            "name": "email",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "palaksachdeva89@gmail.com"
+            }
+          },
+          {
+            "name": "order_of",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "gomechanic"
+            }
+          },
+          {
+            "name": "lead_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "L20191130205275"
+            }
+          },
+          {
+            "name": "surveyor_name",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "cr_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 92951
+            }
+          },
+          {
+            "name": "status_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 900
+            }
+          },
+          {
+            "name": "insuranceCompanyGstIn",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "Vvvv876098"
+            }
+          },
+          {
+            "name": "broker_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "Hina"
+            }
+          },
+          {
+            "name": "seller_address_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 116446
+            }
+          },
+          {
+            "name": "time_slot",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "10:30"
+            }
+          },
+          {
+            "name": "user_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 7024
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/fleet/save_new_car_id": {
+      "post": {
+        "tags": [
+          "POST APIs"
+        ],
+        "summary": "POST  save_new_car_id",
+        "description": "TODO: Add Description",
+        "operationId": "POSTsave_new_car_id",
+        "parameters": [
+          {
+            "name": "new_car_type_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 51
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 60782
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/save_checklist": {
+      "post": {
+        "tags": [
+          "POST APIs"
+        ],
+        "summary": "POST  save_checklist",
+        "description": "TODO: Add Description",
+        "operationId": "POSTsave_checklist",
+        "parameters": [
+          {
+            "name": "checklist_items%5B%200%5D%5Bpackage_id%5D",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 0
+            }
+          },
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 201811133391
+            }
+          },
+          {
+            "name": "is_garage",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 0
+            }
+          },
+          {
+            "name": "checklist_items%5B%200%5D%5Bwork_done%5D",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          },
+          {
+            "name": "checklist_items%5B%200%5D%5Bservice_id%5D",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 29
+            }
+          },
+          {
+            "name": "checklist_items%5B%200%5D%5Bis_labour%5D",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 0
+            }
+          },
+          {
+            "name": "checklist_items%5B%200%5D%5Bis_checked%5D",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/generate_invoice": {
+      "post": {
+        "tags": [
+          "POST APIs"
+        ],
+        "summary": "POST  generate_invoice",
+        "description": "TODO: Add Description",
+        "operationId": "POSTgenerate_invoice",
+        "parameters": [],
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/POSTgenerate_invoiceRequest"
+              },
+              "example": {
+                "order_id": "201911133391",
+                "channel": "CRAPP",
+                "gst_bill_items": [
+                  {
+                    "inclusive_of_tax": 0,
+                    "service_name": "Gear Box Replacement",
+                    "service_id": 29,
+                    "package_id": 0,
+                    "hsn_code": "8708",
+                    "price": 0,
+                    "quantity": 1,
+                    "work_done": 1,
+                    "discount": 0,
+                    "taxable_amount": 0,
+                    "is_checked": 1,
+                    "is_approved": 1,
+                    "cgst_rate": 0,
+                    "cgst_amount": 0,
+                    "sgst_rate": 0,
+                    "sgst_amount": 0,
+                    "igst_amount": 0,
+                    "igst_rate": 0,
+                    "total": 0,
+                    "is_labour": 0
+                  }
+                ]
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/create_estimate_order": {
+      "post": {
+        "tags": [
+          "POST APIs"
+        ],
+        "summary": "POST  generate_invoice",
+        "description": "TODO: Add Description",
+        "operationId": "POSTgenerate_invoice",
+        "parameters": [],
+        "requestBody": {
+          "description": "",
+          "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/POSTgenerate_invoiceRequest"
+                },
+                "example": {
+                            "gm_num": "00060058041650",
+                            "service_name": "Air Filter",
+                            "package_id": 3,
+                            "package_name": "Comprehensive",
+                            "hsn_code": "441480",
+                            "quantity": 1,
+                            "tax_rate": 18,
+                            "tax_amount": 0,
+                            "inclusive_of_tax": 1,
+                            "price": 0,
+                            "work_done": 4,
+                            "discount": 0,
+                            "taxable_amount": 0,
+                            "is_labour": 0,
+                            "total": 0,
+                            "is_checked": "0",
+                            "cgst_rate": 9,
+                            "sgst_rate": 9,
+                            "igst_rate": 0,
+                            "cgst_amount": 0,
+                            "sgst_amount": 0,
+                            "igst_amount": 0,
+                            "work_done_name": "",
+                            "percent_difference": "20.00"
+                }
+              }
+            },
+            "required": false
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/oauth/fleet/service": {
+      "post": {
+        "tags": [
+          "POST APIs"
+        ],
+        "summary": "POST  service",
+        "description": "TODO: Add Description",
+        "operationId": "POSTservice",
+        "parameters": [
+          {
+            "name": "description",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "Df"
+            }
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 0
+            }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "Fff"
+            }
+          },
+          {
+            "name": "service_type_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 4
+            }
+          },
+          {
+            "name": "request_quote",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 0
+            }
+          },
+          {
+            "name": "tax",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "example": 55.0
+            }
+          },
+          {
+            "name": "hsn",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 444
+            }
+          },
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "description": "",
+            "required": false,
+            "style": "simple",
+            "schema": {
+              "type": "string",
+              "example": "application/json"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/cr/retail/save_car_and_user": {
+      "post": {
+        "tags": [
+          "POST APIs"
+        ],
+        "summary": "POST  save_car_and_user",
+        "description": "TODO: Add Description",
+        "operationId": "POSTsave_car_and_user",
+        "parameters": [
+          {
+            "name": "name",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "frtt"
+            }
+          },
+          {
+            "name": "email",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "car_type_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 392
+            }
+          },
+          {
+            "name": "odometer_reading",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 85
+            }
+          },
+          {
+            "name": "registration_no",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "CDF"
+            }
+          },
+          {
+            "name": "mobile",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 8999995585
+            }
+          },
+          {
+            "name": "fleet_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 11
+            }
+          },
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "description": "",
+            "required": false,
+            "style": "simple",
+            "schema": {
+              "type": "string",
+              "example": "application/json"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/admin/update_fleet_car": {
+      "post": {
+        "tags": [
+          "POST APIs"
+        ],
+        "summary": "POST update_fleet_car",
+        "description": "TODO: Add Description",
+        "operationId": "POSTupdate_fleet_car",
+        "parameters": [
+          {
+            "name": "car_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "60743\naverage_mileage="
+            }
+          },
+          {
+            "name": "car_type_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 143
+            }
+          },
+          {
+            "name": "next_service_date",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "2019-12-31"
+            }
+          },
+          {
+            "name": "odometer_reading",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 0
+            }
+          },
+          {
+            "name": "odometer_reading_date",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "2019-11-26"
+            }
+          },
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 2019112589816
+            }
+          },
+          {
+            "name": "driver_contact",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 8888888888
+            }
+          },
+          {
+            "name": "app_type",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "example": 4
+            }
+          },
+          {
+            "name": "chassis_no",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "registration_no",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "VFFF"
+            }
+          },
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "description": "",
+            "required": false,
+            "style": "simple",
+            "schema": {
+              "type": "string",
+              "example": "application/json"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/admin/update_order": {
+      "post": {
+        "tags": [
+          "POST APIs"
+        ],
+        "summary": "POST update_order",
+        "description": "TODO: Add Description",
+        "operationId": "POST update_order",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 20191111141957
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/send_job_card_to_customer": {
+      "post": {
+        "tags": [
+          "POST APIs"
+        ],
+        "summary": "POST send_job_card_to_customer",
+        "description": "TODO: Add Description",
+        "operationId": "POSTsend_job_card_to_customer",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 2019112589816
+            }
+          },
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "description": "",
+            "required": false,
+            "style": "simple",
+            "schema": {
+              "type": "string",
+              "example": "application/json"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/admin/user_activity": {
+      "post": {
+        "tags": [
+          "POST APIs"
+        ],
+        "summary": "POST user_activity",
+        "description": "TODO: Add Description",
+        "operationId": "POSTuser_activity",
+        "parameters": [
+          {
+            "name": "event_type",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "example": "Order list item click"
+            }
+          },
+          {
+            "name": "reference_id",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "example": 2019112289781
+            }
+          },
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "description": "",
+            "required": false,
+            "style": "simple",
+            "schema": {
+              "type": "string",
+              "example": "application/json"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/order/create_job_card": {
+      "post": {
+        "tags": [
+          "POST APIs"
+        ],
+        "summary": "POST sign_up",
+        "description": "TODO: Add Description",
+        "operationId": "POSTsign_up",
+        "parameters": [],
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/POSTsign_upRequest"
+              },
+              "example": {
+                "order_id": "20191111141957",
+                "channel": "CRAPP",
+                "job_card_items": [
+                  {
+                    "gm_num": "00060058041650",
+                    "package_id": 3,
+                    "service_name": "Air Filter",
+                    "package_name": "Comprehensive",
+                    "work_done": 4,
+                    "is_labour": 1
+                  },
+                  {
+                    "gm_num": "00060447041647",
+                    "package_id": 3,
+                    "service_name": "Oil Filter",
+                    "package_name": "Comprehensive",
+                    "work_done": 4,
+                    "is_labour": 1
+                  },
+                  {
+                    "gm_num": "00060057041658",
+                    "package_id": 3,
+                    "service_name": "ENGINE OIL",
+                    "package_name": "Comprehensive",
+                    "work_done": 4,
+                    "is_labour": 1
+                  },
+                  {
+                    "gm_num": "00140112042168",
+                    "package_id": 3,
+                    "service_name": "Wiper Fluid",
+                    "package_name": "Comprehensive",
+                    "work_done": 4,
+                    "is_labour": 1
+                  },
+                  {
+                    "gm_num": "00140112042149",
+                    "package_id": 3,
+                    "service_name": "Battery Water",
+                    "package_name": "Comprehensive",
+                    "work_done": 6,
+                    "is_labour": 1
+                  },
+                  {
+                    "gm_num": "00080076041421",
+                    "package_id": 3,
+                    "service_name": "Coolant",
+                    "package_name": "Comprehensive",
+                    "work_done": 6,
+                    "is_labour": 1
+                  },
+                  {
+                    "gm_num": "00060062041734",
+                    "package_id": 3,
+                    "service_name": "SPARK PLUGS",
+                    "package_name": "Comprehensive",
+                    "work_done": 2,
+                    "is_labour": 1
+                  },
+                  {
+                    "gm_num": "00160484042134",
+                    "package_id": 3,
+                    "service_name": "Car Wash",
+                    "package_name": "Comprehensive",
+                    "work_done": 2,
+                    "is_labour": 1
+                  },
+                  {
+                    "gm_num": "00090083041328",
+                    "package_id": 3,
+                    "service_name": "Brake Fluid",
+                    "package_name": "Comprehensive",
+                    "work_done": 4,
+                    "is_labour": 1
+                  },
+                  {
+                    "gm_num": "00090083041327",
+                    "package_id": 3,
+                    "service_name": "Brake Pads",
+                    "package_name": "Comprehensive",
+                    "work_done": 6,
+                    "is_labour": 1
+                  },
+                  {
+                    "gm_num": "00010001040889",
+                    "package_id": 3,
+                    "service_name": "Cabin Filter / AC Filter",
+                    "package_name": "Comprehensive",
+                    "work_done": 5,
+                    "is_labour": 1
+                  },
+                  {
+                    "gm_num": "00120106042464",
+                    "package_id": 3,
+                    "service_name": "Wheel Alignment",
+                    "package_name": "Comprehensive",
+                    "work_done": 5,
+                    "is_labour": 1
+                  },
+                  {
+                    "gm_num": "00120106042463",
+                    "package_id": 3,
+                    "service_name": "Wheel Balancing",
+                    "package_name": "Comprehensive",
+                    "work_done": 5,
+                    "is_labour": 1
+                  },
+                  {
+                    "gm_num": "00120106042465",
+                    "package_id": 3,
+                    "service_name": "Tyre Rotation",
+                    "package_name": "Comprehensive",
+                    "work_done": 5,
+                    "is_labour": 1
+                  },
+                  {
+                    "gm_num": "00050279041844",
+                    "package_id": 3,
+                    "service_name": "FILTER FUEL",
+                    "package_name": "Comprehensive",
+                    "work_done": 2,
+                    "is_labour": 1
+                  },
+                  {
+                    "gm_num": "00100086042246",
+                    "package_id": 3,
+                    "service_name": "GEAR OIL",
+                    "package_name": "Comprehensive",
+                    "work_done": 6,
+                    "is_labour": 1
+                  },
+                  {
+                    "gm_num": "00060078041719",
+                    "package_id": 3,
+                    "service_name": "THROTTLE BODY ASSY",
+                    "package_name": "Comprehensive",
+                    "work_done": 2,
+                    "is_labour": 1
+                  }
+                ]
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/v1/oauth/order/update_gst": {
+      "post": {
+        "summary": "POST update_gst",
+        "description": "",
+        "operationId": "POST update_gst",
+        "parameters": [],
+        "tags": [
+          "POST APIs"
+        ],
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "encoding": {},
+              "schema": {
+                "required": [
+                  "order_id"
+                ],
+                "type": "object",
+                "properties": {
+                  "order_id": {
+                    "type": "string",
+                    "example": 20192947806
+                  },
+                  "status_update": {
+                    "type": "integer",
+                    "format": "int32",
+                    "example": 1
+                  },
+                  "is_igst": {
+                    "type": "integer",
+                    "format": "int32",
+                    "example": 1
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/v1/oauth/customer/sign_up": {
+      "post": {
+        "tags": [
+          "POST APIs"
+        ],
+        "summary": "POST sign_up",
+        "description": "TODO: Add Description",
+        "operationId": "POSTsign_up",
+        "parameters": [],
+        "requestBody": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/POSTsign_upRequest"
+              },
+              "example": {
+                "hash_key": "FSymm8e5HrK",
+                "name": "rcrc",
+                "mobile": "8882585858",
+                "email": "jsjsj@gmail.com",
+                "user_type": "CR",
+                "password": "123456",
+                "channel": "CR App",
+                "permission": "{\"user_id\":\"21\",\"user_role\":\"CR\",\"fleet\":{\"manage_fleet\":\"\",\"fleets\":[{\"fleet_id\":0,\"fleet_permissions\":{\"manage_fleet\":\"CRU\",\"cars\":\"CRU\",\"orders\":\"CRU\",\"invoices\":\"CRU\"}},{\"fleet_id\":\"27\",\"fleet_permissions\":{\"manage_fleet\":\"CRU\",\"cars\":\"CRU\",\"orders\":\"CRU\",\"invoices\":\"CRU\"}}]},\"deal\":{\"permission\":\"\",\"deals\":[{\"deal_id\":0,\"permission\":\"\"}]},\"users\":{\"roles\":[{\"role_id\":0,\"permission\":\"\"}]},\"services\":{\"permissions\":\"CRU\"},\"packages\":{\"permissions\":\"\"},\"garage\":{\"permissions\":\"\"},\"cr\":{\"permissions\":\"\"},\"fleet_dashboard\":{\"permissions\":{\"preventive\":\"\",\"general\":\"\",\"document\":\"\",\"notification\":\"CRU\"}},\"apps\":{\"central\":{\"orders\":\"CRU\",\"fleets\":\"R\",\"invoices\":\"CRU\",\"cars\":\"CRU\"}}}"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://dev.eapp.gomechanic.app",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/send_otp": {
+      "post": {
+        "tags": [
+          "Misc"
+        ],
+        "summary": "send_otp",
+        "description": "TODO: Add Description",
+        "operationId": "send_otp",
+        "parameters": [],
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "encoding": {},
+              "schema": {
+                "required": [
+                  "number"
+                ],
+                "type": "object",
+                "properties": {
+                  "number": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 7054529012
+                  }
+                }
+              }
+            }
+          },
+          "required": false
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "security": [],
+        "servers": [
+          {
+            "url": "https://gomechanic.app/api",
+            "variables": {}
+          }
+        ]
+      }
+    },
+    "/verify_login": {
+      "post": {
+        "tags": [
+          "Misc"
+        ],
+        "summary": "verify_otp",
+        "description": "TODO: Add Description",
+        "operationId": "verify_otp",
+        "parameters": [],
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "encoding": {},
+              "schema": {
+                "required": [
+                  "number",
+                  "otp",
+                  "ref_code"
+                ],
+                "type": "object",
+                "properties": {
+                  "number": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 7054529012
+                  },
+                  "otp": {
+                    "type": "integer",
+                    "format": "int32",
+                    "example": 7177
+                  },
+                  "ref_code": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "required": false
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "deprecated": false,
+        "servers": [
+          {
+            "url": "https://gomechanic.app/api",
+            "variables": {}
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "POSTgenerate_invoiceRequest": {
+        "title": "POSTgenerate_invoiceRequest",
+        "required": [
+          "order_id",
+          "channel",
+          "gst_bill_items"
+        ],
+        "type": "object",
+        "properties": {
+          "order_id": {
+            "type": "string"
+          },
+          "channel": {
+            "type": "string"
+          },
+          "gst_bill_items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GstBillItem"
+            },
+            "description": ""
+          }
+        },
+        "example": {
+          "order_id": "201911133391",
+          "channel": "CRAPP",
+          "gst_bill_items": [
+            {
+              "inclusive_of_tax": 0,
+              "service_name": "Gear Box Replacement",
+              "service_id": 29,
+              "package_id": 0,
+              "hsn_code": "8708",
+              "price": 0,
+              "quantity": 1,
+              "work_done": 1,
+              "discount": 0,
+              "taxable_amount": 0,
+              "is_checked": 1,
+              "is_approved": 1,
+              "cgst_rate": 0,
+              "cgst_amount": 0,
+              "sgst_rate": 0,
+              "sgst_amount": 0,
+              "igst_amount": 0,
+              "igst_rate": 0,
+              "total": 0,
+              "is_labour": 0
+            }
+          ]
+        }
+      },
+      "GstBillItem": {
+        "title": "GstBillItem",
+        "required": [
+          "inclusive_of_tax",
+          "service_name",
+          "service_id",
+          "package_id",
+          "hsn_code",
+          "price",
+          "quantity",
+          "work_done",
+          "discount",
+          "taxable_amount",
+          "is_checked",
+          "is_approved",
+          "cgst_rate",
+          "cgst_amount",
+          "sgst_rate",
+          "sgst_amount",
+          "igst_amount",
+          "igst_rate",
+          "total",
+          "is_labour"
+        ],
+        "type": "object",
+        "properties": {
+          "inclusive_of_tax": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "service_name": {
+            "type": "string"
+          },
+          "service_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "package_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hsn_code": {
+            "type": "string"
+          },
+          "price": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "work_done": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "discount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "taxable_amount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "is_checked": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "is_approved": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cgst_rate": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cgst_amount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sgst_rate": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sgst_amount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "igst_amount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "igst_rate": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "total": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "is_labour": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "example": {
+          "inclusive_of_tax": 0,
+          "service_name": "Gear Box Replacement",
+          "service_id": 29,
+          "package_id": 0,
+          "hsn_code": "8708",
+          "price": 0,
+          "quantity": 1,
+          "work_done": 1,
+          "discount": 0,
+          "taxable_amount": 0,
+          "is_checked": 1,
+          "is_approved": 1,
+          "cgst_rate": 0,
+          "cgst_amount": 0,
+          "sgst_rate": 0,
+          "sgst_amount": 0,
+          "igst_amount": 0,
+          "igst_rate": 0,
+          "total": 0,
+          "is_labour": 0
+        }
+      },
+      "POSTsign_upRequest": {
+        "title": "POSTsign_upRequest",
+        "required": [
+          "hash_key",
+          "name",
+          "mobile",
+          "email",
+          "user_type",
+          "password",
+          "channel",
+          "permission"
+        ],
+        "type": "object",
+        "properties": {
+          "hash_key": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "mobile": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "user_type": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          },
+          "channel": {
+            "type": "string"
+          },
+          "permission": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "hash_key": "FSymm8e5HrK",
+          "name": "rcrc",
+          "mobile": "8882585858",
+          "email": "jsjsj@gmail.com",
+          "user_type": "CR",
+          "password": "123456",
+          "channel": "CR App",
+          "permission": "{\"user_id\":\"21\",\"user_role\":\"CR\",\"fleet\":{\"manage_fleet\":\"\",\"fleets\":[{\"fleet_id\":0,\"fleet_permissions\":{\"manage_fleet\":\"CRU\",\"cars\":\"CRU\",\"orders\":\"CRU\",\"invoices\":\"CRU\"}},{\"fleet_id\":\"27\",\"fleet_permissions\":{\"manage_fleet\":\"CRU\",\"cars\":\"CRU\",\"orders\":\"CRU\",\"invoices\":\"CRU\"}}]},\"deal\":{\"permission\":\"\",\"deals\":[{\"deal_id\":0,\"permission\":\"\"}]},\"users\":{\"roles\":[{\"role_id\":0,\"permission\":\"\"}]},\"services\":{\"permissions\":\"CRU\"},\"packages\":{\"permissions\":\"\"},\"garage\":{\"permissions\":\"\"},\"cr\":{\"permissions\":\"\"},\"fleet_dashboard\":{\"permissions\":{\"preventive\":\"\",\"general\":\"\",\"document\":\"\",\"notification\":\"CRU\"}},\"apps\":{\"central\":{\"orders\":\"CRU\",\"fleets\":\"R\",\"invoices\":\"CRU\",\"cars\":\"CRU\"}}}"
+        }
+      }
+    },
+    "securitySchemes": {
+      "httpBearer": {
+        "type": "http",
+        "scheme": "bearer"
+      }
+    }
+  },
+  "security": [
+    {
+      "httpBearer": []
+    }
+  ],
+  "tags": [
+    {
+      "name": "GET APIs"
+    },
+    {
+      "name": "POST APIs"
+    },
+    {
+      "name": "Misc",
+      "description": ""
+    }
+  ]
+}

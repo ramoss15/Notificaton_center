@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'hurme1thin';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-Thin.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hurme1thinob';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-ThinItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'hurme1black';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-Black.otf') format('opentype');
+    src: local('/media/Gilroy/Gilroy-Black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hurme1blackob';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-BlackItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hurme1bold';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hurme1boldob';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-BoldItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hurme1hairline';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-UltraLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hurme1hairlineob';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-UltraLightItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hurme1light';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hurme1lightob';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-LightItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hurme1ob';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-RegularItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hurme1regular';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-Regular.otf') format('opentype');
+    src: local('/media/Gilroy/Gilroy-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hurme1semibold';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-Semibold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hurme1semiboldob';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-SemiboldItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hurme1medium';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hurme1mediumob';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-MediumItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hurme1heavy';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-Heavy.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hurme1heavyob';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-HeavyItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hurme1extrabold';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-Extrabold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hurme1extraboldob';
+    src: url('http://127.0.0.1:8000/media/Gilroy/Gilroy-ExtraboldItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}

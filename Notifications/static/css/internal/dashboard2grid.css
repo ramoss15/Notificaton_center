@@ -1,0 +1,16 @@
+#dashboardmaindiv{
+	min-width:100%;
+	max-width:100%;
+	height:100%;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+	position: relative;
+}
+
+.grid{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}

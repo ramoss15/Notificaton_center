@@ -1,0 +1,170 @@
+#firmtopbuffer{
+	width:100%;
+	height:60px;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+#firmmaindiv{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+.firm_header{
+	background: #9C519A;
+  	background-image: url('https://derbiicdn.storage.googleapis.com/images/pattern5.png'), linear-gradient(-150deg, #F59547 0%, #FC6B58 97%);
+/*  	background-image: url('https://derbiicdn.storage.googleapis.com/images/pattern5.png'), linear-gradient(-150deg, #F59547 0%, #459187 97%);*/
+  	background-size: 380px, contain;
+  	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	padding:60px 10% 0px;
+}
+
+.firm_header > div{
+	width:100%;
+	max-width: 1000px;
+	padding:150px 0;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+.header_title{
+	font-size: 58px;
+  	line-height: 69px;
+  	margin: 0 0 24px;
+}
+
+.firm_main{
+	width: 100%;
+	max-width: 1100px;
+	margin:50px auto 50px;
+	padding: 0 10%;
+}
+.firm_main .head_text{
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #e8e8e8;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	padding:20px;
+	font-size: 1.1rem;
+}
+.firm_main h4{
+	margin-top:50px;
+}
+
+
+.other_services_outer{
+	width: 100%;
+	overflow: hidden;
+	height: auto;
+	clear: both;
+	margin-top: 30px;
+}
+
+.other_services{
+	border-radius:2px;
+	overflow:hidden;
+	width: 49.2%;
+	position: relative;
+	height:auto;
+	float: left;
+	border:1px solid #e8e8e8;
+}
+.other_services+.other_services{
+	margin-left:1.6%;
+}
+
+.other_services .image{
+	width: 100%;
+	overflow: hidden;
+	height: 150px;
+}
+.other_services.wwccorp .image{
+	background-image:url('https://wwccdn.s3.amazonaws.com/images/front/bg_exec4.png');
+	background-position:  center;
+	background-size:  cover;
+}
+.other_services.wwcets .image{
+	background-image:url('https://wwccdn.s3.amazonaws.com/images/front/bg_ets4.png');
+	background-position:  center;
+	background-size:  cover;
+}
+
+.other_services .content{
+	width: 100%;
+	overflow: hidden;
+	height: auto;
+	padding:30px 20px;
+}
+.other_services .content h3{
+	margin-bottom: 15px;
+}
+.other_services .content p{
+	margin-bottom: 15px;
+}
+.other_services .content p+p{
+	margin-bottom: 25px;
+	font-size: .8rem;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+.firm_header{
+	padding:60px 20px 0px;
+}
+.firm_header > div{
+	max-width: 100%;
+	padding: 100px 0;
+}
+.header_title{
+	font-size: 39px;
+  	line-height: 43px;
+  	margin: 0 0 24px;
+}
+.firm_main{
+	width: 100%;
+	max-width: 100%;
+	padding: 0 20px;
+}
+
+.other_services{
+	width: 100%;
+	clear: both;
+}
+.other_services+.other_services{
+	margin-top:30px;
+	margin-left: auto;
+}
+}
+
+@media only screen and (max-width: 320px) {
+.firm_header{
+	padding:60px 10px 0px;
+}
+.firm_header > div{
+	max-width: 100%;
+	padding: 50px 0;
+}
+.firm_main{
+	padding: 0 10px;
+}
+.firm_main .head_text{
+	width:100%;
+}
+
+}

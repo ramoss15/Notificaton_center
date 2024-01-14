@@ -1,0 +1,256 @@
+#errormaindiv{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+.errormaindivouter{
+	width: 100%;
+  	padding:0px 10%;
+  	height: 100vh;
+	clear:both;
+	overflow:hidden;
+}
+
+.errormaindivouter > .background {
+	z-index: -3;
+    width: 100%;
+    height: 50%;
+    right: 0;
+    bottom: 0;
+    background-image:url('https://derbiicdn.storage.googleapis.com/images/lost.jpg');
+	background-position:  right bottom;
+	background-size:  70%;
+	background-repeat: no-repeat;
+}
+
+.errormaindivouter .stripes {
+    z-index: -2;
+    width: 100%;
+    height: 60px;
+    top:0;
+    left: 0;
+//    background-image: linear-gradient(45deg, #FF713B, #420000);
+}
+
+
+.errormaindivouter > div.main{
+	width:100%;
+	height: 500px;
+	margin:auto;
+	padding-top: 60px;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center
+}
+.errormaindivouter > div.main > div{
+	width:50%;
+	height:auto;
+	margin:auto;
+	margin-left: 0;
+}
+
+.errormaindivouter > div.main h1{
+	font-size:3.25rem;
+	line-height:3.75rem;
+//	color: #c5b3cb;
+    background: -webkit-linear-gradient(45deg, #FF713B, #420000);
+    background: linear-gradient(45deg, #FF713B, #420000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.errormaindivouter > div.main h1 span{
+	font-size:3.25rem;
+	line-height:3.75rem;
+	background: -webkit-linear-gradient(45deg, #FF713B, #420000);
+    background: linear-gradient(45deg, #FF713B, #420000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.errormaindivouter > div.main h2{
+	font-size:1.5rem;
+	line-height:1.75rem;
+	margin-bottom: 0;
+	background: -webkit-linear-gradient(45deg, #FF713B, #420000);
+    background: linear-gradient(45deg, #FF713B, #420000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+.content{
+	width:100%;
+	height:100%;
+	margin:auto;
+	clear:both;
+	text-align:left;
+	overflow:hidden;
+	position: relative;
+	background-image:url('https://derbiicdn.storage.googleapis.com/images/lost.jpg');
+	background-position:  right bottom;
+	background-size:  cover;
+	background-repeat: no-repeat;
+}
+.content > div{
+	width:100%;
+	max-width: 450px;
+	height:auto;
+	margin:60px auto auto 0px;
+	display: inline-block;
+	padding:10px 20px;
+	clear:both;
+	text-align:left;
+	overflow:hidden;
+	border:1px solid #e8e8e8;
+   	-webkit-border-radius: 2px;
+    border-radius: 2px;
+    moz-border-radius: 2px;
+}
+
+.content p{
+	font-size: .9rem;
+}
+
+
+
+
+
+.hello_cta{
+  	width: 100%;
+  	padding:150px 10% 150px;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-flex-direction: row;
+	flex-direction: row;
+	align-items: flex-start;
+  	justify-content: center;
+}
+.hello_cta > div{
+	display: inline-block;
+	width:50%;
+	padding: 0 2%;
+//	max-width: 800px;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:visible;
+}
+.hello_cta > div > div{
+	width:100%;
+	height:100%;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+.hello_cta p{
+	margin-bottom: 0;
+}
+
+
+
+@media only screen and (max-width: 1366px) {
+.errormaindivouter{
+  	padding:0px 5%;
+}
+
+.errormaindivouter .stripes {
+    height: 60px;
+}
+
+.errormaindivouter > div.main > div{
+	width:70%;
+}
+
+.errormaindivouter > div.main h1{
+	font-size:3rem;
+	line-height:3.5rem;
+}
+.errormaindivouter > div.main h1 span{
+	font-size:3rem;
+	line-height:3.5rem;
+}
+.errormaindivouter > div.main h2{
+	font-size:1.25rem;
+	line-height:1.5rem;
+}
+}
+
+
+@media only screen and (max-width: 900px) {
+.errormaindivouter .stripes {
+    height: 60px;
+}
+.errormaindivouter > .background {
+    height: 60%;
+	background-size:  100%;
+}
+.hello_cta{
+  	padding:150px 10% 150px;
+  	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+.hello_cta > div{
+	display: block;
+	width:100%;
+}
+.hello_cta > div+div{
+	margin-top: 50px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+.errormaindivouter{
+	padding:0px 5%;
+}
+.errormaindivouter .stripes {
+    height: 60px;
+}
+
+.errormaindivouter > div.main{
+	height: 400px;
+}
+
+.errormaindivouter > div.main > div{
+	width:100%;
+}
+
+.errormaindivouter > div.main h1{
+	font-size:2rem;
+	line-height:2.5rem;
+}
+.errormaindivouter > div.main h1 span{
+	font-size:2rem;
+	line-height:2.5rem;
+}
+.errormaindivouter > div.main h2{
+	font-size:1.1rem;
+	line-height:1.25rem;
+}
+
+.content{
+	background-position:  right bottom;
+	background-size:  auto 90%;
+}
+.content p{
+	font-size: .8rem;
+}
+}
+
+@media only screen and (max-width: 480px) {
+.errormaindivouter .stripes {
+    height: 60px;
+}
+}

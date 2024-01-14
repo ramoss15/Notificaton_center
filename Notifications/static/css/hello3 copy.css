@@ -1,0 +1,1378 @@
+#hellotopbuffer{
+	width:100%;
+	height:60px;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+#hellomaindiv{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+.hello_notif{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	padding:10px 5% 10px;
+  	color:#ffffff;
+  	font-size: 0.8rem;
+}
+
+.hello_header{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	height: 100vh;
+  	background-image:url('https://derbiicdn.storage.googleapis.com/images/landing/bg1.jpg');
+	background-position:  center center;
+	background-size:  cover;
+	background-repeat: no-repeat;
+}
+
+.hello_header > div:first-child{
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,.7);
+  	z-index: 1;
+}
+.hello_header > div+div{
+	width:100%;
+	height:100%;
+	padding:110px 10% 50px;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-flex-direction: column;
+	flex-direction: column;
+  	z-index: 2;
+}
+.hello_header > div+div > div.upper{
+	width:100%;
+	-webkit-flex: auto;
+	flex: auto;
+}
+.hello_header > div+div > div.upper > div{
+	width:100%;
+	height: auto;
+}
+.hello_header > div+div > div.middle{
+	width:100%;
+	height:auto;
+}
+.hello_header > div+div > div.middle > div{
+	width:50%;
+	height:auto;
+}
+.hello_header > div+div > div.lower{
+	width:100%;
+	height:auto;
+	padding: 20px 0 0;
+}
+.hello_header > div+div > div.lower > div{
+	width:auto;
+	height:auto;
+	margin: auto;
+	cursor: pointer;
+}
+.hello_header > div+div > div.lower > div > img{
+	-webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.80));
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+}
+.hello_header > div+div > div.lower > div:hover > img{
+	-webkit-filter: drop-shadow(0px 0px 12px rgba(255, 255, 255, 1));
+}
+
+.hello_header h1{
+	font-size:4rem;
+	line-height:4.5rem;
+}
+.hello_header h1 span{
+	font-size:2rem;
+	line-height: 2rem;
+}
+.hello_header h2{
+	font-size:2.5rem;
+	line-height:3rem;	
+}
+.hello_header h3{
+	font-size:1.5rem;
+	line-height:2rem;	
+}
+
+.hello_header p{
+	font-size: 1.0rem;
+}
+.hello_header p+p{
+	margin:1.2rem 0 0;
+}
+
+
+
+
+
+.hello_why{
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	padding:100px 10%;
+}
+.hello_why > div{
+	width:100%;
+	max-width: 100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	overflow:hidden;
+}
+.hello_why > div > h1{
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+.hello_why > div > h2{
+	width:60%;
+	margin: auto;
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+.hello_why > div > h2 > sup{
+	font-size: .7rem;
+}
+
+.hello_why > div > p{
+	width: 100%;
+	max-width: 800px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+
+.hello_why > div div.features{
+	width:100%;
+	height:auto;
+	margin:auto;
+	margin-top: 50px;
+/*	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-flex-direction: column;
+	flex-direction: column;*/
+}
+.hello_why > div div.features > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+/*	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-flex-direction: row;
+	flex-direction: row;*/
+}
+
+.hello_why > div div.features > div > div{
+	width:33%;
+	display: inline-block;
+	height:auto;
+	margin:auto;
+	clear: both;
+	overflow:hidden;
+	vertical-align: top;
+/*	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-flex-direction: column;
+	flex-direction: column;*/
+}
+.hello_why > div div.features > div > div > div.image{
+	width:100%;
+	height:auto;
+	padding: 15px;
+}
+.hello_why > div div.features > div > div > div.text{
+	width:100%;
+/*	-webkit-flex: auto;
+	flex: auto;*/
+	padding: 15px;
+}
+.hello_why > div div.features > div > div > div > img{
+	-webkit-filter: grayscale(100%);
+}
+.hello_why > div div.features > div > div > div > h4{
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+.hello_why > div div.features > div > div > div > p{
+	font-size: .9rem;
+	line-height: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+.hello_routesmap{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	height: calc(100vh - 60px);
+}
+
+.hello_routesmap > div.mapcontainer{
+	width:100%;
+	height: 100%;
+	z-index: 1;
+}
+.hello_routesmap > div.overlay{
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width:30%;
+	padding:50px 2%;
+  	z-index: 2;
+/*  	background: #212121;*/
+  	-webkit-flex: auto;
+	flex: auto;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+.hello_routesmap h1{
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+.hello_routesmap > div.overlay > div{
+	width:100%;
+	clear: both;
+	overflow: hidden;
+  	height: auto;
+  	background: rgba(0,0,0,.6);
+  	padding: 20px;
+  	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+}
+.hello_routesmap > div.overlay > div+div{
+	margin-top: 30px;
+	overflow-y:scroll;
+  	-webkit-flex: auto;
+	flex: auto;
+	background: none;
+	padding: 0;
+	-webkit-border-radius:0px;
+	moz-border-radius:0px;
+	border-radius: 0px;
+}
+.hello_routesmap > div.overlay > div+div::-webkit-scrollbar { 
+    display: none; 
+}
+.hello_routesmap > div.overlay > div > div.routebox{
+	background: rgba(0,0,0,.6);
+	width:100%;
+	height:auto;
+	padding: 20px;
+	cursor: pointer;
+	margin-top: 20px;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	-webkit-transition:background 0.6s;
+    transition:background 0.6s;
+}
+.hello_routesmap > div.overlay > div > div.routebox > h3{
+	font-size: 1.1rem;
+	line-height: 1.5rem;
+	color: #f5f5f5;
+	font-weight: 300;
+	margin: auto;
+	-webkit-transition:color 0.6s;
+    transition:color 0.6s;
+}
+.hello_routesmap > div.overlay > div > div.routebox > div{
+	width:100%;
+	height:auto;
+	display: none;
+}
+.hello_routesmap > div.overlay > div > div.routebox > div > div.title{
+	width:100%;
+	height:auto;
+	padding: 10px 0px;
+	border-bottom: 1px solid #f9f9f9;
+	font-size: .9rem;
+	margin-top: 10px;
+}
+.hello_routesmap > div.overlay > div > div.routebox > div > div.title .fa{
+	font-size: .7rem;
+}
+.hello_routesmap > div.overlay > div > div.routebox > div > div.content{
+	width:100%;
+	height:auto;
+	padding: 10px 0px;
+	font-size: .9rem;
+}
+.hello_routesmap > div.overlay > div > div.routebox > div > div.footer{
+	width:100%;
+	height:auto;
+	margin-top: 10px;
+}
+.hello_routesmap > div.overlay > div > div.routebox > div > div.footer > div{
+	width:auto;
+	height:auto;
+	float: left;
+}
+.hello_routesmap > div.overlay > div > div.routebox > div > div.footer > div+div{
+	width:auto;
+	height:auto;
+	float: right;
+}
+.hello_routesmap > div.overlay > div > div.routebox > div > div.footer .btn_outline.btn_transparent.btnwhite.active,
+	.hello_routesmap > div.overlay > div > div.routebox > div > div.footer .btn_outline.btn_transparent.btnwhite.hover,
+	.hello_routesmap > div.overlay > div > div.routebox > div > div.footer .btn_outline.btn_transparent.btnwhite:active,
+	.hello_routesmap > div.overlay > div > div.routebox > div > div.footer .btn_outline.btn_transparent.btnwhite:focus,
+	.hello_routesmap > div.overlay > div > div.routebox > div > div.footer .btn_outline.btn_transparent.btnwhite:hover{
+	color:#FFC400!important;
+}
+.hello_routesmap > div.overlay > div > div.routebox > div > div.footer .fa{
+	font-size: .7rem;
+}
+
+.hello_routesmap > div.overlay > div > div.routebox:hover{
+	background: rgba(0,0,0,.8);
+	-webkit-transition:background 0.6s;
+    transition:background 0.6s;
+}
+.hello_routesmap > div.overlay > div > div.routebox:hover > h3{
+	color: #FFC400;
+	-webkit-transition:color 0.6s;
+    transition:color 0.6s;
+}
+.hello_routesmap > div.overlay > div > div.routebox.active{
+	padding: 20px;
+	background: rgba(0,0,0,.8);
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	cursor: default;
+}
+.hello_routesmap > div.overlay > div > div.routebox.active > h3{
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+	color: #FFC400;
+	font-weight: 400;
+}
+.hello_routesmap > div.overlay > div > div.routebox.active > div{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.hello_how{
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	padding:50px 10%;
+}
+.hello_how > div{
+	width:100%;
+	max-width: 100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	overflow:hidden;
+}
+.hello_how > div > h1{
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+.hello_how > div > h2 > sup{
+	font-size: .7rem;
+}
+
+.hello_how > div > p{
+	width: 100%;
+	max-width: 800px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.hello_how > div > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	overflow:hidden;
+	margin-top:50px;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+}
+
+.hello_how > div div.apps{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear: both;
+	overflow:hidden;
+	margin-top: 50px;
+}
+.hello_how > div div.apps > div{
+	width:40%;
+	height:auto;
+	margin:auto;
+	float: left;
+	overflow:hidden;
+}
+.hello_how > div div.apps > div+div{
+	float: right;
+}
+.hello_how > div div.apps > div > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear: both;
+	overflow:hidden;
+	padding: 15px 15px 10px;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	border: 1px solid #e8e8e8;
+}
+.hello_how > div div.apps > div > div > p{
+	margin-top:20px;
+}
+.hello_how > div div.apps > div > div > p+div{
+	width: 100%;
+	height: 50px;
+}
+
+
+.divider-line{
+	height: 0px;
+	border-top: 1px solid #e8e8e8;
+	width: 80%;
+	margin: auto;
+}
+
+
+.hello_nomsngr{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	padding:50px 10%;
+}
+.hello_nomsngr > div{
+	width:100%;
+	max-width: 800px;
+	height:auto;
+	margin:auto;
+	clear:both;
+	overflow:hidden;
+}
+.hello_nomsngr > div > h2{
+}
+.hello_nomsngr > div > p{
+	font-size: 1rem;
+}
+
+
+
+
+.hello_customers{
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	padding:50px 10%;
+}
+.hello_customers > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	overflow:hidden;
+	margin-top: 50px;
+}
+.hello_customers > div > div{
+	width:30%;
+	height:auto;
+	margin:auto;
+	float: left;
+	overflow:hidden;
+	padding: 0px;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	border:1px solid #e8e8e8;
+}
+.hello_customers > div > div+div{
+	margin-left: 3%;
+}
+.hello_customers > div > div > div:first-child{
+	padding: 15px 15px 0px;
+	clear: both;
+	overflow: hidden;
+}
+.hello_customers > div > div > div:first-child > p{
+	font-size: 1.1rem;
+	float: left;
+}
+.hello_customers > div > div > div:first-child > img{
+	display: block;
+	float: right;
+	-webkit-border-radius:50%;
+	moz-border-radius:50%;
+	border-radius: 50%;
+}
+.hello_customers > div > div > div:first-child+p{
+	font-size: 0.9rem;
+	margin-bottom: 15px;
+	padding: 0px 15px 0px;
+}
+.hello_customers > div > div > div:last-child{
+	font-size: 0.7rem;
+	padding: 10px 15px 10px;
+}
+
+
+
+
+
+
+
+
+.hello_signup.bottom{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	padding:3rem 10%;
+}
+.hello_signup.bottom > div{
+	width:auto;
+	max-width: 800px;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+	border:1px solid #e8e8e8;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	padding: 20px;
+}
+.hello_signup.bottom p{
+	float: left;
+	font-size: 1.2rem;
+	max-width: 550px;
+	margin: 0 30px 0 0;
+	text-align: left;
+}
+.hello_signup.bottom a.btn{
+	float: right;
+}
+
+
+
+
+.hello_features{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	padding:50px 5%;
+  	background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ),
+    url('https://derbiicdn.storage.googleapis.com/images/back_commute.jpg');
+/*  	background-image: url('https://derbiicdn.storage.googleapis.com/images/pattern5.png'), linear-gradient(-150deg, #F59547 0%, #459187 97%);*/
+	background-position: center;
+	background-repeat: no-repeat;
+/*  	background-size: 380px, contain;*/
+}
+.hello_features > div{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	margin: auto;
+}
+.hello_features > div > h5{
+	margin-bottom: 20px;
+}
+.hello_features > div+div{
+	margin-top: 30px;
+}
+.hello_features > div+div > div{
+	width:25%;
+	height:auto;
+	margin:auto;
+	float: left;
+	overflow:hidden;
+}
+.hello_features > div+div > div div.shadow-box{
+	width:90%;
+	height:auto;
+	margin:auto;
+	clear: both;
+	overflow:hidden;
+	padding: 15px;
+	background:rgba(0,0,0,.6);
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+}
+.hello_features > div+div > div div.shadow-box > div.image{
+	line-height: 50px;
+	width: 100%;
+  	padding:10px 0px;
+  	margin-bottom: 10px;
+}
+.hello_features > div+div > div div.shadow-box > div.image+div{
+	width: 100%;
+  	height: auto;
+}
+.hello_features > div+div > div div.shadow-box p{
+	width: 100%;
+}
+.hello_features > div+div > div div.shadow-box p+p{
+	width: 100%;
+  	font-size: 0.9rem;
+}
+
+
+.hello_pricing{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	padding:3rem 10%;
+}
+.hello_pricing > div{
+	width:100%;
+	max-width: 1000px;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+.hello_pricing h2{
+	font-size: 2.5rem;
+	line-height: 2.75rem;
+	margin-bottom:2rem;
+}
+
+.hello_pricing > div > div{
+	border:1px solid #e8e8e8;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	padding:15px;
+	width: 100%;
+	max-width: 500px;
+	margin: auto;
+}
+.hello_pricing > div > div > h4{
+	font-size: 1rem;
+	line-height: 1.25rem;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.hello_pricing > div > div > div{
+	font-size: 1rem;
+	margin-top: 10px;
+	width:100%;
+}
+.hello_pricing > div > div > div > div{
+	width:100%;
+}
+.hello_pricing > div > div > div > div:first-child+div{
+	margin-top: 10px;
+}
+.hello_pricing > div > div > div > div:last-child{
+	margin-top: 10px;
+}
+
+.pricingspan1 .fa-inr{
+	font-size: .8rem;
+	position: relative;
+	top:-.25rem;
+}
+.hello_pricing > div > div > div .pricingspan2{
+	font-size: 1rem;
+}
+.hello_pricing > div > div > div .pricingspan3{
+	font-size: 2rem;
+	text-shadow:0 3px 1px rgba(0,0,0,.1);
+}
+.pricingspan3 .fa-inr{
+	font-size: 1.2rem;
+	position: relative;
+	top:-.75rem;
+}
+
+
+
+.hello_pricing ul, li{
+	padding:0;
+	margin: 0;
+}
+.hello_pricing > div > ul > li{
+	padding:1rem 0;
+/*	border-top:1px solid rgba(255,255,255,.2);*/
+	display: block;
+}
+
+.hello_pricing > div > ul{
+	margin-top: 30px;
+}
+
+.hello_pricing > div > ul > li:first-child{
+	border:none;
+}
+
+.hello_pricing > div > ul > li > div{
+	border:1px solid #e8e8e8;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	padding:15px 15px 10px;
+	width: 90%;
+	max-width: 500px;
+	margin: auto;
+}
+.hello_pricing > div > ul > li > div > h4{
+	font-size: .9rem;
+	line-height: 1.25rem;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.hello_pricing > div > ul > li > div > table{
+	width:100%;
+	font-size: .8rem;
+}
+.hello_pricing > div > ul > li > div > table tr{
+	padding:.25rem 0;
+}
+.hello_pricing > div > ul > li > div > table tr td{
+	padding:.25rem .5rem;
+}
+.hello_pricing > div > ul > li > div > table tr td:first-child{
+	text-align: center;
+}
+.hello_pricing > div p.footnote{
+	font-size: .8rem;
+	text-align: left;
+	padding:5px 10px;
+	width: 90%;
+	max-width: 500px;
+	margin:auto;
+}
+.hello_pricing > div p.footnote.footnote_upper{
+	width: 100%;
+	margin:auto;
+}
+.hello_pricing > div p.footnote{
+	margin-top: 20px;
+}
+.hello_pricing .btn{
+	margin-top: 30px;
+	width: 100%;
+	max-width: 300px;
+}
+
+
+.hello_support{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	padding:5rem 10%;
+}
+.hello_support > div{
+	width:100%;
+	max-width: 1000px;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+.hello_support > div > h2{
+	font-size:2.5rem;
+	line-height:3rem;
+	margin-bottom: 2rem;
+}
+.hello_support > div > img{
+	top:-1rem;
+}
+
+.support_main{
+	width: 100%;
+}
+.support_main ul{
+	list-style:none;margin-left:0;margin-bottom:0;padding: 0;
+}
+.support_main ul li{padding:1.375rem 0 .875rem;border-bottom:2px solid #e8e8e8;}
+.support_main ul li h4{margin-bottom:1rem}
+.support_main ul li h4 a{display:block;position:relative;padding-left:1rem; padding-right:5rem;}
+.support_main ul li h4 a:hover{text-decoration:none;}
+.support_main ul li h4 a i.fa:before{display:block;position:absolute;top:0;right:1rem;font-size:1.5rem;color:#663553;}
+.support_main ul li.expanded h4 a i.fa:before{color:#999999;}
+.support_main ul li.expanded:hover h4 a i.fa:before{color:#999999;}
+.support_main ul li p,.support_main ul li ul{display:none;padding-left:1rem;padding-right:5rem;font-size:1rem;line-height:1.25rem;color: #656565;}
+.support_main ul li.expanded p,.support_main ul li.expanded ul{display:block;}
+.support_main ul li p a{color: #8e4a74;text-decoration: underline;}
+.support_main ul li li{border-bottom:none;margin-bottom:.75rem;padding-top:0;padding-bottom:0;list-style-type:disc;}
+.support_main ul li.expanded h4 a i.ts_icon:before{color:#9e9ea6}
+.support_main ul li.expanded p,.support_main ul li.expanded ul{display:block;}
+.support_main ul li:hover{background:#f9f9f9;}
+.support_main ul li.expanded:hover h4 a i.ts_icon:before{color:#3aa3e3;}
+
+
+.hello_main .head_text{
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding:20px;
+	font-size: 1.1rem;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+
+.hello_how{
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	padding:50px 2%;
+}
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+.hello_header > div > div > div.image{
+	height:100%;
+	line-height: 100%;
+}
+.hello_header > div > div > div.image > img{
+	max-width:100%;
+	max-height:100%;
+}
+
+
+.hello_how div.fbconvoblockinner{
+	max-width: 240px;
+}
+}
+
+
+@media only screen and (max-width: 1100px) {
+.hello_signup.bottom a.btn{
+	float: none;
+}
+.hello_signup.bottom p{
+	float: none;
+	width: 100%;
+	max-width: 100%;
+	margin: 0 0 1.5rem;
+	text-align: center;
+}
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+
+.hello_header > div > div > div.image{
+	height:100%;
+	line-height: 100%;
+}
+.hello_header > div > div > div.image > img{
+	height:100%;
+	width:90%;
+}
+.hello_header > div > div+div > h1{
+	font-size:2.5rem;
+	line-height:3rem;
+}
+.hello_header > div > div+div > h3{
+	font-size:1.25rem;
+	line-height:1.5rem;
+}
+
+
+.hello_how > div > h1{
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+.hello_how > div > h2{
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+}
+.hello_how div.fbconvoboxupper{
+	width:100%;
+	height:500px;
+	margin:auto;
+	clear: both;
+	overflow:hidden;
+	border-bottom: 1px solid #e2e2e2;
+}
+.hello_how div.fbconvoboxupperinner{
+	width:100%;
+	height:auto;
+	margin:auto;
+	margin-top:500px;
+	clear: both;
+	overflow:hidden;
+}
+
+
+
+
+.hello_how div.fbconvoblockinner{
+	max-width: 220px;
+}
+
+
+
+
+.hello_customers{
+	padding:50px 2%;
+}
+
+
+
+
+.hello_features{
+  	padding:50px 2%;
+}
+.hello_features > div+div > div{
+	width:50%;
+	height:auto;
+	margin:auto;
+	float: left;
+	overflow:hidden;
+}
+.hello_features > div+div > div:nth-child(3){
+	margin-top: 20px;
+}
+.hello_features > div+div > div:nth-child(4){
+	margin-top: 20px;
+}
+.hello_features > div+div > div div.shadow-box{
+	width:90%;
+	height:auto;
+	margin:auto;
+	clear: both;
+	overflow:hidden;
+	padding: 15px;
+	background:rgba(0,0,0,.6);
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+}
+.hello_features > div+div > div div.shadow-box > div.image{
+	line-height: 50px;
+	width: 25%;
+  	padding:10px 0px;
+  	float: left;
+}
+.hello_features > div+div > div div.shadow-box > div.image+div{
+	width: 70%;
+  	height: auto;
+  	float: right;
+}
+.hello_features > div+div > div div.shadow-box p{
+	width: 100%;
+	text-align: left;
+}
+.hello_features > div+div > div div.shadow-box p+p{
+	width: 100%;
+  	font-size: 0.8rem;
+  	text-align: left;
+}
+
+
+}
+
+@media only screen and (max-width: 900px) {
+
+.hello_header > div > div+div > h1{
+	font-size:2rem;
+	line-height:2.5rem;
+}
+.hello_header > div > div+div > p{
+	font-size:.8rem;
+}
+
+
+.hello_how > div > div > div+div div.shadow-box.msngr > p{
+	font-size: 1rem;
+}
+.hello_how > div > div > div+div div.shadow-box.msngr > ol{
+	font-size: 1rem;
+}
+.hello_how > div > div > div+div div.shadow-box.msngr+p{
+	font-size: 1rem;
+}
+
+
+
+.hello_pricing{
+  	padding:3rem 30px;
+}
+.hello_pricing > div > div{
+	max-width: 90%;
+}
+.hello_pricing > div > ul > li > div{
+	max-width: 90%;
+}
+.hello_pricing > div p.footnote{
+	max-width: 90%;
+}
+.hello_pricing > div p.footnote.footnote_upper{
+	max-width: 90%;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+.hello_header{
+	padding:50px 20px 50px;
+}
+.hello_header > div{
+	max-width: 100%;
+	display: block;
+}
+
+.hello_header > div > div{
+	width:100%;
+	clear: both;
+	float: none;
+	text-align: center;
+}
+.hello_header > div > div{
+	float: none;
+	text-align: center;
+	padding: 0px 0px 00px;
+	position: relative;
+	margin-bottom: 20px;
+}
+.hello_header > div > div+div{
+	padding: 0px;
+}
+.hello_header > div > div > div.image{
+	width: 100%;
+	text-align: center;
+}
+.hello_header > div > div > div.image > img{
+	max-width:70%;
+	height: auto;
+}
+.hello_header > div > div > div.image-fade{
+	display: block;
+	position:absolute;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    height:50px;
+    background: -moz-linear-gradient(top,  rgba(255,229,127,0) 0%, rgba(255,196,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,229,127,0)), color-stop(100%,rgba(255,196,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,229,127,0) 0%,rgba(255,196,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,229,127,0) 0%,rgba(255,196,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,229,127,0) 0%,rgba(255,196,0,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,229,127,0) 0%,rgba(255,196,0,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0089fff1', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+.hello_header > div > div+div > h1{
+	font-size:2.5rem;
+	line-height:3rem;
+}
+.hello_header > div > div+div > p{
+	font-size:1rem;
+}
+
+
+
+
+
+
+.hello_how{
+	padding:50px 20px;
+}
+.hello_how > div{
+	width:100%;
+	max-width: 100%;
+}
+.hello_how > div > h1{
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+.hello_how > div > h2 > sup{
+	font-size: .7rem;
+}
+.hello_how > div > p{
+	max-width: 100%;
+}
+
+.hello_how > div > div{
+	margin-top:30px;
+	display: block;
+}
+.hello_how > div > div > div{
+	width:100%;
+	float: none;
+}
+/*.hello_how > div > div > div > p{
+	font-size: 1rem;
+}*/
+.hello_how div.fbconvobox{
+	padding:10px 20px;
+	margin-top:30px;
+	clear: both;
+}
+.hello_how div.fbconvoboxupper{
+	height:350px;
+}
+.hello_how div.fbconvoboxupperinner{
+	margin-top:350px;
+}
+.hello_how div.fbconvoblockinner{
+	max-width: 500px;
+}
+
+.hello_how > div > div > div+div{
+	width:100%;
+	float: none;
+	margin-top: 50px;
+}
+
+.hello_how > div > div > div+div div.shadow-box.msngr > p{
+	font-size: .9rem;
+}
+.hello_how > div > div > div+div div.shadow-box.msngr > ol{
+	font-size: .9rem;
+}
+.hello_how > div > div > div+div div.shadow-box.msngr+p{
+	font-size: .9rem;
+}
+
+
+
+.hello_nomsngr{
+	padding:50px 20px;
+}
+.hello_nomsngr > div{
+	max-width: 100%;
+}
+.hello_nomsngr > div div.apps > div{
+	width:60%;
+	height:auto;
+	margin:auto;
+	float: none;
+	clear: both;
+	overflow:hidden;
+}
+.hello_nomsngr > div div.apps > div+div{
+	float: none;
+	clear: both;
+	margin-top: 20px;
+}
+
+
+
+
+
+.hello_customers{
+	padding:50px 20px;
+}
+.hello_customers > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	overflow:hidden;
+	margin-top: 50px;
+}
+.hello_customers > div > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+	float: none;
+	overflow:hidden;
+	padding: 0px;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+}
+.hello_customers > div > div+div{
+	margin: auto;
+	margin-top: 30px;
+}
+.hello_customers > div > div > div:first-child > p{
+	font-size: 1rem;
+}
+.hello_customers > div > div > div:first-child+p{
+	font-size: 0.8rem;
+}
+.hello_customers > div > div > div{
+	font-size: 0.7rem;
+	padding: 10px 15px 10px;
+}
+
+
+
+.hello_features{
+  	padding:50px 20px;
+}
+
+
+
+
+.hello_pricing{
+  	padding:2rem 20px;
+}
+
+
+
+.hello_support{
+	padding:3rem 20px;
+}
+.hello_support > div{
+	max-width: 100%;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 650px){
+.hello_features > div+div > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+	float: none;
+	clear: both;
+	overflow:hidden;
+}
+.hello_features > div+div > div:nth-child(2), .hello_features > div+div > div:nth-child(3), .hello_features > div+div > div:nth-child(4){
+	margin-top: 20px;
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+.hello_how div.fbconvoblockinner{
+	max-width: 450px;
+}
+
+
+
+.hello_pricing > div > ul > li > div > table, .hello_pricing > div > ul > li > div > table > tbody, .hello_pricing > div > ul > li > div > table tr{
+	display:block;
+	clear: both;
+	width:100%;
+}
+.hello_pricing > div > ul > li > div > table tr td:nth-child(1){
+	display:block;
+	float: left;
+	padding:.5rem .5rem .25rem;
+}
+.hello_pricing > div > ul > li > div > table tr td:nth-child(2){
+	display:block;
+	float: left;
+	padding:.5rem .5rem .25rem;
+	margin-left: 1.5rem;
+}
+.hello_pricing > div > ul > li > div > table tr td:nth-child(3){
+	display:block;
+	clear: both;
+	padding:.25rem .5rem .5rem;
+	margin-top: 1.5rem;
+}
+
+.hello_pricing > div > ul > li > div > table tr{
+	border-bottom: 1px solid #e8e8e8;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+.hello_pricing > div > ul > li > div > table tr:last-child{
+	border-bottom: none;
+}
+
+.hello_pricing .btn{
+	max-width: 100%;	
+}
+
+
+}
+
+@media only screen and (max-width: 500px) {
+.hello_how div.fbconvoblockinner{
+	max-width: 300px;
+}
+}
+
+
+@media only screen and (max-width: 320px) {
+.hello_header{
+	padding:30px 10px 30px;
+}
+
+
+.hello_how{
+	padding:30px 10px;
+}
+.hello_how div.fbconvoboxupper{
+	height:200px;
+}
+.hello_how div.fbconvoboxupperinner{
+	margin-top:200px;
+}
+.hello_how div.fbconvoblockinner{
+	max-width: 250px;
+}
+
+
+.hello_nomsngr{
+	padding:30px 10px;
+}
+
+
+.hello_customers{
+	padding:30px 10px;
+}
+
+
+.hello_features{
+  	padding:30px 10px;
+}
+
+}

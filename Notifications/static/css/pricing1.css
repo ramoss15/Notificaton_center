@@ -1,0 +1,274 @@
+#pricingtopbuffer{
+	width:100%;
+	height:60px;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+#pricingmaindiv{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+.pricing_header{
+  	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	padding:0 10%;
+}
+
+.pricing_header > div{
+	width:100%;
+	max-width: 1000px;
+	padding:50px 0 200px;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+.header_title{
+	font-size: 58px;
+  	line-height: 69px;
+  	margin: 0 0 24px;
+}
+
+.pricing_header p{
+	font-size: .9rem;
+}
+
+.pricing_calc{
+	width: 100%;
+	max-width: 1000px;
+	margin:0 auto;
+	padding: 0 0 4rem;
+	clear: both;
+}
+
+.calc{
+	width: 100%;
+	height: auto;
+	clear: both;
+	-webkit-border-radius:2px;
+	moz-border-radius:2px;
+	border-radius:2px;
+	border:1px solid #e8e8e8;
+	margin-top: -150px;
+	overflow: hidden;
+}
+
+.calc > div.col{
+	overflow:hidden;
+	width: 50%;
+	position: relative;
+	height:300px;
+	float: left;
+	padding: 30px;
+}
+
+.calc > div.col.col_1 h2{
+	margin-bottom:25px;
+}
+.calc > div.col.col_1 p:last-child{
+	margin-top:35px;
+	font-size:.7rem;
+}
+
+.calc > div.col.col_2 p:first-child{
+	margin-bottom:25px;
+	font-size: 1.2rem;
+}
+.calc > div.col.col_2 p:first-child span{
+	font-size: 1.5rem;
+}
+.calc > div.col.col_2 p:first-child .fa-inr{
+	font-size: 1.1rem;
+	position: relative;
+	top:-.5rem;
+}
+.calc > div.col.col_2 p:first-child+p{
+	margin-bottom:25px;
+}
+.calc > div.col.col_2 p .fa-plus{
+	font-size: 1.5rem;
+}
+.calc > div.col.col_2 p:last-child{
+	font-size: 1.5rem;
+}
+.calc > div.col.col_2 p:last-child span{
+	font-size: 3rem;
+	text-shadow:0 3px 1px rgba(0,0,0,.1);
+}
+.calc > div.col.col_2 p:last-child .fa-inr{
+	font-size: 2.1rem;
+	position: relative;
+	top:-.75rem;
+}
+
+
+.calc > div.col.col_2 input[type=text]{
+	margin-bottom:25px; 
+}
+
+
+.calc_bottom{padding-top: 15px; margin-top: 25px; border-top:1px solid #e8e8e8; display: none;}
+.calc_bottom > div.col.col_1 p:first-child{
+	margin-bottom: 15px;
+}
+
+.calc_bottom > div.col{
+	overflow:hidden;
+	position: relative;
+	float: left;
+}
+
+.calc_bottom > div.col.col_1{
+	width: 55%;
+}
+.calc_bottom > div.col.col_2{
+	width: 40%;
+	margin-left: 5%;
+	position: relative;
+}
+
+.calc_bottom > div.col.col_1 p:first-child{
+	font-size:.8rem;
+}
+.calc_bottom > div.col.col_1 p:last-child{
+	font-size:.7rem;
+}
+.calc_bottom > div.col.col_2 span{
+	text-shadow:0 3px 1px rgba(0,0,0,.1);
+}
+.calc_bottom > div.col.col_2 span.currency{
+	font-size: 1.5rem;
+	position: relative;
+	top:-.75rem;
+}
+.calc_bottom > div.col.col_2 span.amount{
+	font-size: 2.2rem;
+}
+
+.pricing_outlook{
+	width: 100%;
+	margin:auto;
+	padding:4rem 0;
+}
+.pricing_outlook > div{
+	width:1000px;
+	margin:0 auto;
+	padding:0 0 0 450px;
+	background:url(https://derbiicdn.storage.googleapis.com/images/pricingrocket.png) no-repeat;background-size:388px auto; background-position: left center;
+}
+.pricing_outlook h3{
+	font-size:2.25rem;
+	line-height:2.5rem;
+}
+.pricing_outlook p{
+	margin-bottom:.75rem;
+}
+
+
+
+
+@media only screen and (max-width: 1100px) {
+.pricing_calc{
+	max-width: 100%;
+	padding:0 10%;
+}
+.calc > div.col{
+	width: 100%;
+	position: relative;
+	height:auto;
+	float: none;
+}
+
+.pricing_outlook{
+	padding:3.5rem 0;
+}
+.pricing_outlook > div{
+	width:100%;
+	padding:0 3rem 0 20rem;
+	background-size:14rem auto;
+	background-position:2rem 6rem;
+
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+.pricing_header{
+	padding:0 20px;
+}
+.pricing_header > div{
+	max-width: 100%;
+	padding: 40px 0 140px;
+}
+.header_title{
+	font-size: 39px;
+  	line-height: 43px;
+  	margin: 0 0 24px;
+}
+
+.pricing_calc{
+	max-width: 100%;
+	padding: 0px 20px 40px;
+}
+.calc{
+	margin-top: -100px;
+}
+.calc > div.col{
+	padding: 20px;
+}
+
+.pricing_outlook{
+	padding:2rem 0;
+}
+.pricing_outlook > div{
+	padding:0 20px;
+	padding-top:21rem;
+	background-position:center 3rem;
+	background-size:auto 15rem;
+}
+
+}
+
+@media only screen and (max-width: 320px) {
+.pricing_header{
+	padding:0 10px;
+}
+.pricing_header > div{
+	max-width: 100%;
+	padding: 30px 0 80px;
+}
+.pricing_main{
+	padding: 0 10px;
+}
+.pricing_calc{
+	max-width: 100%;
+	padding: 0px 10px 30px;
+}
+.calc{
+	margin-top: -50px;
+}
+.calc > div.col{
+	padding: 10px;
+}
+
+
+.pricing_outlook > div{
+	padding:0 10px;
+	padding-top:21rem;
+	background-position:center 3rem;
+	background-size:auto 15rem;
+}
+
+
+}

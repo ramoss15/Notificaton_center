@@ -1,0 +1,1672 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "virtualness",
+    "version": "1.0.0",
+    "contact": {
+      "email": "rampratap305@gmail.com",
+      "name": "Rampratap",
+      "url": "https://github.com/rampratap305/virtualness"
+    }
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8001"
+    },
+    {
+      "url": "http://localhost:8000"
+    }
+  ],
+  "paths": {
+    "/notif/message/": {
+      "post": {
+        "tags": [
+          "default"
+        ],
+        "summary": "Send Notification",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "example": {
+                  "receiver": "1958f130-8b91-445e-ace8-041d7c66d8e0",
+                  "t": "Def",
+                  "context": "hi",
+                  "message_content": "hi",
+                  "text": ""
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Accept",
+            "in": "header",
+            "schema": {
+              "type": "number"
+            },
+            "example": "application/json; q=1.0, */*"
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "schema": {
+              "type": "number"
+            },
+            "example": "en-US,en;q=0.9,hi;q=0.8"
+          },
+          {
+            "name": "Connection",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "keep-alive"
+          },
+          {
+            "name": "Cookie",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab"
+          },
+          {
+            "name": "DNT",
+            "in": "header",
+            "schema": {
+              "type": "integer"
+            },
+            "example": "1"
+          },
+          {
+            "name": "Origin",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "http://localhost:8000"
+          },
+          {
+            "name": "Referer",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "http://localhost:8000/notif/"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "empty"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "cors"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "same-origin"
+          },
+          {
+            "name": "User-Agent",
+            "in": "header",
+            "schema": {
+              "type": "number"
+            },
+            "example": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+          },
+          {
+            "name": "X-CSRFTOKEN",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6"
+          },
+          {
+            "name": "Authorization",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "Token 21bfd6ffffe43740c2939453f946147d47dec7a6"
+          },
+          {
+            "name": "X-Requested-With",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "XMLHttpRequest"
+          },
+          {
+            "name": "sec-ch-ua",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "Not_A"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "?0"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "macOS"
+          },
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "application/json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "Date": {
+                "schema": {
+                  "type": "string",
+                  "example": "Sun, 14 Jan 2024 22:47:46 GMT"
+                }
+              },
+              "Server": {
+                "schema": {
+                  "type": "number",
+                  "example": "WSGIServer/0.2 CPython/3.9.6"
+                }
+              },
+              "Content-Type": {
+                "schema": {
+                  "type": "string",
+                  "example": "application/json"
+                }
+              },
+              "Vary": {
+                "schema": {
+                  "type": "string",
+                  "example": "Accept, Origin"
+                }
+              },
+              "Allow": {
+                "schema": {
+                  "type": "string",
+                  "example": "GET, POST, PUT, DELETE, HEAD, OPTIONS"
+                }
+              },
+              "X-Frame-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "DENY"
+                }
+              },
+              "Content-Length": {
+                "schema": {
+                  "type": "integer",
+                  "example": "170"
+                }
+              },
+              "X-Content-Type-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "nosniff"
+                }
+              },
+              "Referrer-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              },
+              "Cross-Origin-Opener-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                },
+                "example": {
+                  "id": "d843c7ca-0656-4657-8a49-5b7379c4ace0",
+                  "receiver": "1958f130-8b91-445e-ace8-041d7c66d8e0",
+                  "t": "Def",
+                  "context": "hi",
+                  "message_content": "hi",
+                  "text": "",
+                  "expire_at": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "default"
+        ],
+        "summary": "Get archived notification",
+        "parameters": [
+          {
+            "name": "Accept",
+            "in": "header",
+            "schema": {
+              "type": "number"
+            },
+            "example": "application/json; q=1.0, */*"
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "schema": {
+              "type": "number"
+            },
+            "example": "en-US,en;q=0.9,hi;q=0.8"
+          },
+          {
+            "name": "Connection",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "keep-alive"
+          },
+          {
+            "name": "Cookie",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab"
+          },
+          {
+            "name": "DNT",
+            "in": "header",
+            "schema": {
+              "type": "integer"
+            },
+            "example": "1"
+          },
+          {
+            "name": "Origin",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "http://localhost:8000"
+          },
+          {
+            "name": "Referer",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "http://localhost:8000/notif/"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "empty"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "cors"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "same-origin"
+          },
+          {
+            "name": "User-Agent",
+            "in": "header",
+            "schema": {
+              "type": "number"
+            },
+            "example": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+          },
+          {
+            "name": "X-CSRFTOKEN",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6"
+          },
+          {
+            "name": "Authorization",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "Token 21bfd6ffffe43740c2939453f946147d47dec7a6"
+          },
+          {
+            "name": "X-Requested-With",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "XMLHttpRequest"
+          },
+          {
+            "name": "sec-ch-ua",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "Not_A"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "?0"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "macOS"
+          },
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "application/json"
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": {
+              "type": "integer"
+            },
+            "example": "2"
+          },
+          {
+            "name": "archived",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "example": "True"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "Date": {
+                "schema": {
+                  "type": "string",
+                  "example": "Sun, 14 Jan 2024 22:48:12 GMT"
+                }
+              },
+              "Server": {
+                "schema": {
+                  "type": "number",
+                  "example": "WSGIServer/0.2 CPython/3.9.6"
+                }
+              },
+              "Content-Type": {
+                "schema": {
+                  "type": "string",
+                  "example": "application/json"
+                }
+              },
+              "Vary": {
+                "schema": {
+                  "type": "string",
+                  "example": "Accept, Origin"
+                }
+              },
+              "Allow": {
+                "schema": {
+                  "type": "string",
+                  "example": "GET, POST, PUT, DELETE, HEAD, OPTIONS"
+                }
+              },
+              "X-Frame-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "DENY"
+                }
+              },
+              "Content-Length": {
+                "schema": {
+                  "type": "integer",
+                  "example": "279"
+                }
+              },
+              "X-Content-Type-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "nosniff"
+                }
+              },
+              "Referrer-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              },
+              "Cross-Origin-Opener-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                },
+                "example": {
+                  "count": 3,
+                  "next": null,
+                  "previous": "http://localhost:8001/notif/message/?archived=True&limit=10",
+                  "results": [
+                    {
+                      "id": "55dd6fd0-96ee-4ae8-8909-ee03798291a0",
+                      "receiver": "1958f130-8b91-445e-ace8-041d7c66d8e0",
+                      "t": "Def",
+                      "context": "hi",
+                      "message_content": "hi",
+                      "text": "",
+                      "expire_at": null
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "default"
+        ],
+        "summary": "Archive notification",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "example": {
+                  "id": "55dd6fd0-96ee-4ae8-8909-ee03798291a0",
+                  "archived": true
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Accept",
+            "in": "header",
+            "schema": {
+              "type": "number"
+            },
+            "example": "application/json; q=1.0, */*"
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "schema": {
+              "type": "number"
+            },
+            "example": "en-US,en;q=0.9,hi;q=0.8"
+          },
+          {
+            "name": "Connection",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "keep-alive"
+          },
+          {
+            "name": "Cookie",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab"
+          },
+          {
+            "name": "DNT",
+            "in": "header",
+            "schema": {
+              "type": "integer"
+            },
+            "example": "1"
+          },
+          {
+            "name": "Origin",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "http://localhost:8000"
+          },
+          {
+            "name": "Referer",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "http://localhost:8000/notif/"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "empty"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "cors"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "same-origin"
+          },
+          {
+            "name": "User-Agent",
+            "in": "header",
+            "schema": {
+              "type": "number"
+            },
+            "example": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+          },
+          {
+            "name": "X-CSRFTOKEN",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6"
+          },
+          {
+            "name": "Authorization",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "Token 21bfd6ffffe43740c2939453f946147d47dec7a6"
+          },
+          {
+            "name": "X-Requested-With",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "XMLHttpRequest"
+          },
+          {
+            "name": "sec-ch-ua",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "Not_A"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "?0"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "macOS"
+          },
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "application/json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "Date": {
+                "schema": {
+                  "type": "string",
+                  "example": "Sun, 14 Jan 2024 22:50:55 GMT"
+                }
+              },
+              "Server": {
+                "schema": {
+                  "type": "number",
+                  "example": "WSGIServer/0.2 CPython/3.9.6"
+                }
+              },
+              "Content-Type": {
+                "schema": {
+                  "type": "string",
+                  "example": "application/json"
+                }
+              },
+              "Vary": {
+                "schema": {
+                  "type": "string",
+                  "example": "Accept, Origin"
+                }
+              },
+              "Allow": {
+                "schema": {
+                  "type": "string",
+                  "example": "GET, POST, PUT, DELETE, HEAD, OPTIONS"
+                }
+              },
+              "X-Frame-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "DENY"
+                }
+              },
+              "Content-Length": {
+                "schema": {
+                  "type": "integer",
+                  "example": "35"
+                }
+              },
+              "X-Content-Type-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "nosniff"
+                }
+              },
+              "Referrer-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              },
+              "Cross-Origin-Opener-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                },
+                "example": {
+                  "message": "archived successfully"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "headers": {
+              "Date": {
+                "schema": {
+                  "type": "string",
+                  "example": "Sun, 14 Jan 2024 22:48:24 GMT"
+                }
+              },
+              "Server": {
+                "schema": {
+                  "type": "number",
+                  "example": "WSGIServer/0.2 CPython/3.9.6"
+                }
+              },
+              "Content-Type": {
+                "schema": {
+                  "type": "string",
+                  "example": "application/json"
+                }
+              },
+              "Vary": {
+                "schema": {
+                  "type": "string",
+                  "example": "Accept, Origin"
+                }
+              },
+              "Allow": {
+                "schema": {
+                  "type": "string",
+                  "example": "GET, POST, PUT, DELETE, HEAD, OPTIONS"
+                }
+              },
+              "X-Frame-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "DENY"
+                }
+              },
+              "Content-Length": {
+                "schema": {
+                  "type": "integer",
+                  "example": "23"
+                }
+              },
+              "X-Content-Type-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "nosniff"
+                }
+              },
+              "Referrer-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              },
+              "Cross-Origin-Opener-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                },
+                "example": {
+                  "detail": "Not found."
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "default"
+        ],
+        "summary": "Delete Notification",
+        "parameters": [
+          {
+            "name": "Accept",
+            "in": "header",
+            "schema": {
+              "type": "number"
+            },
+            "example": "application/json; q=1.0, */*"
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "schema": {
+              "type": "number"
+            },
+            "example": "en-US,en;q=0.9,hi;q=0.8"
+          },
+          {
+            "name": "Connection",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "keep-alive"
+          },
+          {
+            "name": "Cookie",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab"
+          },
+          {
+            "name": "DNT",
+            "in": "header",
+            "schema": {
+              "type": "integer"
+            },
+            "example": "1"
+          },
+          {
+            "name": "Origin",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "http://localhost:8000"
+          },
+          {
+            "name": "Referer",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "http://localhost:8000/notif/"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "empty"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "cors"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "same-origin"
+          },
+          {
+            "name": "User-Agent",
+            "in": "header",
+            "schema": {
+              "type": "number"
+            },
+            "example": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+          },
+          {
+            "name": "X-CSRFTOKEN",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6"
+          },
+          {
+            "name": "Authorization",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "Token 21bfd6ffffe43740c2939453f946147d47dec7a6"
+          },
+          {
+            "name": "X-Requested-With",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "XMLHttpRequest"
+          },
+          {
+            "name": "sec-ch-ua",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "Not_A"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "?0"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "macOS"
+          },
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "application/json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "Date": {
+                "schema": {
+                  "type": "string",
+                  "example": "Sun, 14 Jan 2024 22:51:45 GMT"
+                }
+              },
+              "Server": {
+                "schema": {
+                  "type": "number",
+                  "example": "WSGIServer/0.2 CPython/3.9.6"
+                }
+              },
+              "Content-Type": {
+                "schema": {
+                  "type": "string",
+                  "example": "application/json"
+                }
+              },
+              "Vary": {
+                "schema": {
+                  "type": "string",
+                  "example": "Accept, Origin"
+                }
+              },
+              "Allow": {
+                "schema": {
+                  "type": "string",
+                  "example": "GET, POST, PUT, DELETE, HEAD, OPTIONS"
+                }
+              },
+              "X-Frame-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "DENY"
+                }
+              },
+              "Content-Length": {
+                "schema": {
+                  "type": "integer",
+                  "example": "34"
+                }
+              },
+              "X-Content-Type-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "nosniff"
+                }
+              },
+              "Referrer-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              },
+              "Cross-Origin-Opener-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                },
+                "example": {
+                  "message": "deleted successfully"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "headers": {
+              "Date": {
+                "schema": {
+                  "type": "string",
+                  "example": "Sun, 14 Jan 2024 22:50:17 GMT"
+                }
+              },
+              "Server": {
+                "schema": {
+                  "type": "number",
+                  "example": "WSGIServer/0.2 CPython/3.9.6"
+                }
+              },
+              "Content-Type": {
+                "schema": {
+                  "type": "string",
+                  "example": "application/json"
+                }
+              },
+              "Vary": {
+                "schema": {
+                  "type": "string",
+                  "example": "Accept, Origin"
+                }
+              },
+              "Allow": {
+                "schema": {
+                  "type": "string",
+                  "example": "GET, POST, PUT, DELETE, HEAD, OPTIONS"
+                }
+              },
+              "X-Frame-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "DENY"
+                }
+              },
+              "Content-Length": {
+                "schema": {
+                  "type": "integer",
+                  "example": "23"
+                }
+              },
+              "X-Content-Type-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "nosniff"
+                }
+              },
+              "Referrer-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              },
+              "Cross-Origin-Opener-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                },
+                "example": {
+                  "detail": "Not found."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/user/register/": {
+      "post": {
+        "tags": [
+          "default"
+        ],
+        "summary": "User register",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "example": {
+                  "username": "hi2",
+                  "email": "hi@hi.hi12",
+                  "password": "ji"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Accept",
+            "in": "header",
+            "schema": {
+              "type": "number"
+            },
+            "example": "application/json; q=1.0, */*"
+          },
+          {
+            "name": "Accept-Language",
+            "in": "header",
+            "schema": {
+              "type": "number"
+            },
+            "example": "en-US,en;q=0.9,hi;q=0.8"
+          },
+          {
+            "name": "Connection",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "keep-alive"
+          },
+          {
+            "name": "Cookie",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; tabstyle=raw-tab"
+          },
+          {
+            "name": "DNT",
+            "in": "header",
+            "schema": {
+              "type": "integer"
+            },
+            "example": "1"
+          },
+          {
+            "name": "Origin",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "http://localhost:8000"
+          },
+          {
+            "name": "Referer",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "http://localhost:8000/user/register/"
+          },
+          {
+            "name": "Sec-Fetch-Dest",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "empty"
+          },
+          {
+            "name": "Sec-Fetch-Mode",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "cors"
+          },
+          {
+            "name": "Sec-Fetch-Site",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "same-origin"
+          },
+          {
+            "name": "User-Agent",
+            "in": "header",
+            "schema": {
+              "type": "number"
+            },
+            "example": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+          },
+          {
+            "name": "X-CSRFTOKEN",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "YJwRyQcd1Bwm3yjl9uyIqzT99imDgW8CxeIMkBIqi89YsgRZkPzTxBqA7siSJK4d"
+          },
+          {
+            "name": "X-Requested-With",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "XMLHttpRequest"
+          },
+          {
+            "name": "sec-ch-ua",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "Not_A"
+          },
+          {
+            "name": "sec-ch-ua-mobile",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "?0"
+          },
+          {
+            "name": "sec-ch-ua-platform",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "macOS"
+          },
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "application/json"
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created",
+            "headers": {
+              "Date": {
+                "schema": {
+                  "type": "string",
+                  "example": "Sun, 14 Jan 2024 22:52:58 GMT"
+                }
+              },
+              "Server": {
+                "schema": {
+                  "type": "number",
+                  "example": "WSGIServer/0.2 CPython/3.9.6"
+                }
+              },
+              "Content-Type": {
+                "schema": {
+                  "type": "string",
+                  "example": "application/json"
+                }
+              },
+              "Vary": {
+                "schema": {
+                  "type": "string",
+                  "example": "Accept, Cookie, Origin"
+                }
+              },
+              "Allow": {
+                "schema": {
+                  "type": "string",
+                  "example": "POST, OPTIONS"
+                }
+              },
+              "X-Frame-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "DENY"
+                }
+              },
+              "Content-Length": {
+                "schema": {
+                  "type": "integer",
+                  "example": "52"
+                }
+              },
+              "X-Content-Type-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "nosniff"
+                }
+              },
+              "Referrer-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              },
+              "Cross-Origin-Opener-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                },
+                "example": {
+                  "token": "4cdfdab75ec4746369587162713f38e33b8d3841"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "headers": {
+              "Date": {
+                "schema": {
+                  "type": "string",
+                  "example": "Sun, 14 Jan 2024 22:53:39 GMT"
+                }
+              },
+              "Server": {
+                "schema": {
+                  "type": "number",
+                  "example": "WSGIServer/0.2 CPython/3.9.6"
+                }
+              },
+              "Content-Type": {
+                "schema": {
+                  "type": "string",
+                  "example": "application/json"
+                }
+              },
+              "Vary": {
+                "schema": {
+                  "type": "string",
+                  "example": "Accept, Cookie, Origin"
+                }
+              },
+              "Allow": {
+                "schema": {
+                  "type": "string",
+                  "example": "POST, OPTIONS"
+                }
+              },
+              "X-Frame-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "DENY"
+                }
+              },
+              "Content-Length": {
+                "schema": {
+                  "type": "integer",
+                  "example": "107"
+                }
+              },
+              "X-Content-Type-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "nosniff"
+                }
+              },
+              "Referrer-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              },
+              "Cross-Origin-Opener-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                },
+                "examples": {
+                  "example-0": {
+                    "summary": "already registered User",
+                    "value": {
+                      "username": [
+                        "A user with that username already exists."
+                      ],
+                      "email": [
+                        "user with this email already exists."
+                      ]
+                    }
+                  },
+                  "example-1": {
+                    "summary": "without field User register",
+                    "value": {
+                      "username": [
+                        "This field may not be blank."
+                      ],
+                      "email": [
+                        "user with this email already exists."
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/user/login/": {
+      "post": {
+        "tags": [
+          "default"
+        ],
+        "summary": "login user",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "example": {
+                  "username": "hi1",
+                  "password": "ji"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "application/json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "Date": {
+                "schema": {
+                  "type": "string",
+                  "example": "Sun, 14 Jan 2024 22:55:06 GMT"
+                }
+              },
+              "Server": {
+                "schema": {
+                  "type": "number",
+                  "example": "WSGIServer/0.2 CPython/3.9.6"
+                }
+              },
+              "Content-Type": {
+                "schema": {
+                  "type": "string",
+                  "example": "application/json"
+                }
+              },
+              "Allow": {
+                "schema": {
+                  "type": "string",
+                  "example": "POST, OPTIONS"
+                }
+              },
+              "X-Frame-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "DENY"
+                }
+              },
+              "Content-Length": {
+                "schema": {
+                  "type": "integer",
+                  "example": "52"
+                }
+              },
+              "Vary": {
+                "schema": {
+                  "type": "string",
+                  "example": "Cookie, Origin"
+                }
+              },
+              "X-Content-Type-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "nosniff"
+                }
+              },
+              "Referrer-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              },
+              "Cross-Origin-Opener-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                },
+                "example": {
+                  "token": "7a219946634161ab09a822b4ef4cb691260b30fb"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "headers": {
+              "Date": {
+                "schema": {
+                  "type": "string",
+                  "example": "Sun, 14 Jan 2024 22:55:52 GMT"
+                }
+              },
+              "Server": {
+                "schema": {
+                  "type": "number",
+                  "example": "WSGIServer/0.2 CPython/3.9.6"
+                }
+              },
+              "Content-Type": {
+                "schema": {
+                  "type": "string",
+                  "example": "application/json"
+                }
+              },
+              "Allow": {
+                "schema": {
+                  "type": "string",
+                  "example": "POST, OPTIONS"
+                }
+              },
+              "X-Frame-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "DENY"
+                }
+              },
+              "Content-Length": {
+                "schema": {
+                  "type": "integer",
+                  "example": "68"
+                }
+              },
+              "Vary": {
+                "schema": {
+                  "type": "string",
+                  "example": "Cookie, Origin"
+                }
+              },
+              "X-Content-Type-Options": {
+                "schema": {
+                  "type": "string",
+                  "example": "nosniff"
+                }
+              },
+              "Referrer-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              },
+              "Cross-Origin-Opener-Policy": {
+                "schema": {
+                  "type": "string",
+                  "example": "same-origin"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                },
+                "example": {
+                  "non_field_errors": [
+                    "Unable to log in with provided credentials."
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

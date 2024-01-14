@@ -1,0 +1,2456 @@
+#hellotopbuffer{
+	width:100%;
+	height:60px;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+#hellomaindiv{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+.hello_apps_default{
+	width:100%;
+	height: 100vh;
+}
+.hello_apps_mobile{
+	width:100%;
+	height: 100vh;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+.hello_apps_mobile>div{
+	width:100%;
+	height:auto;
+	margin:auto;
+}
+
+.hello_apps_desktop{
+	width:100%;
+	height:100vh;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+.hello_apps_desktop > div.left{
+	width:50%;
+	height:100%;
+	padding: 0px;
+	margin:auto;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	flex:auto;
+  	-webkit-flex: auto;
+}
+
+.hello_apps_desktop > div.left > div{
+	width:246.7px;
+//	height:432.5px;
+	margin:auto;
+}
+
+.hello_apps_desktop > div.left > div img{
+	max-width: 100%;
+//	max-height: 100%;
+}
+
+
+.hello_apps_desktop > div.right{
+	width:50%;
+	height:100%;
+	padding: 100px 0px 100px;
+	margin:auto;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	flex:auto;
+  	-webkit-flex: auto;
+}
+
+.hello_apps_desktop > div.right > div{
+	width:80%;
+	height:auto;
+	margin:auto;
+}
+
+.hello_apps_desktop > div.right > div > div{
+	width:auto;
+	height: auto;
+	margin:auto;
+	margin-top:2.5rem;
+}
+.hello_apps_desktop > div.right > div > div #iosbtn{
+	margin-left:1rem;
+}
+
+.hello_apps_desktop h1{
+	font-size:2rem;
+	line-height:2.5rem;
+}
+.hello_apps_desktop h1 span{
+	font-size:2rem;
+	line-height: 2.5rem;
+}
+.hello_apps_desktop h2{
+	font-size:1.5rem;
+	line-height:1.75rem;
+	margin-bottom:.2rem;
+}
+
+.hello_apps_desktop > div > div.right h4{
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+.hello_apps_desktop > div > div.right p{
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+
+.hello_notif{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	padding:10px 5% 10px;
+  	color:#ffffff;
+  	font-size: 0.8rem;
+}
+
+.hello_header{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	height: 70vh;
+  	/*height: 800px;*/
+  	background-image:url('https://derbiicdn.storage.googleapis.com/images/landing/bg1.jpg');
+	background-position:  center center;
+	background-size:  cover;
+	background-repeat: no-repeat;
+}
+
+.hello_header > div{
+	width:100%;
+	height:100%;
+	padding:0;
+	z-index: 2;
+}
+.hello_header > div:first-child{
+	background: rgba(20,20,20,.6);
+  	z-index: 1;
+}
+
+.hello_header > div+div > div{
+	width:100%;
+	height: 100%;
+	padding:110px 20% 50px 20%;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+.hello_header > div+div > div > div{
+	width:100%;
+	height: auto;
+	margin:auto;
+	margin-left: 0;
+}
+.hello_header > div+div > div > div > div{
+	width:auto;
+	height: auto;
+	margin:auto;
+	margin-top:2.5rem;
+}
+.hello_header > div+div > div > div > div #routesbtn{
+	margin-left:1rem;
+}
+
+.hello_header h1{
+/*	font-size:2rem;
+	line-height:2.5rem;*/
+	font-size:2.5rem;
+	line-height:3rem;
+}
+.hello_header h1 span{
+	/*	font-size:2rem;
+	line-height:2.5rem;*/
+	font-size:2.5rem;
+	line-height:3rem;
+}
+.hello_header h2{
+/*	font-size:1.5rem;
+	line-height:1.75rem;
+	margin-bottom:.2rem;*/
+	max-width: 60%;
+	font-size:1.75rem;
+	line-height:2rem;
+	margin-bottom:.2rem;
+}
+.hello_header h3{
+	font-size:1.5rem;
+	line-height:1.75rem;	
+	margin-bottom: 0;
+}
+
+.hello_header p{
+	font-size: 1.0rem;
+}
+.hello_header p+p{
+	margin:1.2rem 0 0;
+}
+
+
+
+
+
+.hello_why{
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	padding:100px 5%;
+}
+.hello_why > div{
+	width:100%;
+	max-width: 100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	overflow:hidden;
+}
+.hello_why > div > h1{
+	font-size: 2rem;
+	line-height: 3rem;
+}
+.hello_why > div > h2{
+	width:60%;
+	margin: auto;
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+.hello_why > div > h2 > sup{
+	font-size: .7rem;
+}
+
+.hello_why > div > p{
+	width: 100%;
+	max-width: 800px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+
+.hello_why > div div.features{
+	width:100%;
+	height:auto;
+	margin:auto;
+	margin-top: 20px;
+/*	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-flex-direction: column;
+	flex-direction: column;*/
+}
+.hello_why > div div.features > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+	margin-top:70px;
+/*	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-flex-direction: row;
+	flex-direction: row;*/
+}
+
+.hello_why > div div.features > div > div{
+	width:33%;
+	display: inline-block;
+	height:auto;
+	margin:auto;
+	clear: both;
+	overflow:hidden;
+	vertical-align: top;
+	padding:0 2%;
+/*	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-flex-direction: column;
+	flex-direction: column;*/
+}
+.hello_why > div div.features > div > div > div.image{
+	width:100%;
+	height:auto;
+}
+.hello_why > div div.features > div > div > div.text{
+	width:100%;
+/*	-webkit-flex: auto;
+	flex: auto;*/
+	margin-top: 20px;
+}
+.hello_why > div div.features > div > div > div > img{
+/*	-webkit-filter: grayscale(100%);*/
+}
+.hello_why > div div.features > div > div > div > h4{
+	font-size: 1.5rem;
+	line-height: 1.75rem;
+}
+.hello_why > div div.features > div > div > div > p{
+	font-size: 1.1rem;
+	line-height: 1.2rem;
+}
+
+
+
+
+
+
+
+.hello_how{
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	padding:0px 10%;
+	height: auto;
+}
+.hello_how > div{
+	width:100%;
+	max-width: 100%;
+	height:500vh;
+	margin:auto;
+	clear:both;
+	overflow:hidden;
+	position: relative;
+}
+
+.hello_how > div > div{
+	width:50%;
+	overflow:hidden;
+	padding:0px 0px;
+	position: absolute;
+}
+
+.hello_how > div > div.left{
+	top:0;
+	left:0;
+	height:100vh;
+	z-index: 1;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+.hello_how > div > div.right{
+	top:0;
+	left:50%;
+	right:0;
+	height:100%;
+}
+
+.hello_how div.carousel_outer{
+	width:298px;
+	height:596px;
+	margin:auto;
+	background-image:url('https://derbiicdn.storage.googleapis.com/images/landing/device_pixel.png');
+	background-position:  center center;
+	background-size:  cover;
+	background-repeat: no-repeat;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+
+.hello_how div.carousel{
+/*	padding: 70px 22px 80px;*/
+	width:246.7px;
+	height:432.5px;
+	margin:auto;
+}
+
+.hello_how div.carousel_inner{
+/*	padding: 70px 22px 80px;*/
+	width:1233.5px;
+	height:432.5px;
+	margin:auto;
+	top:0;
+	left:0;
+}
+.hello_how div.carousel_inner_main{
+/*	padding: 70px 22px 80px;*/
+	width:20%;
+	height:432.5px;
+	margin:auto;
+	display: inline-block;
+}
+
+.hello_how div.carousel_inner_main img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.hello_how div.phoneimagebox{
+	display: none;
+}
+
+
+.hello_how > div > div.right > div{
+	width:100%;
+	height:20%;
+	padding: 100px 0px 100px;
+	margin:auto;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+
+.hello_how > div > div.right > div > div{
+	width:80%;
+	height:auto;
+	margin:auto;
+}
+
+.hello_how > div > div.right > div > div > div:not(.phoneimagebox){
+	width:auto;
+	height: auto;
+	margin:auto;
+	margin-top:2.5rem;
+}
+.hello_how > div > div.right > div > div > div:not(.phoneimagebox) #iosbtn{
+	margin-left:1rem;
+}
+
+.hello_how h1{
+	font-size:2rem;
+	line-height:2.5rem;
+}
+.hello_how h1 span{
+	font-size:2rem;
+	line-height: 2.5rem;
+}
+.hello_how h2{
+	font-size:1.5rem;
+	line-height:1.75rem;
+	margin-bottom:.2rem;
+}
+
+.hello_how > div > div.right > div > div > h4{
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+.hello_how > div > div.right > div > div > p{
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+
+
+
+
+
+.hello_pricing{
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	padding:100px 10%;
+}
+.hello_pricing > div{
+	width:100%;
+	max-width: 100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	overflow:hidden;
+}
+.hello_pricing h1{
+	font-size:2rem;
+	line-height:2.5rem;
+}
+.hello_pricing h1 span{
+	font-size:2rem;
+	line-height: 2.5rem;
+}
+.hello_pricing h2{
+	font-size:1.5rem;
+	line-height:1.75rem;
+	margin-bottom:.2rem;
+}
+
+.hello_pricing > div > div{
+	width: 100%;
+	height: auto;
+	margin-top: 70px;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+.hello_pricing > div > div > div{
+	width: 50%;
+	-webkit-flex: auto;
+	flex: auto;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+
+.hello_pricing > div > div > div > div{
+	width:80%;
+	height:auto;
+	margin:auto;
+}
+
+.hello_pricing > div > div > div.left > div > div{
+	width:100%;
+	height:auto;
+}
+.hello_pricing > div > div > div.left > div > h4{
+	margin-bottom:2rem;
+}
+.hello_pricing > div > div > div.left > div > div.fieldbox+div.fieldbox{
+	margin-top: 2rem;
+}
+.hello_pricing > div > div > div.left > div > div.btnbox{
+	margin-top: 20px;
+}
+.hello_pricing > div > div > div.left > div > div.btnbox > div.calcbox{
+	width:100%;
+	margin-top: 20px;
+}
+.hello_pricing > div > div > div.left > div > div.btnbox > div.calcbox > div{
+	width:auto;
+	height: auto;
+	margin: auto;
+}
+.hello_pricing > div > div > div.left > div > div.btnbox > div.calcbox > div button{
+	margin: auto;
+}
+
+.hello_pricing > div > div > div.right > div > h4{
+	margin-top:2rem;
+}
+.hello_pricing > div > div > div.right > div > h4+p{
+	margin-top:1rem;
+}
+.hello_pricing > div > div > div.right > div > p{
+	font-size: 1rem;
+	line-height: 1.2rem;
+}
+.hello_pricing .btn{
+	margin-top: 30px;
+	width: 100%;
+	max-width: 300px;
+}
+
+
+
+
+
+.hello_routesmap{
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	padding:0px 0px;
+	height: calc(100vh - 60px);
+	background: #212121;/*
+  	background: -webkit-linear-gradient(-180deg, #ffffff, #e8e8e8);
+  	background: -o-linear-gradient(-180deg, #ffffff, #e8e8e8);
+  	background: -moz-linear-gradient(-180deg, #ffffff, #e8e8e8);
+  	background: linear-gradient(-180deg, #ffffff, #e8e8e8);*/
+}
+.hello_routesmap > div{
+	width:100%;
+	max-width: 100%;
+	height:100%;
+	margin:auto;
+	clear:both;
+	overflow:hidden;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+
+.hello_routesmap > div > div{
+	overflow:hidden;
+	padding:0px 0px;
+}
+
+.hello_routesmap > div > div.right{
+	width:70%;
+	height:100%;
+	-webkit-flex: auto;
+	flex: auto;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+.hello_routesmap > div > div.left{
+	width:30%;
+	height:100%;
+	padding:50px 0 0;
+	-webkit-flex: auto;
+	flex: auto;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+
+.hello_routesmap div.mapcontainer{
+	width:100%;
+	height: 100%;
+	z-index: 1;
+}
+
+
+.hello_routesmap > div > div.left > div.upper{
+	width:100%;
+	padding:0 5%;
+	-webkit-flex: auto;
+	flex: auto;
+}
+/*
+.hello_routesmap > div > div.left > div.upper > div.left{
+	-webkit-flex: auto;
+	flex: auto;
+}
+.hello_routesmap > div > div.left > div.upper > div.right{
+	-webkit-flex: auto;
+	flex: auto;
+}
+
+.hello_routesmap > div > div.left > div.upper > div.right > div{
+	height:45px;
+	padding: 0px 10px;
+	display: inline-block;
+}
+
+div.routesbtn{
+	width: 45px;
+}
+div.routescounttext{
+	width: 50px;
+	line-height: 45px;
+	font-size: 14px;
+}
+
+.routesbtn{
+	cursor: pointer;
+	background: rgba(50,50,50,0);
+	-webkit-transition:opacity 0.6s;
+	transition:opacity 0.6s;
+}
+.routesbtn:hover{
+	background: rgba(50,50,50,.6);
+	-webkit-transition:opacity 0.6s;
+	transition:opacity 0.6s;
+}
+.routesbtn:active{
+	-webkit-box-shadow:inset 0 3px 2px rgba(250,250,250,0.25);
+	-moz-box-shadow:inset 0 3px 2px rgba(250,250,250,0.25);
+	box-shadow:inset 0 3px 2px rgba(250,250,250,0.25);
+}*/
+
+.hello_routesmap > div > div.left > div.main{
+	width:100%;
+	-webkit-flex: auto;
+	flex: auto;
+	overflow-y:scroll;
+	padding: 30px 0px 50px;
+}
+
+/*.hello_routesmap > div > div.left > div.main > div{
+	background: none;
+	
+	-webkit-border-radius:0px;
+	moz-border-radius:0px;
+	border-radius: 0px;
+}*/
+.hello_routesmap > div > div.left > div.main:-webkit-scrollbar { 
+/*    display: none; */
+}
+div.routebox{
+	background: #212121;
+	width:100%;
+	height:auto;
+	padding: 20px;
+	cursor: pointer;
+	border-top: 1px solid #111111;
+	border-bottom: 1px solid #333333;
+	-webkit-transition:background 0.6s, border 0.6s;
+    transition:background 0.6s, border 0.6s;
+}
+div.routebox > h3{
+	font-size: 1.1rem;
+	line-height: 1.5rem;
+	color: #f5f5f5;
+	font-weight: 300;
+	margin: auto;
+	-webkit-transition:color 0.6s;
+    transition:color 0.6s;
+}
+div.routebox > div{
+	width:100%;
+	height:auto;
+	display: none;
+}
+div.routebox > div > div.title{
+	width:100%;
+	height:auto;
+	padding: 10px 0px;
+	border-bottom: 1px solid #f9f9f9;
+	font-size: .9rem;
+	margin-top: 10px;
+}
+div.routebox > div > div.title .fa{
+	font-size: .7rem;
+}
+div.routebox > div > div.title1{
+	width:100%;
+	height:auto;
+	padding: 5px 0px;
+	font-size: .9rem;
+	margin-top: 5px;
+}
+div.routebox > div > div.title1 .fa{
+	font-size: .7rem;
+}
+div.routebox > div > div.content{
+	width:100%;
+	height:auto;
+	padding: 10px 0px;
+	font-size: .9rem;
+}
+div.routebox > div > div.footer{
+	width:100%;
+	height:auto;
+	margin-top: 10px;
+}
+div.routebox > div > div.footer > div{
+	width:auto;
+	height:auto;
+	float: left;
+}
+div.routebox > div > div.footer > div+div{
+	width:auto;
+	height:auto;
+	float: right;
+}
+
+div.routebox > div > div.footer .fa{
+	font-size: .7rem;
+}
+
+div.routebox:hover{
+/*	border: 1px solid #ffffff;*/
+/*	background: rgba(0,0,0,.8);*/
+	background: #333333;
+	-webkit-transition:background 0.6s, border 0.6s;
+    transition:background 0.6s, border 0.6s;
+}
+div.routebox:hover > h3{
+/*	color: #439fe0;*/
+	color: #ffffff;
+	-webkit-transition:color 0.6s;
+    transition:color 0.6s;
+}
+div.routebox.active{
+	padding: 20px;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+/*	background: rgba(0,0,0,.8);*/
+	background: none;
+/*	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;*/
+	cursor: default;
+}
+div.routebox.active > h3{
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+/*	color: #439fe0;*/
+	color: #ffffff;
+	font-weight: 400;
+}
+div.routebox.active > div{
+	display: block;
+}
+
+
+
+
+
+.hello_routesmap h1{
+	font-size:2rem;
+	line-height:2.5rem;
+	margin: auto;
+}
+.hello_routesmap h1 span{
+	font-size:2rem;
+	line-height: 2.5rem;
+}
+.hello_routesmap h2{
+	font-size:1.5rem;
+	line-height:1.75rem;
+	margin-bottom:.2rem;
+}
+
+.hello_routesmap > div > div.left > div > div > h4{
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+.hello_routesmap > div > div.left > div > div > p{
+	font-size: .9rem;
+	line-height: 1rem;
+}
+
+
+
+
+
+
+
+
+
+.divider-line{
+	height: 0px;
+	border-top: 1px solid #e8e8e8;
+	width: 80%;
+	margin: auto;
+}
+
+
+
+
+.hello_customers{
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	padding:100px 10%;
+}
+.hello_customers > h1{
+	font-size: 2rem;
+	line-height: 3rem;
+}
+.hello_customers > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	overflow:hidden;
+	margin-top: 70px;
+}
+.hello_customers > div > div{
+	width:30%;
+	height:auto;
+	margin:auto;
+	float: left;
+	overflow:hidden;
+	padding: 0px;/*
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	border:1px solid #e8e8e8;*/
+}
+.hello_customers > div > div+div{
+	margin-left: 5%;
+}
+.hello_customers > div > div > div:first-child{
+	padding: 0px;
+	clear: both;
+	overflow: hidden;
+}
+.hello_customers > div > div > div:first-child > p{
+	font-size: 1.2rem;
+	float: left;
+	margin-left: 10px;
+}
+.hello_customers > div > div > div:first-child > p+p{
+	font-size: .9rem;
+	float: right;
+	margin-left: 0px;
+}
+.hello_customers > div > div > div:first-child > img{
+	display: block;
+	float: left;
+	-webkit-border-radius:50%;
+	moz-border-radius:50%;
+	border-radius: 50%;
+	border: 1px solid #f9f9f9;
+}
+.hello_customers > div > div > div:first-child > .bgheading{
+	margin-left: 10px;
+	background: rgba(255,255,255,.6);
+	float: left;
+}
+.hello_customers > div > div > p{
+	font-size: 1rem;
+	margin-top: 15px;
+}
+.hello_customers > div > div > div:last-child{
+	font-size: 0.7rem;
+	padding: 10px 0px;
+}
+
+
+
+
+
+
+
+
+.hello_cta{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	padding:3rem 10%;
+}
+.hello_cta > div{
+	display: inline-block;
+	width:50%;
+	padding: 0 2%;
+//	max-width: 800px;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+.hello_cta > div > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+	border:1px solid #e8e8e8;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	padding: 20px;
+}
+.hello_cta p{
+	float: left;
+	font-size: 1.2rem;
+	max-width: 70%;
+	margin: 0 30px 0 0;
+	text-align: left;
+}
+.hello_cta a.btn{
+	float: right;
+}
+
+
+
+
+
+
+
+.hello_main .head_text{
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding:20px;
+	font-size: 1.1rem;
+}
+
+
+
+@media only screen and (max-width: 1800px) {
+.hello_cta{
+  	padding:3rem 5%;
+}
+.hello_cta p{
+	float: left;
+	font-size: 1.2rem;
+	max-width: 70%;
+	margin: 0 30px 0 0;
+	text-align: left;
+}
+}
+
+@media only screen and (max-width: 1500px) {
+.hello_header > div+div > div{
+	padding:60px 10% 0px 10%;
+}
+
+.hello_cta{
+  	padding:3rem 5%;
+}
+.hello_cta p{
+	float: left;
+	font-size: 1.2rem;
+	max-width: 60%;
+	margin: 0 30px 0 0;
+	text-align: left;
+}
+}
+
+@media only screen and (max-width: 1300px) {
+
+.hello_how{
+	padding:0px 5%;
+}
+
+.hello_how div.carousel_outer{
+	width:200px;
+	height:400px;
+}
+
+.hello_how div.carousel{
+	width:164.46px;
+	height:288.3px;
+}
+
+.hello_how div.carousel_inner{
+	width:822.3px;
+	height:288.3px;
+}
+.hello_how div.carousel_inner_main{
+	width:20%;
+	height:288.3px;
+}
+
+
+
+.hello_how > div > div.right > div{
+	padding: 0px 0px 0px;
+}
+
+.hello_how > div > div.right > div > div{
+	width:80%;
+}
+
+.hello_how > div > div.right > div > div > div:not(.phoneimagebox){
+	width:auto;
+	height: auto;
+	margin:auto;
+	margin-top:2.5rem;
+}
+.hello_how > div > div.right > div > div > div:not(.phoneimagebox) #iosbtn{
+	margin-left:1rem;
+}
+
+.hello_how h1{
+	font-size:2rem;
+	line-height:2.5rem;
+}
+.hello_how h1 span{
+	font-size:2rem;
+	line-height: 2.5rem;
+}
+.hello_how h2{
+	font-size:1.5rem;
+	line-height:1.75rem;
+	margin-bottom:.2rem;
+}
+
+.hello_how > div > div.right > div > div > h4{
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+.hello_how > div > div.right > div > div > p{
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+
+
+
+
+.hello_why{
+	padding:50px 5%;
+}
+.hello_why > div > h1{
+	font-size: 2rem;
+	line-height: 3rem;
+}
+.hello_why > div div.features{
+	margin-top: 20px;
+}
+.hello_why > div div.features > div{
+	margin-top:70px;
+}
+
+.hello_why > div div.features > div > div{
+	width:33%;
+	display: inline-block;
+	height:auto;
+	margin:auto;
+	clear: both;
+	overflow:hidden;
+	vertical-align: top;
+	padding:0 2%;
+}
+.hello_why > div div.features > div > div > div.image{
+	width:100%;
+	height:auto;
+}
+.hello_why > div div.features > div > div > div.text{
+	width:100%;
+	margin-top: 20px;
+}
+.hello_why > div div.features > div > div > div > h4{
+	font-size: 1.5rem;
+	line-height: 1.75rem;
+}
+.hello_why > div div.features > div > div > div > p{
+	font-size: 1.1rem;
+	line-height: 1.2rem;
+}
+
+
+
+.hello_pricing{
+	padding:50px 5%;
+}
+.hello_pricing h1{
+	font-size:2rem;
+	line-height:2.5rem;
+}
+.hello_pricing h1 span{
+	font-size:2rem;
+	line-height: 2.5rem;
+}
+.hello_pricing h2{
+	font-size:1.5rem;
+	line-height:1.75rem;
+	margin-bottom:.2rem;
+}
+
+.hello_pricing > div > div{
+	width: 100%;
+	height: auto;
+	margin-top: 70px;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+.hello_pricing > div > div > div{
+	width: 50%;
+	padding: 0 5%;
+	-webkit-flex: auto;
+	flex: auto;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+
+.hello_pricing > div > div > div.left > div > h4{
+	margin-bottom:2rem;
+}
+.hello_pricing > div > div > div.left > div > div.fieldbox+div.fieldbox{
+	margin-top: 2rem;
+}
+.hello_pricing > div > div > div.left > div > div.btnbox{
+	margin-top: 20px;
+}
+.hello_pricing > div > div > div.left > div > div.btnbox > div.calcbox{
+	width:100%;
+	margin-top: 20px;
+}
+.hello_pricing > div > div > div.left > div > div.btnbox > div.calcbox > div{
+	width:auto;
+	height: auto;
+	margin: auto;
+}
+.hello_pricing > div > div > div.left > div > div.btnbox > div.calcbox > div button{
+	margin: auto;
+}
+
+.hello_pricing > div > div > div.right > div > h4{
+	margin-top:2rem;
+}
+.hello_pricing > div > div > div.right > div > h4+p{
+	margin-top:1rem;
+}
+.hello_pricing > div > div > div.right > div > p{
+	font-size: 1rem;
+	line-height: 1.2rem;
+}
+.hello_pricing .btn{
+	margin-top: 30px;
+	width: 100%;
+	max-width: 300px;
+}
+
+
+.hello_customers{
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	padding:50px 5%;
+}
+.hello_customers > h1{
+	font-size: 2rem;
+	line-height: 3rem;
+}
+.hello_customers > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	overflow:hidden;
+	margin-top: 70px;
+}
+.hello_customers > div > div{
+	width:30%;
+	height:auto;
+	margin:auto;
+	float: left;
+	overflow:hidden;
+	padding: 0px;
+}
+.hello_customers > div > div+div{
+	margin-left: 5%;
+}
+.hello_customers > div > div > div:first-child{
+	padding: 0px;
+	clear: both;
+	overflow: hidden;
+}
+.hello_customers > div > div > div:first-child > p{
+	font-size: 1.2rem;
+	float: left;
+	margin-left: 10px;
+}
+.hello_customers > div > div > div:first-child > p+p{
+	font-size: .9rem;
+	float: right;
+	margin-left: 0px;
+}
+.hello_customers > div > div > div:first-child > img{
+	display: block;
+	float: left;
+	-webkit-border-radius:50%;
+	moz-border-radius:50%;
+	border-radius: 50%;
+	border: 1px solid #f9f9f9;
+}
+.hello_customers > div > div > div:first-child > .bgheading{
+	margin-left: 10px;
+	background: rgba(255,255,255,.6);
+	float: left;
+}
+.hello_customers > div > div > p{
+	font-size: 1rem;
+	margin-top: 15px;
+}
+.hello_customers > div > div > div:last-child{
+	font-size: 0.7rem;
+	padding: 10px 0px;
+}
+
+
+.hello_routesmap > div > div.right{
+	width:60%;
+	height:100%;
+	-webkit-flex: auto;
+	flex: auto;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+.hello_routesmap > div > div.left{
+	width:40%;
+	height:100%;
+	padding:30px 0 0;
+	-webkit-flex: auto;
+	flex: auto;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+
+.hello_routesmap > div > div.left > div.upper{
+	width:100%;
+	padding:0 5%;
+	-webkit-flex: auto;
+	flex: auto;
+}
+
+.hello_routesmap > div > div.left > div.main{
+	width:100%;
+	-webkit-flex: auto;
+	flex: auto;
+	overflow-y:scroll;
+	padding: 20px 0px 30px;
+}
+div.routebox{
+	background: #212121;
+	width:100%;
+	height:auto;
+	padding: 20px;
+	cursor: pointer;
+	border-top: 1px solid #111111;
+	border-bottom: 1px solid #333333;
+	-webkit-transition:background 0.6s, border 0.6s;
+    transition:background 0.6s, border 0.6s;
+}
+div.routebox > h3{
+	font-size: 1rem;
+	line-height: 1.25rem;
+	color: #f5f5f5;
+	font-weight: 300;
+	margin: auto;
+	-webkit-transition:color 0.6s;
+    transition:color 0.6s;
+}
+div.routebox > div{
+	width:100%;
+	height:auto;
+	display: none;
+}
+div.routebox > div > div.title{
+	width:100%;
+	height:auto;
+	padding: 10px 0px;
+	border-bottom: 1px solid #f9f9f9;
+	font-size: .9rem;
+	margin-top: 10px;
+}
+div.routebox > div > div.title .fa{
+	font-size: .7rem;
+}
+div.routebox > div > div.title1{
+	width:100%;
+	height:auto;
+	padding: 5px 0px;
+	font-size: .9rem;
+	margin-top: 5px;
+}
+div.routebox > div > div.title1 .fa{
+	font-size: .7rem;
+}
+div.routebox > div > div.content{
+	width:100%;
+	height:auto;
+	padding: 10px 0px;
+	font-size: .8rem;
+}
+div.routebox > div > div.footer{
+	width:100%;
+	height:auto;
+	margin-top: 10px;
+}
+div.routebox > div > div.footer > div{
+	width:auto;
+	height:auto;
+	float: left;
+}
+div.routebox > div > div.footer > div+div{
+	width:auto;
+	height:auto;
+	float: right;
+}
+
+div.routebox > div > div.footer .fa{
+	font-size: .7rem;
+}
+
+div.routebox:hover{
+	background: #333333;
+	-webkit-transition:background 0.6s, border 0.6s;
+    transition:background 0.6s, border 0.6s;
+}
+div.routebox:hover > h3{
+	color: #ffffff;
+	-webkit-transition:color 0.6s;
+    transition:color 0.6s;
+}
+div.routebox.active{
+	padding: 20px;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	background: none;
+	cursor: default;
+}
+div.routebox.active > h3{
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+/*	color: #439fe0;*/
+	color: #ffffff;
+	font-weight: 400;
+}
+div.routebox.active > div{
+	display: block;
+}
+.hello_routesmap h1{
+	font-size:1.5rem;
+	line-height:2rem;
+	margin: auto;
+}
+.hello_routesmap h1 span{
+	font-size:1.5rem;
+	line-height: 2rem;
+}
+.hello_routesmap h2{
+	font-size:1.25rem;
+	line-height:1.5rem;
+	margin-bottom:.2rem;
+}
+
+.hello_routesmap > div > div.left > div > div > h4{
+	font-size: 1rem;
+	line-height: 1.25rem;
+}
+.hello_routesmap > div > div.left > div > div > p{
+	font-size: .8rem;
+	line-height: 1rem;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+.hello_how > div > div.right > div > div{
+	width:100%;
+}
+
+.hello_how > div > div.right > div > div > div:not(.phoneimagebox){
+	width:auto;
+	height: auto;
+	margin:auto;
+	margin-top:2.5rem;
+}
+.hello_how > div > div.right > div > div > div:not(.phoneimagebox) #iosbtn{
+	margin-left:1rem;
+}
+
+.hello_how h1{
+	font-size:1.5rem;
+	line-height:2rem;
+}
+.hello_how h1 span{
+	font-size:1.5rem;
+	line-height: 2rem;
+}
+.hello_how h2{
+	font-size:1.25rem;
+	line-height:1.55rem;
+	margin-bottom:.2rem;
+}
+
+.hello_how > div > div.right > div > div > h4{
+	font-size: .9rem;
+	line-height: 1.2rem;
+}
+.hello_how > div > div.right > div > div > p{
+	font-size: .9rem;
+	line-height: 1.2rem;
+}
+
+
+.hello_header h1{
+	font-size:2rem;
+	line-height:2.5rem;
+}
+.hello_header h1 span{
+	font-size:2rem;
+	line-height:2.5rem;
+}
+.hello_header h2{
+	max-width: 60%;
+	font-size:1.25rem;
+	line-height:1.5rem;
+	margin-bottom:.2rem;
+}
+.hello_header h3{
+	font-size:1rem;
+	line-height:1.25rem;	
+	margin-bottom: 0;
+}
+
+.hello_header p{
+	font-size: .9rem;
+}
+.hello_header p+p{
+	margin:1.2rem 0 0;
+}
+
+
+.hello_why > div div.features{
+	margin-top: 20px;
+}
+.hello_why > div div.features > div{
+	margin-top:50px;
+}
+
+.hello_why > div div.features > div > div{
+	width:33%;
+	display: inline-block;
+	height:auto;
+	margin:auto;
+	clear: both;
+	overflow:hidden;
+	vertical-align: top;
+	padding:0 2%;
+}
+.hello_why > div div.features > div > div > div.image{
+	width:100%;
+	height:auto;
+}
+.hello_why > div div.features > div > div > div.text{
+	width:100%;
+	margin-top: 20px;
+}
+.hello_why > div div.features > div > div > div > h4{
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+.hello_why > div div.features > div > div > div > p{
+	font-size: .9rem;
+	line-height: 1.2rem;
+}
+
+
+.hello_cta{
+  	padding:2rem 5%;
+}
+.hello_cta p{
+	float: left;
+	font-size: .9rem;
+	max-width: 50%;
+	margin: 0 30px 0 0;
+	text-align: left;
+}
+.hello_cta a.btn{
+	float: right;
+}
+
+
+
+
+.hello_routesmap > div > div.right{
+	width:50%;
+	height:100%;
+	-webkit-flex: auto;
+	flex: auto;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+.hello_routesmap > div > div.left{
+	width:50%;
+	height:100%;
+	padding:30px 0 0;
+	-webkit-flex: auto;
+	flex: auto;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+
+.hello_routesmap > div > div.left > div.upper{
+	width:100%;
+	padding:0 5%;
+	-webkit-flex: auto;
+	flex: auto;
+}
+
+.hello_routesmap > div > div.left > div.main{
+	width:100%;
+	-webkit-flex: auto;
+	flex: auto;
+	overflow-y:scroll;
+	padding: 20px 0px 30px;
+}
+div.routebox{
+	background: #212121;
+	width:100%;
+	height:auto;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-top: 1px solid #111111;
+	border-bottom: 1px solid #333333;
+	-webkit-transition:background 0.6s, border 0.6s;
+    transition:background 0.6s, border 0.6s;
+}
+div.routebox > h3{
+	font-size: .9rem;
+	line-height: 1.2rem;
+	color: #f5f5f5;
+	font-weight: 300;
+	margin: auto;
+	-webkit-transition:color 0.6s;
+    transition:color 0.6s;
+}
+div.routebox > div{
+	width:100%;
+	height:auto;
+	display: none;
+}
+div.routebox > div > div.title{
+	width:100%;
+	height:auto;
+	padding: 10px 0px;
+	border-bottom: 1px solid #f9f9f9;
+	font-size: .8rem;
+	margin-top: 10px;
+}
+div.routebox > div > div.title .fa{
+	font-size: .6rem;
+}
+div.routebox > div > div.title1{
+	width:100%;
+	height:auto;
+	padding: 5px 0px;
+	font-size: .8rem;
+	margin-top: 5px;
+}
+div.routebox > div > div.title1 .fa{
+	font-size: .6rem;
+}
+div.routebox > div > div.content{
+	width:100%;
+	height:auto;
+	padding: 10px 0px;
+	font-size: .7rem;
+}
+div.routebox > div > div.footer{
+	width:100%;
+	height:auto;
+	margin-top: 10px;
+}
+div.routebox > div > div.footer > div{
+	width:auto;
+	height:auto;
+	float: left;
+}
+div.routebox > div > div.footer > div+div{
+	width:auto;
+	height:auto;
+	float: right;
+}
+
+div.routebox > div > div.footer .fa{
+	font-size: .6rem;
+}
+
+div.routebox:hover{
+	background: #333333;
+	-webkit-transition:background 0.6s, border 0.6s;
+    transition:background 0.6s, border 0.6s;
+}
+div.routebox:hover > h3{
+	color: #ffffff;
+	-webkit-transition:color 0.6s;
+    transition:color 0.6s;
+}
+div.routebox.active{
+	padding: 20px;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	background: none;
+	cursor: default;
+}
+div.routebox.active > h3{
+	font-size: 1rem;
+	line-height: 1.25rem;
+/*	color: #439fe0;*/
+	color: #ffffff;
+	font-weight: 400;
+}
+div.routebox.active > div{
+	display: block;
+}
+.hello_routesmap h1{
+	font-size:1.5rem;
+	line-height:2rem;
+	margin: auto;
+}
+.hello_routesmap h1 span{
+	font-size:1.5rem;
+	line-height: 2rem;
+}
+.hello_routesmap h2{
+	font-size:1.25rem;
+	line-height:1.5rem;
+	margin-bottom:.2rem;
+}
+
+.hello_routesmap > div > div.left > div > div > h4{
+	font-size: .8rem;
+	line-height: 1rem;
+}
+.hello_routesmap > div > div.left > div > div > p{
+	font-size: .7rem;
+	line-height: 1rem;
+}
+
+}
+
+
+@media only screen and (max-width: 1100px) {
+.hello_signup.bottom a.btn{
+	float: none;
+}
+.hello_signup.bottom p{
+	float: none;
+	width: 100%;
+	max-width: 100%;
+	margin: 0 0 1.5rem;
+	text-align: center;
+}
+
+
+.hello_pricing{
+	padding:50px 2%;
+}
+
+
+.hello_cta > div > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+	border:1px solid #e8e8e8;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	padding: 20px;
+}
+.hello_cta p{
+	float: none;
+	clear: both;
+	font-size: 1rem;
+	max-width: 100%;
+	margin: 0;
+	text-align: left;
+}
+.hello_cta a.btn{
+	float: none;
+	clear: both;
+	margin-top: 30px;
+}
+}
+
+
+@media only screen and (max-width: 1000px) {
+.hello_apps_desktop > div.right > div > div a.btn{
+	display:block;
+	width:auto;
+	margin:auto;
+	padding:5px 10px;
+	font-size:12px
+}
+.hello_apps_desktop > div.right > div > div a.btn+a.btn{
+	margin-top : 20px;
+
+}
+.hello_apps_desktop h2{
+	font-size:1rem;
+	line-height:1.25rem;
+}
+.hello_apps_desktop > div.left > div{
+	width:200px;
+    margin:auto;
+}
+
+//.hello_apps_desktop > div.left > div img{
+	//max-width: 100%;
+//	max-height: 100%;
+//}
+
+
+
+
+
+.hello_how > div > h1{
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+.hello_how > div > h2{
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+.hello_how > div > div{
+	width:100%;
+	overflow:hidden;
+	padding:0px 0px;
+	position: absolute;
+}
+
+.hello_how > div > div.left{
+	display: none;
+}
+.hello_how > div > div.right{
+	top:0;
+	left:0;
+	right:0;
+	height:100%;
+}
+
+.hello_how div.carousel_outer{
+	width:150px;
+	height:300px;
+}
+
+.hello_how div.carousel{
+	width:123.35px;
+	height:216.23px;
+}
+
+.hello_how div.carousel_inner{
+	width:616.73px;
+	height:216.23px;
+}
+.hello_how div.carousel_inner_main{
+	width:20%;
+	height:216.23px;
+}
+
+.hello_how div.phoneimagebox{
+	display: block;
+	margin-bottom: 30px;
+	margin-left: 0;
+	width: 100%;
+	text-align: left;
+}
+.hello_how div.phoneimagebox img{
+	max-width: 150px;
+	max-height: 300px;
+}
+
+.hello_how h1{
+	font-size:1.25rem;
+	line-height:1.75rem;
+}
+.hello_how h1 span{
+	font-size:1.25rem;
+	line-height: 1.75rem;
+}
+.hello_how h2{
+	font-size:1rem;
+	line-height:1.25rem;
+	margin-bottom:.2rem;
+}
+
+.hello_how > div > div.right > div > div > h4{
+	font-size: .8rem;
+	line-height: 1.2rem;
+}
+.hello_how > div > div.right > div > div > p{
+	font-size: .8rem;
+	line-height: 1.2rem;
+}
+
+.hello_how div.right a.btn{
+	display: table;
+}
+.hello_how > div > div.right > div > div > div:not(.phoneimagebox) #iosbtn{
+	margin-top: 20px;
+	margin-left:0;
+}
+
+/*
+.hello_how > div > div.right > div > div > div:not(.phoneimagebox){
+	width:auto;
+	height: auto;
+	margin:auto;
+	margin-top:2.5rem;
+}
+.hello_how > div > div.right > div > div > div:not(.phoneimagebox) #iosbtn{
+	margin-left:1rem;
+}
+
+.hello_how h1{
+	font-size:1.5rem;
+	line-height:2rem;
+}
+.hello_how h1 span{
+	font-size:1.5rem;
+	line-height: 2rem;
+}
+.hello_how h2{
+	font-size:1.25rem;
+	line-height:1.55rem;
+	margin-bottom:.2rem;
+}
+
+.hello_how > div > div.right > div > div > h4{
+	font-size: .9rem;
+	line-height: 1.2rem;
+}
+.hello_how > div > div.right > div > div > p{
+	font-size: .9rem;
+	line-height: 1.2rem;
+}*/
+
+
+
+.hello_header{
+	height: 100vh;
+}
+
+
+.hello_why > div div.features{
+	margin-top: 30px;
+}
+.hello_why > div div.features > div{
+	margin-top:0px;
+}
+
+.hello_why > div div.features > div > div{
+	width:100%;
+	display: inline-block;
+	height:auto;
+	margin:auto;
+	margin-top:30px;
+	clear: both;
+	overflow:hidden;
+	vertical-align: top;
+	padding:0 2%;
+}
+
+.hello_pricing h2{
+	font-size:1.25rem;
+	line-height:1.5rem;
+	margin-bottom:.2rem;
+}
+
+
+
+
+
+
+
+.hello_routesmap{
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	padding:0px 0px;
+	height: auto;
+	background: #212121;
+}
+.hello_routesmap > div{
+	width:100%;
+	max-width: 100%;
+	height:100%;
+	margin:auto;
+	clear:both;
+	overflow:hidden;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+
+.hello_routesmap > div > div{
+	overflow:hidden;
+	padding:0px 0px;
+}
+.hello_routesmap > div > div.right{
+	display: none;
+}
+.hello_routesmap > div > div.left{
+	width:100%;
+	height:100%;
+	padding:30px 0 0;
+	-webkit-flex: auto;
+	flex: auto;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+
+.hello_routesmap > div > div.left > div.upper{
+	width:100%;
+	padding:0 5%;
+	-webkit-flex: auto;
+	flex: auto;
+}
+
+.hello_routesmap > div > div.left > div.main{
+	width:100%;
+	-webkit-flex: auto;
+	flex: auto;
+	overflow-y:scroll;
+	padding: 20px 0px 30px;
+}
+div.routebox{
+	background: #212121;
+	width:100%;
+	height:auto;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-top: 1px solid #111111;
+	border-bottom: 1px solid #333333;
+	-webkit-transition:background 0.6s, border 0.6s;
+    transition:background 0.6s, border 0.6s;
+}
+div.routebox > h3{
+	font-size: .9rem;
+	line-height: 1.2rem;
+	color: #f5f5f5;
+	font-weight: 300;
+	margin: auto;
+	-webkit-transition:color 0.6s;
+    transition:color 0.6s;
+}
+div.routebox > div{
+	width:100%;
+	height:auto;
+	display: none;
+}
+div.routebox > div > div.title{
+	width:100%;
+	height:auto;
+	padding: 10px 0px;
+	border-bottom: 1px solid #f9f9f9;
+	font-size: .8rem;
+	margin-top: 10px;
+}
+div.routebox > div > div.title .fa{
+	font-size: .6rem;
+}
+div.routebox > div > div.title1{
+	width:100%;
+	height:auto;
+	padding: 5px 0px;
+	font-size: .8rem;
+	margin-top: 5px;
+}
+div.routebox > div > div.title1 .fa{
+	font-size: .6rem;
+}
+div.routebox > div > div.content{
+	width:100%;
+	height:auto;
+	padding: 10px 0px;
+	font-size: .7rem;
+}
+div.routebox > div > div.footer{
+	width:100%;
+	height:auto;
+	margin-top: 10px;
+}
+div.routebox > div > div.footer > div{
+	width:auto;
+	height:auto;
+	float: left;
+}
+div.routebox > div > div.footer > div+div{
+	width:auto;
+	height:auto;
+	float: right;
+}
+
+div.routebox > div > div.footer .fa{
+	font-size: .6rem;
+}
+
+div.routebox:hover{
+	background: #333333;
+	-webkit-transition:background 0.6s, border 0.6s;
+    transition:background 0.6s, border 0.6s;
+}
+div.routebox:hover > h3{
+	color: #ffffff;
+	-webkit-transition:color 0.6s;
+    transition:color 0.6s;
+}
+div.routebox.active{
+	padding: 20px;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	background: none;
+	cursor: default;
+}
+div.routebox.active > h3{
+	font-size: 1rem;
+	line-height: 1.25rem;
+/*	color: #439fe0;*/
+	color: #ffffff;
+	font-weight: 400;
+}
+div.routebox.active > div{
+	display: block;
+}
+.hello_routesmap h1{
+	font-size:1.5rem;
+	line-height:2rem;
+	margin: auto;
+}
+.hello_routesmap h1 span{
+	font-size:1.5rem;
+	line-height: 2rem;
+}
+.hello_routesmap h2{
+	font-size:1.25rem;
+	line-height:1.5rem;
+	margin-bottom:.2rem;
+}
+
+.hello_routesmap > div > div.left > div > div > h4{
+	font-size: .8rem;
+	line-height: 1rem;
+}
+.hello_routesmap > div > div.left > div > div > p{
+	font-size: .7rem;
+	line-height: 1rem;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+.hello_how div.phoneimagebox img{
+	max-width: 100px;
+	max-height: 200px;
+}
+
+.hello_header > div+div > div{
+	padding:60px 5% 0px 5%;
+}
+.hello_header h1{
+	font-size:1.5rem;
+	line-height:2rem;
+}
+.hello_header h1 span{
+	font-size:1.5rem;
+	line-height:2rem;
+}
+.hello_header h2{
+	max-width: 100%;
+	font-size:1rem;
+	line-height:1.25rem;
+	margin-bottom:.2rem;
+}
+.hello_header h3{
+	font-size:.9rem;
+	line-height:1.2rem;	
+	margin-bottom: 0;
+}
+
+.hello_header p{
+	font-size: .8rem;
+}
+.hello_header p+p{
+	margin:1.2rem 0 0;
+}
+
+
+.hello_why > div > h1{
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+
+.hello_pricing h1{
+	font-size:1.5rem;
+	line-height:2rem;
+}
+.hello_pricing h1 span{
+	font-size:1.5rem;
+	line-height: 2rem;
+}
+.hello_pricing h2{
+	font-size:1rem;
+	line-height:1.25rem;
+	margin-bottom:.2rem;
+}
+
+.hello_pricing > div > div{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	display: block;
+}
+.hello_pricing > div > div > div{
+	width: 100%;
+	padding: 0 0;
+	display: block;
+}
+.hello_pricing > div > div > div+div{
+	margin-top: 50px;
+}
+
+.hello_pricing > div > div > div.left > div > h4{
+	margin-bottom:2rem;
+}
+.hello_pricing > div > div > div.left > div > div.fieldbox+div.fieldbox{
+	margin-top: 2rem;
+}
+.hello_pricing > div > div > div.left > div > div.btnbox{
+	margin-top: 20px;
+}
+.hello_pricing > div > div > div.left > div > div.btnbox > div.calcbox{
+	width:100%;
+	margin-top: 20px;
+}
+.hello_pricing > div > div > div.left > div > div.btnbox > div.calcbox > div{
+	width:auto;
+	height: auto;
+	margin: auto;
+}
+.hello_pricing > div > div > div.left > div > div.btnbox > div.calcbox > div button{
+	margin: auto;
+}
+
+.hello_pricing > div > div > div.right > div > h4{
+	margin-top:2rem;
+}
+.hello_pricing > div > div > div.right > div > h4+p{
+	margin-top:1rem;
+}
+.hello_pricing > div > div > div.right > div > p{
+	font-size: .8rem;
+	line-height: 1rem;
+}
+.hello_pricing .btn{
+	margin-top: 30px;
+	width: 100%;
+	max-width: 300px;
+}
+
+
+.hello_customers > h1{
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+.hello_customers > div{
+	margin-top: 50px;
+}
+.hello_customers > div > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+	float: none;
+	clear: both;
+	overflow:hidden;
+	padding: 0px;
+}
+.hello_customers > div > div+div{
+	margin: auto;
+	margin-top: 30px;
+}
+.hello_customers > div > div > div:first-child > p{
+	font-size: 1rem;
+}
+.hello_customers > div > div > div:first-child > p+p{
+	font-size: .8rem;
+}
+.hello_customers > div > div > div:first-child > img{
+	display: block;
+	float: left;
+	-webkit-border-radius:50%;
+	moz-border-radius:50%;
+	border-radius: 50%;
+	border: 1px solid #f9f9f9;
+}
+.hello_customers > div > div > div:first-child > .bgheading{
+	margin-left: 10px;
+	background: rgba(255,255,255,.6);
+	float: left;
+}
+.hello_customers > div > div > p{
+	font-size: .9rem;
+	margin-top: 15px;
+}
+.hello_customers > div > div > div:last-child{
+	font-size: 0.7rem;
+	padding: 10px 0px;
+}
+
+
+
+
+
+
+.hello_how{
+	padding:50px 20px;
+}
+.hello_how > div{
+	width:100%;
+	max-width: 100%;
+}
+.hello_how > div > h1{
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+.hello_how > div > h2 > sup{
+	font-size: .7rem;
+}
+.hello_how > div > p{
+	max-width: 100%;
+}
+
+.hello_how > div > div{
+	margin-top:30px;
+	display: block;
+}
+.hello_how > div > div > div{
+	width:100%;
+	float: none;
+}
+
+.hello_how > div > div > div+div{
+	width:100%;
+	float: none;
+	margin-top: 50px;
+}
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 650px){
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+.hello_pricing > div > ul > li > div > table, .hello_pricing > div > ul > li > div > table > tbody, .hello_pricing > div > ul > li > div > table tr{
+	display:block;
+	clear: both;
+	width:100%;
+}
+.hello_pricing > div > ul > li > div > table tr td:nth-child(1){
+	display:block;
+	float: left;
+	padding:.5rem .5rem .25rem;
+}
+.hello_pricing > div > ul > li > div > table tr td:nth-child(2){
+	display:block;
+	float: left;
+	padding:.5rem .5rem .25rem;
+	margin-left: 1.5rem;
+}
+.hello_pricing > div > ul > li > div > table tr td:nth-child(3){
+	display:block;
+	clear: both;
+	padding:.25rem .5rem .5rem;
+	margin-top: 1.5rem;
+}
+
+.hello_pricing > div > ul > li > div > table tr{
+	border-bottom: 1px solid #e8e8e8;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+.hello_pricing > div > ul > li > div > table tr:last-child{
+	border-bottom: none;
+}
+
+.hello_pricing .btn{
+	max-width: 100%;	
+}
+
+
+}
+
+@media only screen and (max-width: 500px) {
+.hello_how div.fbconvoblockinner{
+	max-width: 300px;
+}
+}
+
+
+@media only screen and (max-width: 320px) {
+
+
+
+.hello_how{
+	padding:30px 10px;
+}
+.hello_how div.fbconvoboxupper{
+	height:200px;
+}
+.hello_how div.fbconvoboxupperinner{
+	margin-top:200px;
+}
+.hello_how div.fbconvoblockinner{
+	max-width: 250px;
+}
+
+
+.hello_nomsngr{
+	padding:30px 10px;
+}
+
+
+.hello_customers{
+	padding:30px 10px;
+}
+
+
+.hello_features{
+  	padding:30px 10px;
+}
+
+}

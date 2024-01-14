@@ -1,0 +1,69 @@
+/* Autocomplete
+----------------------------------*/
+.ui-autocomplete { position: absolute; cursor: default; }       
+/*.ui-autocomplete-loading { background: white url('images/ui-anim_basic_16x16.gif') right center no-repeat; }*/
+ 
+/* workarounds */
+* html .ui-autocomplete { width:1px; } /* without this, the menu expands to 100% in IE6 */
+ 
+/* Menu
+----------------------------------*/
+.ui-menu {
+		outline:none;
+        list-style:none;
+        padding: 0px;
+        margin: 0;
+        display:block;
+        width:177px;
+		background:#ffffff;
+		border-bottom:1px solid #cccccc;
+		border-left:1px solid #cccccc;
+		border-right:1px solid #cccccc;
+		max-height:230px;
+		overflow:auto;
+		moz-box-shadow:    0px 2px 0px 0px #cccccc;
+  		-webkit-box-shadow: 0px 2px 0px 0px #cccccc;
+	  	box-shadow:         0px 2px 0px 0px #cccccc;
+	  	-webkit-border-radius:2px;
+		moz-border-radius:2px;
+		border-radius:2px;
+}
+.ui-menu .ui-menu {
+        margin-top: -3px;
+}
+.ui-menu .ui-menu-item {
+		outline:none;
+        margin:0;
+        padding: 5px 10px;
+        width: 100%;
+		height:auto;
+		-webkit-box-sizing: border-box !important;
+		-moz-box-sizing: border-box !important;
+		box-sizing: border-box !important;
+}
+.ui-menu .ui-menu-item a {
+		outline:none;
+        text-decoration:none;
+        display:block;
+/*        padding:.2em .4em;*/
+		height:auto;
+        zoom:1;
+		font-size: 0.9rem;
+    	line-height: 1.9rem;
+    	padding: 0 0.8rem;
+		font-family:Lato, sans-serif;
+		-webkit-font-smoothing:antialiased;
+		font-smoothing:always;
+		color:#565656;
+		font-weight: 400;
+		-webkit-border-radius:10px;
+		moz-border-radius:10px;
+		border-radius:10px;
+}
+.ui-menu .ui-menu-item a.ui-state-hover,
+.ui-menu .ui-menu-item a.ui-state-active {
+/*        margin: -1px;*/
+		background:#cfe5ff;
+		color:#1e72cb;
+		font-weight: 900;
+}

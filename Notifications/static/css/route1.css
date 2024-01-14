@@ -1,0 +1,1158 @@
+#routetopbuffer{
+	width:100%;
+	height:60px;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+#routemaindiv{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+.route_notif{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	padding:10px 5% 10px;
+  	color:#ffffff;
+  	font-size: 0.8rem;
+}
+
+
+
+
+.route_routesmap{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	height: 100vh;
+}
+
+.route_routesmap > div.mapcontainer{
+	width:100%;
+	height: 100%;
+	z-index: 1;
+}
+.route_routesmap > div.overlay{
+	left: 0;
+	top: 60px;
+	bottom: 0;
+	width:40%;
+	padding:50px 2%;
+  	z-index: 2;
+/*  	background: #212121;*/
+  	-webkit-flex: auto;
+	flex: auto;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+.route_routesmap h1{
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+.route_routesmap > div.overlay > div{
+	width:100%;
+	clear: both;
+	overflow: hidden;
+  	height: auto;
+  	background: rgba(0,0,0,.6);
+  	padding: 20px;
+  	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+}
+.route_routesmap > div.overlay > div.upper > div{
+	width:100%;
+	height:auto;
+}
+.route_routesmap > div.overlay > div.upper > div.first > div.title{
+	width:100%;
+	height:auto;
+	padding: 10px 0px;
+	border-bottom: 1px solid #f9f9f9;
+	font-size: .9rem;
+	margin-top: 10px;
+}
+.route_routesmap > div.overlay > div.upper > div.first > div.title .fa{
+	font-size: .7rem;
+}
+.route_routesmap > div.overlay > div.upper > div.first > div.content{
+	width:100%;
+	height:auto;
+	padding: 10px 0px;
+	font-size: .9rem;
+}
+.route_routesmap > div.overlay > div.upper > div.first > div.footer{
+	width:100%;
+	height:auto;
+	margin-top: 10px;
+}
+.route_routesmap > div.overlay > div.upper > div.first > div.footer > div{
+	width:auto;
+	height:auto;
+	float: left;
+}
+.route_routesmap > div.overlay > div.upper > div.first > div.footer > div+div{
+	width:auto;
+	height:auto;
+	float: right;
+}
+.route_routesmap > div.overlay > div.upper > div.first > div.footer .btn_outline.btn_transparent.btnwhite.active,
+	.route_routesmap > div.overlay > div.upper > div.first > div.footer .btn_outline.btn_transparent.btnwhite.hover,
+	.route_routesmap > div.overlay > div.upper > div.first > div.footer .btn_outline.btn_transparent.btnwhite:active,
+	.route_routesmap > div.overlay > div.upper > div.first > div.footer .btn_outline.btn_transparent.btnwhite:focus,
+	.route_routesmap > div.overlay > div.upper > div.first > div.footer .btn_outline.btn_transparent.btnwhite:hover{
+	color:#FFC400!important;
+}
+.route_routesmap > div.overlay > div.upper > div.first > div.footer .fa{
+	font-size: .7rem;
+}
+
+
+
+.route_routesmap > div.overlay > div.upper > div.second{
+	display: none;
+}
+.route_routesmap > div.overlay > div.upper > div.second > p:first-of-type{
+	margin-bottom: 1rem;
+}
+.route_routesmap > div.overlay > div.upper > div.second > p.error{
+	margin-bottom: 1rem;
+/*	display: none;*/
+	font-size: .9rem;
+}
+.route_routesmap > div.overlay > div.upper > div.second > form > p{
+	margin-top: 1rem;
+	font-size: .9rem;
+}
+
+.route_routesmap > div.overlay > div.upper > div.second > form{
+	display: block;
+	clear: both;
+}
+.route_routesmap > div.overlay > div.upper > div.second div.fieldbox{
+	clear: both;
+	margin-top: 1rem;
+}
+.route_routesmap > div.overlay > div.upper > div.second div.double input[type=text], .route_routesmap > div.overlay > div.upper > div.second div.double select, .route_routesmap > div.overlay > div.upper > div.second div.double input[type=password]{
+	width:49.2%;
+	display: inline-block;
+}
+.route_routesmap > div.overlay > div.upper > div.second div.double input[type=text]+input[type=text], .route_routesmap > div.overlay > div.upper > div.second div.double select+select, .route_routesmap > div.overlay > div.upper > div.second div.double input[type=text]+input[type=password]{
+	margin-left: 1.6%;
+}
+.route_routesmap > div.overlay > div.upper > div.second div.double:last-child > table{
+	float: left;
+	width: auto;
+}
+.route_routesmap > div.overlay > div.upper > div.second div.double:last-child > button{
+	float: right;
+}
+
+.route_routesmap > div.overlay > div.upper > div.third{
+	display: none;
+}
+
+
+
+
+
+
+
+.route_how{
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	padding:50px 10%;
+}
+.route_how > div{
+	width:100%;
+	max-width: 100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	overflow:hidden;
+}
+.route_how > div > h1{
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+.route_how > div > h2 > sup{
+	font-size: .7rem;
+}
+
+.route_how > div > p{
+	width: 100%;
+	max-width: 800px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.route_how > div > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	overflow:hidden;
+	margin-top:50px;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+}
+
+.route_how > div div.apps{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear: both;
+	overflow:hidden;
+	margin-top: 50px;
+}
+.route_how > div div.apps > div{
+	width:40%;
+	height:auto;
+	margin:auto;
+	float: left;
+	overflow:hidden;
+}
+.route_how > div div.apps > div+div{
+	float: right;
+}
+.route_how > div div.apps > div > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear: both;
+	overflow:hidden;
+	padding: 15px 15px 10px;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	border: 1px solid #e8e8e8;
+}
+.route_how > div div.apps > div > div > p{
+	margin-top:20px;
+}
+.route_how > div div.apps > div > div > p+div{
+	width: 100%;
+	height: 50px;
+}
+
+
+.divider-line{
+	height: 0px;
+	border-top: 1px solid #e8e8e8;
+	width: 80%;
+	margin: auto;
+}
+
+
+.route_nomsngr{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	padding:50px 10%;
+}
+.route_nomsngr > div{
+	width:100%;
+	max-width: 800px;
+	height:auto;
+	margin:auto;
+	clear:both;
+	overflow:hidden;
+}
+.route_nomsngr > div > h2{
+}
+.route_nomsngr > div > p{
+	font-size: 1rem;
+}
+
+
+
+
+.route_customers{
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	padding:50px 10%;
+}
+.route_customers > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	overflow:hidden;
+	margin-top: 50px;
+}
+.route_customers > div > div{
+	width:30%;
+	height:auto;
+	margin:auto;
+	float: left;
+	overflow:hidden;
+	padding: 0px;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	border:1px solid #e8e8e8;
+}
+.route_customers > div > div+div{
+	margin-left: 3%;
+}
+.route_customers > div > div > div:first-child{
+	padding: 15px 15px 0px;
+	clear: both;
+	overflow: hidden;
+}
+.route_customers > div > div > div:first-child > p{
+	font-size: 1.1rem;
+	float: left;
+}
+.route_customers > div > div > div:first-child > img{
+	display: block;
+	float: right;
+	-webkit-border-radius:50%;
+	moz-border-radius:50%;
+	border-radius: 50%;
+}
+.route_customers > div > div > div:first-child+p{
+	font-size: 0.9rem;
+	margin-bottom: 15px;
+	padding: 0px 15px 0px;
+}
+.route_customers > div > div > div:last-child{
+	font-size: 0.7rem;
+	padding: 10px 15px 10px;
+}
+
+
+
+
+
+
+
+
+.route_signup.bottom{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	padding:3rem 10%;
+}
+.route_signup.bottom > div{
+	width:auto;
+	max-width: 800px;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+	border:1px solid #e8e8e8;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	padding: 20px;
+}
+.route_signup.bottom p{
+	float: left;
+	font-size: 1.2rem;
+	max-width: 550px;
+	margin: 0 30px 0 0;
+	text-align: left;
+}
+.route_signup.bottom a.btn{
+	float: right;
+}
+
+
+
+
+.route_features{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	padding:50px 5%;
+  	background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ),
+    url('https://derbiicdn.storage.googleapis.com/images/back_commute.jpg');
+/*  	background-image: url('https://derbiicdn.storage.googleapis.com/images/pattern5.png'), linear-gradient(-150deg, #F59547 0%, #459187 97%);*/
+	background-position: center;
+	background-repeat: no-repeat;
+/*  	background-size: 380px, contain;*/
+}
+.route_features > div{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	margin: auto;
+}
+.route_features > div > h5{
+	margin-bottom: 20px;
+}
+.route_features > div+div{
+	margin-top: 30px;
+}
+.route_features > div+div > div{
+	width:25%;
+	height:auto;
+	margin:auto;
+	float: left;
+	overflow:hidden;
+}
+.route_features > div+div > div div.shadow-box{
+	width:90%;
+	height:auto;
+	margin:auto;
+	clear: both;
+	overflow:hidden;
+	padding: 15px;
+	background:rgba(0,0,0,.6);
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+}
+.route_features > div+div > div div.shadow-box > div.image{
+	line-height: 50px;
+	width: 100%;
+  	padding:10px 0px;
+  	margin-bottom: 10px;
+}
+.route_features > div+div > div div.shadow-box > div.image+div{
+	width: 100%;
+  	height: auto;
+}
+.route_features > div+div > div div.shadow-box p{
+	width: 100%;
+}
+.route_features > div+div > div div.shadow-box p+p{
+	width: 100%;
+  	font-size: 0.9rem;
+}
+
+
+.route_pricing{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	padding:3rem 10%;
+}
+.route_pricing > div{
+	width:100%;
+	max-width: 1000px;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+.route_pricing h2{
+	font-size: 2.5rem;
+	line-height: 2.75rem;
+	margin-bottom:2rem;
+}
+
+.route_pricing > div > div{
+	border:1px solid #e8e8e8;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	padding:15px;
+	width: 100%;
+	max-width: 500px;
+	margin: auto;
+}
+.route_pricing > div > div > h4{
+	font-size: 1rem;
+	line-height: 1.25rem;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.route_pricing > div > div > div{
+	font-size: 1rem;
+	margin-top: 10px;
+	width:100%;
+}
+.route_pricing > div > div > div > div{
+	width:100%;
+}
+.route_pricing > div > div > div > div:first-child+div{
+	margin-top: 10px;
+}
+.route_pricing > div > div > div > div:last-child{
+	margin-top: 10px;
+}
+
+.pricingspan1 .fa-inr{
+	font-size: .8rem;
+	position: relative;
+	top:-.25rem;
+}
+.route_pricing > div > div > div .pricingspan2{
+	font-size: 1rem;
+}
+.route_pricing > div > div > div .pricingspan3{
+	font-size: 2rem;
+	text-shadow:0 3px 1px rgba(0,0,0,.1);
+}
+.pricingspan3 .fa-inr{
+	font-size: 1.2rem;
+	position: relative;
+	top:-.75rem;
+}
+
+
+
+.route_pricing ul, li{
+	padding:0;
+	margin: 0;
+}
+.route_pricing > div > ul > li{
+	padding:1rem 0;
+/*	border-top:1px solid rgba(255,255,255,.2);*/
+	display: block;
+}
+
+.route_pricing > div > ul{
+	margin-top: 30px;
+}
+
+.route_pricing > div > ul > li:first-child{
+	border:none;
+}
+
+.route_pricing > div > ul > li > div{
+	border:1px solid #e8e8e8;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	padding:15px 15px 10px;
+	width: 90%;
+	max-width: 500px;
+	margin: auto;
+}
+.route_pricing > div > ul > li > div > h4{
+	font-size: .9rem;
+	line-height: 1.25rem;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.route_pricing > div > ul > li > div > table{
+	width:100%;
+	font-size: .8rem;
+}
+.route_pricing > div > ul > li > div > table tr{
+	padding:.25rem 0;
+}
+.route_pricing > div > ul > li > div > table tr td{
+	padding:.25rem .5rem;
+}
+.route_pricing > div > ul > li > div > table tr td:first-child{
+	text-align: center;
+}
+.route_pricing > div p.footnote{
+	font-size: .8rem;
+	text-align: left;
+	padding:5px 10px;
+	width: 90%;
+	max-width: 500px;
+	margin:auto;
+}
+.route_pricing > div p.footnote.footnote_upper{
+	width: 100%;
+	margin:auto;
+}
+.route_pricing > div p.footnote{
+	margin-top: 20px;
+}
+.route_pricing .btn{
+	margin-top: 30px;
+	width: 100%;
+	max-width: 300px;
+}
+
+
+.route_support{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	padding:5rem 10%;
+}
+.route_support > div{
+	width:100%;
+	max-width: 1000px;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+.route_support > div > h2{
+	font-size:2.5rem;
+	line-height:3rem;
+	margin-bottom: 2rem;
+}
+.route_support > div > img{
+	top:-1rem;
+}
+
+.support_main{
+	width: 100%;
+}
+.support_main ul{
+	list-style:none;margin-left:0;margin-bottom:0;padding: 0;
+}
+.support_main ul li{padding:1.375rem 0 .875rem;border-bottom:2px solid #e8e8e8;}
+.support_main ul li h4{margin-bottom:1rem}
+.support_main ul li h4 a{display:block;position:relative;padding-left:1rem; padding-right:5rem;}
+.support_main ul li h4 a:hover{text-decoration:none;}
+.support_main ul li h4 a i.fa:before{display:block;position:absolute;top:0;right:1rem;font-size:1.5rem;color:#663553;}
+.support_main ul li.expanded h4 a i.fa:before{color:#999999;}
+.support_main ul li.expanded:hover h4 a i.fa:before{color:#999999;}
+.support_main ul li p,.support_main ul li ul{display:none;padding-left:1rem;padding-right:5rem;font-size:1rem;line-height:1.25rem;color: #656565;}
+.support_main ul li.expanded p,.support_main ul li.expanded ul{display:block;}
+.support_main ul li p a{color: #8e4a74;text-decoration: underline;}
+.support_main ul li li{border-bottom:none;margin-bottom:.75rem;padding-top:0;padding-bottom:0;list-style-type:disc;}
+.support_main ul li.expanded h4 a i.ts_icon:before{color:#9e9ea6}
+.support_main ul li.expanded p,.support_main ul li.expanded ul{display:block;}
+.support_main ul li:hover{background:#f9f9f9;}
+.support_main ul li.expanded:hover h4 a i.ts_icon:before{color:#3aa3e3;}
+
+
+.route_main .head_text{
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding:20px;
+	font-size: 1.1rem;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+
+.route_how{
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	padding:50px 2%;
+}
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+.route_header > div > div > div.image{
+	height:100%;
+	line-height: 100%;
+}
+.route_header > div > div > div.image > img{
+	max-width:100%;
+	max-height:100%;
+}
+
+
+.route_how div.fbconvoblockinner{
+	max-width: 240px;
+}
+}
+
+
+@media only screen and (max-width: 1100px) {
+.route_signup.bottom a.btn{
+	float: none;
+}
+.route_signup.bottom p{
+	float: none;
+	width: 100%;
+	max-width: 100%;
+	margin: 0 0 1.5rem;
+	text-align: center;
+}
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+
+.route_header > div > div > div.image{
+	height:100%;
+	line-height: 100%;
+}
+.route_header > div > div > div.image > img{
+	height:100%;
+	width:90%;
+}
+.route_header > div > div+div > h1{
+	font-size:2.5rem;
+	line-height:3rem;
+}
+.route_header > div > div+div > h3{
+	font-size:1.25rem;
+	line-height:1.5rem;
+}
+
+
+.route_how > div > h1{
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+.route_how > div > h2{
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+}
+.route_how div.fbconvoboxupper{
+	width:100%;
+	height:500px;
+	margin:auto;
+	clear: both;
+	overflow:hidden;
+	border-bottom: 1px solid #e2e2e2;
+}
+.route_how div.fbconvoboxupperinner{
+	width:100%;
+	height:auto;
+	margin:auto;
+	margin-top:500px;
+	clear: both;
+	overflow:hidden;
+}
+
+
+
+
+.route_how div.fbconvoblockinner{
+	max-width: 220px;
+}
+
+
+
+
+.route_customers{
+	padding:50px 2%;
+}
+
+
+
+
+.route_features{
+  	padding:50px 2%;
+}
+.route_features > div+div > div{
+	width:50%;
+	height:auto;
+	margin:auto;
+	float: left;
+	overflow:hidden;
+}
+.route_features > div+div > div:nth-child(3){
+	margin-top: 20px;
+}
+.route_features > div+div > div:nth-child(4){
+	margin-top: 20px;
+}
+.route_features > div+div > div div.shadow-box{
+	width:90%;
+	height:auto;
+	margin:auto;
+	clear: both;
+	overflow:hidden;
+	padding: 15px;
+	background:rgba(0,0,0,.6);
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+}
+.route_features > div+div > div div.shadow-box > div.image{
+	line-height: 50px;
+	width: 25%;
+  	padding:10px 0px;
+  	float: left;
+}
+.route_features > div+div > div div.shadow-box > div.image+div{
+	width: 70%;
+  	height: auto;
+  	float: right;
+}
+.route_features > div+div > div div.shadow-box p{
+	width: 100%;
+	text-align: left;
+}
+.route_features > div+div > div div.shadow-box p+p{
+	width: 100%;
+  	font-size: 0.8rem;
+  	text-align: left;
+}
+
+
+}
+
+@media only screen and (max-width: 900px) {
+
+.route_header > div > div+div > h1{
+	font-size:2rem;
+	line-height:2.5rem;
+}
+.route_header > div > div+div > p{
+	font-size:.8rem;
+}
+
+
+.route_how > div > div > div+div div.shadow-box.msngr > p{
+	font-size: 1rem;
+}
+.route_how > div > div > div+div div.shadow-box.msngr > ol{
+	font-size: 1rem;
+}
+.route_how > div > div > div+div div.shadow-box.msngr+p{
+	font-size: 1rem;
+}
+
+
+
+.route_pricing{
+  	padding:3rem 30px;
+}
+.route_pricing > div > div{
+	max-width: 90%;
+}
+.route_pricing > div > ul > li > div{
+	max-width: 90%;
+}
+.route_pricing > div p.footnote{
+	max-width: 90%;
+}
+.route_pricing > div p.footnote.footnote_upper{
+	max-width: 90%;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+.route_header{
+	padding:50px 20px 50px;
+}
+.route_header > div{
+	max-width: 100%;
+	display: block;
+}
+
+.route_header > div > div{
+	width:100%;
+	clear: both;
+	float: none;
+	text-align: center;
+}
+.route_header > div > div{
+	float: none;
+	text-align: center;
+	padding: 0px 0px 00px;
+	position: relative;
+	margin-bottom: 20px;
+}
+.route_header > div > div+div{
+	padding: 0px;
+}
+.route_header > div > div > div.image{
+	width: 100%;
+	text-align: center;
+}
+.route_header > div > div > div.image > img{
+	max-width:70%;
+	height: auto;
+}
+.route_header > div > div > div.image-fade{
+	display: block;
+	position:absolute;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    height:50px;
+    background: -moz-linear-gradient(top,  rgba(255,229,127,0) 0%, rgba(255,196,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,229,127,0)), color-stop(100%,rgba(255,196,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,229,127,0) 0%,rgba(255,196,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,229,127,0) 0%,rgba(255,196,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,229,127,0) 0%,rgba(255,196,0,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,229,127,0) 0%,rgba(255,196,0,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0089fff1', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+.route_header > div > div+div > h1{
+	font-size:2.5rem;
+	line-height:3rem;
+}
+.route_header > div > div+div > p{
+	font-size:1rem;
+}
+
+
+
+
+
+
+.route_how{
+	padding:50px 20px;
+}
+.route_how > div{
+	width:100%;
+	max-width: 100%;
+}
+.route_how > div > h1{
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+.route_how > div > h2 > sup{
+	font-size: .7rem;
+}
+.route_how > div > p{
+	max-width: 100%;
+}
+
+.route_how > div > div{
+	margin-top:30px;
+	display: block;
+}
+.route_how > div > div > div{
+	width:100%;
+	float: none;
+}
+/*.route_how > div > div > div > p{
+	font-size: 1rem;
+}*/
+.route_how div.fbconvobox{
+	padding:10px 20px;
+	margin-top:30px;
+	clear: both;
+}
+.route_how div.fbconvoboxupper{
+	height:350px;
+}
+.route_how div.fbconvoboxupperinner{
+	margin-top:350px;
+}
+.route_how div.fbconvoblockinner{
+	max-width: 500px;
+}
+
+.route_how > div > div > div+div{
+	width:100%;
+	float: none;
+	margin-top: 50px;
+}
+
+.route_how > div > div > div+div div.shadow-box.msngr > p{
+	font-size: .9rem;
+}
+.route_how > div > div > div+div div.shadow-box.msngr > ol{
+	font-size: .9rem;
+}
+.route_how > div > div > div+div div.shadow-box.msngr+p{
+	font-size: .9rem;
+}
+
+
+
+.route_nomsngr{
+	padding:50px 20px;
+}
+.route_nomsngr > div{
+	max-width: 100%;
+}
+.route_nomsngr > div div.apps > div{
+	width:60%;
+	height:auto;
+	margin:auto;
+	float: none;
+	clear: both;
+	overflow:hidden;
+}
+.route_nomsngr > div div.apps > div+div{
+	float: none;
+	clear: both;
+	margin-top: 20px;
+}
+
+
+
+
+
+.route_customers{
+	padding:50px 20px;
+}
+.route_customers > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	overflow:hidden;
+	margin-top: 50px;
+}
+.route_customers > div > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+	float: none;
+	overflow:hidden;
+	padding: 0px;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+}
+.route_customers > div > div+div{
+	margin: auto;
+	margin-top: 30px;
+}
+.route_customers > div > div > div:first-child > p{
+	font-size: 1rem;
+}
+.route_customers > div > div > div:first-child+p{
+	font-size: 0.8rem;
+}
+.route_customers > div > div > div{
+	font-size: 0.7rem;
+	padding: 10px 15px 10px;
+}
+
+
+
+.route_features{
+  	padding:50px 20px;
+}
+
+
+
+
+.route_pricing{
+  	padding:2rem 20px;
+}
+
+
+
+.route_support{
+	padding:3rem 20px;
+}
+.route_support > div{
+	max-width: 100%;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 650px){
+.route_features > div+div > div{
+	width:100%;
+	height:auto;
+	margin:auto;
+	float: none;
+	clear: both;
+	overflow:hidden;
+}
+.route_features > div+div > div:nth-child(2), .route_features > div+div > div:nth-child(3), .route_features > div+div > div:nth-child(4){
+	margin-top: 20px;
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+.route_how div.fbconvoblockinner{
+	max-width: 450px;
+}
+
+
+
+.route_pricing > div > ul > li > div > table, .route_pricing > div > ul > li > div > table > tbody, .route_pricing > div > ul > li > div > table tr{
+	display:block;
+	clear: both;
+	width:100%;
+}
+.route_pricing > div > ul > li > div > table tr td:nth-child(1){
+	display:block;
+	float: left;
+	padding:.5rem .5rem .25rem;
+}
+.route_pricing > div > ul > li > div > table tr td:nth-child(2){
+	display:block;
+	float: left;
+	padding:.5rem .5rem .25rem;
+	margin-left: 1.5rem;
+}
+.route_pricing > div > ul > li > div > table tr td:nth-child(3){
+	display:block;
+	clear: both;
+	padding:.25rem .5rem .5rem;
+	margin-top: 1.5rem;
+}
+
+.route_pricing > div > ul > li > div > table tr{
+	border-bottom: 1px solid #e8e8e8;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+.route_pricing > div > ul > li > div > table tr:last-child{
+	border-bottom: none;
+}
+
+.route_pricing .btn{
+	max-width: 100%;	
+}
+
+
+}
+
+@media only screen and (max-width: 500px) {
+.route_how div.fbconvoblockinner{
+	max-width: 300px;
+}
+}
+
+
+@media only screen and (max-width: 320px) {
+.route_header{
+	padding:30px 10px 30px;
+}
+
+
+.route_how{
+	padding:30px 10px;
+}
+.route_how div.fbconvoboxupper{
+	height:200px;
+}
+.route_how div.fbconvoboxupperinner{
+	margin-top:200px;
+}
+.route_how div.fbconvoblockinner{
+	max-width: 250px;
+}
+
+
+.route_nomsngr{
+	padding:30px 10px;
+}
+
+
+.route_customers{
+	padding:30px 10px;
+}
+
+
+.route_features{
+  	padding:30px 10px;
+}
+
+}

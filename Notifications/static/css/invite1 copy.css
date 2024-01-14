@@ -1,0 +1,848 @@
+#invitetopbuffer{
+	width:100%;
+	height:0px;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+#invitemaindiv{
+	width:100%;
+	height:auto;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+//	font-family: 'Open Sans', sans-serif;
+}
+
+
+.invite_header{
+	clear: both;
+  	overflow: hidden;
+  	width: 100%;
+  	height: auto;
+  	min-height: 100vh;
+  	/*height: 800px;*/
+}
+
+
+.invite_header > .background {
+	z-index: -2;
+    width: 100%;
+    height: 100%;
+    background: #f6f9fc;
+}
+
+.invite_header > .stripes {
+	z-index: -1;
+    width: 100%;
+    height: 700px;
+    top:0;
+    transform: skewY(-12deg);
+    transform-origin: 0;
+}
+
+.invite_header > .stripes .stripe {
+	position: absolute;
+    height: 50px;
+}
+
+.invite_header > .stripes .gradient {
+    background-image: linear-gradient(90deg, #4fcbce, #58bbed 30%, #7e9aff 58%, #ce8beb);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    margin-bottom: 50px
+}
+
+.invite_header > .stripes .stripe.below {
+    bottom: -50px;
+    left: calc(100% - 440px);
+    right: calc(50% - 572px);
+    background-image: linear-gradient(90deg, #f6f9fc, #edf3fa 95%)
+}
+
+.invite_header > .stripes .stripe.s1 {
+    background-image: linear-gradient(90deg, #77f7ad, #3fe2db);
+    bottom: 0;
+    left: 0;
+    right: 70%;
+}
+
+.invite_header > .stripes .stripe.s2 {
+    background-image: linear-gradient(90deg, #edf6ff 6%, #edf6ff 23%, #fff 95%);
+    bottom: 0;
+    left: 30%;
+    right: 40%;
+}
+
+.invite_header > .stripes .stripe.s3 {
+    background-image: linear-gradient(270deg, #ffcd42 3%, #f6e870);
+    bottom: 0;
+    left: 70%;
+    right: 0;
+}
+
+.invite_header > .stripes .stripe.s4 {
+    background-image: linear-gradient(90deg, #5dd8f6, #52e4e7 98%);
+    bottom: 50px;
+    left: 0;
+    right: 88%;
+}
+
+.invite_header > .stripes .stripe.s5 {
+    background-image: linear-gradient(90deg, #5dd1f6, #6acbf9 98%);
+    bottom: 50px;
+    left: 12%;
+    right: 68%;
+}
+
+.invite_header > .stripes .stripe.s6 {
+    background-image: linear-gradient(90deg, #facb6c, #ffab43 98%);
+    bottom: 50px;
+    left: 75%;
+    right: 0;
+}
+
+.invite_header > .stripes .stripe.s7 {
+    background-image: linear-gradient(90deg, #8a7dff 3%, #c585f0 97%);
+    bottom: 100px;
+    left: 72%;
+    right: 0;
+}
+
+.invite_header > .stripes .stripe.s8 {
+    background-image: linear-gradient(90deg, hsla(0, 0%, 100%, .25) 3%, hsla(0, 0%, 100%, 0) 96%);
+    mix-blend-mode: soft-light;
+    bottom: 150px;
+    left: 5%;
+    right: 82%;
+}
+
+.invite_header > .stripes .stripe.s9 {
+    background: #fff;
+    opacity: .15;
+    mix-blend-mode: soft-light;
+    bottom: 150px;
+    left: 50%;
+    right: 36%;
+}
+
+.invite_header > .stripes .stripe.s10 {
+    background: #fff;
+    opacity: .15;
+    mix-blend-mode: soft-light;
+    bottom: 150px;
+    left: 91%;
+    right: 0;
+}
+
+.invite_header > .stripes .stripe.s11 {
+    background: rgba(0, 0, 0, .12);
+    mix-blend-mode: soft-light;
+    bottom: 200px;
+    left: 16%;
+    right: 71%
+}
+
+.invite_header > .stripes .stripe.s12 {
+    background-image: linear-gradient(90deg, transparent, rgba(0, 0, 0, .65) 97%);
+    mix-blend-mode: soft-light;
+    opacity: .27;
+    bottom: 200px;
+    left: 61%;
+    right: 79%;
+}
+
+.invite_header > .stripes .stripe.s13 {
+    background-image: linear-gradient(90deg, #d98cf2, #f194e3 97%);
+    bottom: 250px;
+    right: 0;
+    left: 82%;
+}
+
+.invite_header > .stripes .stripe.s14 {
+    background-image: linear-gradient(90deg, #8da7ff, #d196f4 97%);
+    bottom: 300px;
+    left: 69%;
+    right: 88%;
+}
+
+
+
+
+
+.invite_header > div{
+	width:100%;
+	height:100%;
+	padding:0;
+	z-index: 3;
+}
+
+.invite_header > div.stripes+div > div{
+	width: 100%;
+	height: 100%;
+}
+
+.invite_header > div.stripes+div > div > div.heading{
+	width:80%;
+	height: auto;
+	margin:auto;
+	margin-top:15vh;
+}
+
+.invite_header > div.stripes+div > div > div.heading+div{
+	width:100%;
+	height: auto;
+	margin:auto;
+	margin-top:10vh;
+	margin-bottom: 10vh;
+}
+
+.invite_header > div.stripes+div div.leftbar{
+	width:30%;
+	height: auto;
+	margin:auto;
+	display: inline-block;
+	margin-right: 10%;
+	vertical-align: top;
+}
+.invite_header > div.stripes+div div.leftbar > div.card{
+	width:100%;
+	height: auto;
+	margin:auto;
+	margin-top: 20px;
+	display: none;
+	padding-top: 0;
+	overflow: visible;
+}
+.invite_header > div.stripes+div div.leftbar > div.card > div.main{
+	padding-top: 10px;
+}
+.invite_header > div.stripes+div div.leftbar > div.card > div.main.pricingdetails{
+	margin-top: 10px;
+	padding: 5px;
+	padding-top: 0;
+	padding-bottom: 15px;
+	border-top:1px solid #e8e8e8;
+	border-bottom:1px solid #e8e8e8;
+	display: none;
+}
+.invite_header > div.stripes+div div.leftbar > div.card > div.main:not(.active){
+	display: none;
+//	border-top: 1px solid #aaaaaa;
+}
+.invite_header > div.stripes+div div.leftbar > div.card > div.main:nth-child(2){
+	border-top: none;
+	padding-top: 40px;
+}
+.invite_header > div.stripes+div div.leftbar > div.card > div.main.active{
+	display: block;
+}
+.invite_header > div.stripes+div div.leftbar > div.card h1{
+	position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    white-space: nowrap;
+    padding: 8px 18px;
+    border-radius: 50px;
+}
+.invite_header > div.stripes+div div.leftbar > div.card p{
+	margin-bottom: 0;
+}
+.invite_header > div.stripes+div div.leftbar > div.card span.pricingdetailsclick{
+	text-decoration: underline;
+}
+
+.invite_header > div.stripes+div div.leftbar > div.card.active{
+	display: block;
+}
+
+.invite_header div.leftbar div.main > div.title{
+	width:100%;
+	height:1.5rem;
+	line-height: 1.5rem;
+	padding: 0px 0px;
+	font-size: .9rem;
+	margin-top: 5px;
+}
+.invite_header div.leftbar div.main > div.title .fa{
+	font-size: .9rem;
+}
+.invite_header div.leftbar div.main > div.title1{
+	width:100%;
+	height:1.5rem;
+	line-height: 1.5rem;
+	padding: 0px 0px;
+	font-size: .9rem;
+	margin-top: 5px;
+}
+.invite_header div.leftbar div.main > div.title1 .fa{
+	font-size: .9rem;
+}
+
+.invite_header > div.stripes+div div.leftbar > div.card > div.main:nth-child(2) div.title{
+	height:auto;
+	line-height: auto;
+}
+.invite_header > div.stripes+div div.leftbar > div.card > div.main:nth-child(2)+div.main{
+	margin-top: 10px;
+}
+
+.invite_header div.leftbar div.main > div.title.pricingtitle{
+	margin-top: 2rem;
+	font-size: .8rem;
+}
+
+.invite_header div.leftbar div.main > div.title.pricingtitle .large{
+	font-size: 2rem;
+	margin-bottom: .5rem;
+}
+.invite_header div.leftbar div.main > div.title .fa.large{
+	font-size: 1.8rem;
+}
+
+
+.invite_header div.leftbar div.main.pricingdetails > div.title{
+	padding: 5px 0px;
+	font-size: .8rem;
+}
+.invite_header div.leftbar div.main.pricingdetails > div.title .fa{
+	font-size: .7rem;
+}
+
+
+.invite_header div.leftbar div.main:not(.pricingdetails) .fa:not(.large){
+	margin-right: 15px;
+}
+
+
+
+.invite_header > div.stripes+div div.content{
+	width:40%;
+	height: auto;
+	margin:auto;
+	display: inline-block;
+	margin-left: 10%;
+	margin-right: 10%;
+	vertical-align: top;
+}
+.invite_header > div.stripes+div div.content > div.card{
+	width:100%;
+	height: auto;
+	margin:auto;
+	margin-top: 20px;
+	cursor: default;
+}
+.invite_header > div.stripes+div div.content div.card+a{
+	display: block;
+	margin-top: 20px;
+}
+.invite_header > div.stripes+div div.content div.card.postsignup{
+	display: none;
+}
+.invite_header > div.stripes+div div.content div.card > div.main{
+	padding-top: 10px;
+}
+.invite_header > div.stripes+div div.content div.card:not(.active) > div.main{
+	display: none;
+}
+.invite_header > div.stripes+div div.content div.card h1{
+	margin-bottom: 0;
+}
+.invite_header > div.stripes+div div.content div.card p{
+	margin-bottom: 0;
+}
+.invite_header > div.stripes+div div.content div.card.done{
+	cursor: pointer;
+}
+
+.invite_header > div.stripes+div #routesbtn{
+	margin-left: 1rem;
+}
+
+.invite_header div.heading h1{
+	font-size:3.25rem;
+	line-height:3.75rem;
+}
+.invite_header div.heading h1 span{
+	font-size:3.25rem;
+	line-height:3.75rem;
+}
+.invite_header div.heading h2{
+	font-size:1.75rem;
+	line-height:2rem;
+	margin-bottom: 0;
+	max-width: 70%;
+}
+.invite_header div.heading h2+h2{
+	margin-bottom:2rem;
+	max-width: 70%;
+}
+
+.invite_header div.heading button{
+	background: #53f;
+}
+
+.invite_header div.content div.card div.steps{
+	top:0;right:0;
+	width: auto;
+	height: 2rem;
+	line-height: 2rem;
+	font-size: .9rem;
+	padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+div.popupscreen{
+	top:0;
+	left:0;
+	right:0;
+	height:100%;
+	z-index: 249;
+	background: rgba(20,20,20,.6);
+	display: none;
+}
+div.popup{
+	top:0;
+	left:0;
+	right:0;
+	height:100%;
+	z-index: 250;
+	display: none;
+}
+div.popup > div{
+	width:100%;
+	height:100%;
+	padding: 0px 0px 0px;
+	margin:auto;
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+}
+div.popup > div > div{
+	width:auto;
+	height:auto;
+	margin: auto;
+	padding: 0px 0px;
+}
+div.popup > div > div > div.mainbox{
+	width:auto;
+	height:auto;
+	margin: auto;
+}
+div.popup > div > div > div.mainbox > div.box{
+	width:100px;
+	height:100px;
+	margin: auto;
+	font-size: 1rem;
+	line-height: 100px;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-transition:background 0.6s;
+	transition:background 0.6s;
+}
+div.popup > div > div > div.mainbox > div.box:hover{
+	background: #e8e8e8;
+	-webkit-transition:background 0.6s;
+	transition:background 0.6s;
+}
+div.popup > div > div > div.buttonbox{
+	width:auto;
+	height:auto;
+	margin: auto;
+	padding: 20px;
+	border-top: 1px solid #dddddd;
+}
+div.popup > div > div > div.titlebox{
+	width:auto;
+	height:auto;
+	margin: auto;
+	padding: 20px 20px 0px;
+	border-bottom: 1px solid #dddddd;
+}
+
+
+.content div.card > div > div{
+	width:auto;
+	height: auto;
+	margin:auto;
+	margin-top:2.5rem;
+}
+
+.content div.card.seats > div > div > div.seatbox{
+	width:auto;
+	height: auto;
+	margin:auto;
+}
+.content div.card.seats > div > div > div.seatbox > div.box{
+	width:80px;
+	height: 80px;
+	margin:auto;
+	font-size: 1rem;
+	line-height: 80px;
+	display: inline-block;
+	cursor: pointer;
+	border: 1px solid #FDA55D;
+	color: #FDA55D;
+	background: #FFFFFF;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	-webkit-transition:background 0.6s, color 0.6s;
+	transition:background 0.6s, color 0.6s;
+	margin-top: .8rem;
+}
+.content div.card.seats > div > div > div.seatbox > div.box+div.box{
+	margin-left: .8rem;
+}
+.content div.card.seats > div > div > div.seatbox > div.box:hover{
+	color: #FFFFFF;
+	background: #FDA55D;
+	-webkit-transition:background 0.6s, color 0.6s;
+	transition:background 0.6s, color 0.6s;
+}
+.content div.card.seats > div > div > div.seatbox > div.box.selected{
+	color: #FFFFFF;
+	background: #FDA55D;
+}
+
+.content div.card.seats > div > div{
+	margin-top:1rem;
+	margin-bottom: 1rem;
+}
+
+.content div.card.schedule > div > div.timeboxes{
+	margin-top:1rem;
+	margin-bottom: 1rem;
+}
+
+
+.content div.card.about > div > div > div.genderbox{
+	display: inline-block;
+	border: 1px solid #FDA55D;
+	color: #FDA55D;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: .9rem;
+	cursor: pointer;
+	-webkit-transition:background 0.6s, color 0.6s;
+    transition:background 0.6s, color 0.6s;
+}
+.content div.card.about > div > div > div.genderbox+div.genderbox{
+	margin-left: 10px;
+}
+.content div.card.about > div > div > div.genderbox:hover{
+	background: #FDA55D;
+	color:#ffffff;
+	-webkit-transition:background 0.6s, color 0.6s;
+    transition:background 0.6s, color 0.6s;
+}
+.content div.card.about > div > div > div.genderbox.selected{
+	background: #FDA55D;
+	color:#ffffff;
+}
+
+.content div.card.schedule > div > div > div.inline{
+	width:auto;
+	height: auto;
+	display: inline-block;
+	padding: 10px 0;
+	font-size: 1.2rem;
+}
+.content div.card.schedule > div > div > div.inline+div.inline{
+	margin-left:20px;
+}
+.content div.card.schedule > div > div > div.inline.timebox{
+	border: 1px solid #333333;
+	-webkit-border-radius:5px;
+	moz-border-radius:5px;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+
+
+.content div.card div.fieldbox{
+	clear: both;
+	margin-top: 1.5rem;
+}
+.content div.card div.fieldbox+div.fieldbox{
+	clear: both;
+	margin-top: 1.5rem;
+}
+.content div.card div.double input[type=text], .content div.card div.double select, .content div.card div.double input[type=password]{
+	width:48%;
+	display: inline-block;
+}
+.content div.card div.double input[type=text]+input[type=text], .content div.card div.double select+select, .content div.card div.double input[type=text]+input[type=password]{
+	margin-left: 4%;
+}
+.content div.card div.double:last-child > table{
+	float: left;
+	width: auto;
+}
+.content div.card div.double:last-child > button{
+	float: right;
+}
+
+
+
+
+
+@media only screen and (max-width: 1366px) {
+.invite_header > .stripes {
+    height: 650px;
+}
+.invite_header > div.stripes+div > div > div.heading{
+	width:90%;
+}
+.invite_header > div.stripes+div div.leftbar{
+	width: 35%;
+	margin-right: 5%;
+}
+.invite_header > div.stripes+div div.content{
+	width: 45%;
+	margin-left: 5%;
+}
+
+.invite_header div.heading h1{
+	font-size:3rem;
+	line-height:3.5rem;
+}
+.invite_header div.heading h1 span{
+	font-size:3rem;
+	line-height:3.5rem;
+}
+.invite_header div.heading h2{
+	font-size:1.5rem;
+	line-height:1.75rem;
+}
+.invite_header div.heading h2+h2{
+	margin-bottom:2rem;
+}
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+.invite_header > .stripes {
+    height: 600px;
+}
+.invite_header > div.stripes+div > div > div.heading{
+	width:90%;
+}
+.invite_header div.heading h2{
+	max-width: 100%;
+}
+.invite_header div.heading h2+h2{
+	max-width: 100%;
+}
+
+.invite_header > div.stripes+div div.leftbar{
+	width: 40%;
+}
+.invite_header > div.stripes+div div.content{
+	margin-right: 5%;
+}
+}
+
+@media only screen and (max-width: 900px) {
+.invite_header > .stripes {
+    height: 550px;
+}
+}
+
+
+
+@media only screen and (max-width: 768px) {
+.invite_header > .stripes {
+    height: 600px;
+}
+.invite_header div.heading h1{
+	font-size:2rem;
+	line-height:2.5rem;
+}
+.invite_header div.heading h1 span{
+	font-size:2rem;
+	line-height:2.5rem;
+}
+.invite_header div.heading h2{
+	font-size:1.2rem;
+	line-height:1.5rem;
+}
+.invite_header div.heading h2+h2{
+	margin-bottom:2rem;
+}
+
+.invite_header > div.stripes+div div.leftbar{
+	width: 0%;
+}
+.invite_header > div.stripes+div div.content{
+	width: 90%;
+	margin-right: 5%;
+}
+
+
+
+
+
+
+.invite_header > div.stripes+div div.leftbar{
+	width:100%;
+	height: auto;
+	margin:auto;
+	display: block;
+	margin-right: auto;
+	position: fixed;
+	bottom: 0;left: 0;
+	z-index:230;
+}
+.invite_header > div.stripes+div div.leftbar > div.card{
+	border-radius: 0px;
+    box-shadow: 0 -15px 35px rgba(50, 50, 93, .1), 0 -5px 15px rgba(0, 0, 0, .07);
+    border-top:1px solid #e8e8e8;
+}
+.invite_header > div.stripes+div div.leftbar > div.card > div.main{
+	padding-top: 0px;
+}
+.invite_header > div.stripes+div div.leftbar > div.card > div.main.pricingdetails{
+	margin-top: 10px;
+	padding: 5px;
+	padding-top: 0;
+	padding-bottom: 0px;
+	border-top:1px solid #e8e8e8;
+	border-bottom: 0;
+	display: none;
+}
+.invite_header > div.stripes+div div.leftbar > div.card > div.main:not(.active){
+	display: none;
+//	border-top: 1px solid #aaaaaa;
+}
+.invite_header > div.stripes+div div.leftbar > div.card > div.main:nth-child(2){
+	border-top: none;
+	padding-top: 20px;
+}
+.invite_header > div.stripes+div div.leftbar > div.card > div.main.active{
+	display: block;
+}
+.invite_header > div.stripes+div div.leftbar > div.card h1{
+	display: none;
+}
+.invite_header > div.stripes+div div.leftbar > div.card p{
+	margin-bottom: 0;
+}
+.invite_header > div.stripes+div div.leftbar > div.card span.pricingdetailsclick{
+	text-decoration: underline;
+}
+
+.invite_header > div.stripes+div div.leftbar > div.card.active{
+	display: block;
+}
+
+.invite_header div.leftbar div.main:not(.pricingdetails) > div.title:not(.pricingtitle){
+	max-height: 0;
+	display: none;
+}
+.invite_header div.leftbar div.main:not(.pricingdetails) > div.title1:not(.pricingtitle){
+	max-height: 0;
+	display: none;
+}
+
+.invite_header > div.stripes+div div.leftbar > div.card > div.main:nth-child(2) div.title{
+	height:auto;
+	line-height: auto;
+}
+.invite_header > div.stripes+div div.leftbar > div.card > div.main:nth-child(2)+div.main{
+	margin-top: 10px;
+}
+
+.invite_header div.leftbar div.main > div.title.pricingtitle{
+	margin-top: 0;
+}
+
+.invite_header div.leftbar div.main > div.title.pricingtitle .large{
+	font-size: 1.5rem;
+	margin-bottom: .5rem;
+}
+.invite_header div.leftbar div.main > div.title .fa.large{
+	font-size: 1.4rem;
+}
+
+
+
+
+
+.content div.card div.fieldbox{
+	clear: both;
+	margin-top: 1.5rem;
+}
+.content div.card div.fieldbox+div.fieldbox{
+	clear: both;
+	margin-top: 1.5rem;
+}
+.content div.card div.double input[type=text], .content div.card div.double select, .content div.card div.double input[type=password]{
+	width:100%;
+	display: block;
+}
+.content div.card div.double input[type=text]+input[type=text], .content div.card div.double select+select, .content div.card div.double input[type=text]+input[type=password]{
+	margin-left: auto;
+	margin-top: 1.5rem;
+}
+.content div.card div.double:last-child > table{
+	float: none;
+	width: auto;
+	margin: auto;
+}
+.content div.card div.double:last-child > button{
+	float: none;
+	margin: 1.5rem auto 0;
+}
+
+
+
+
+div.popup > div > div > div.mainbox > div.box{
+	width:60px;
+	height:60px;
+	font-size: .8rem;
+	line-height: 60px;
+}
+div.popup > div > div > div.buttonbox{
+	padding: 10px;
+}
+}
+
+
+@media only screen and (max-width: 480px) {
+.content div.card.seats > div > div > div.seatbox > div.box{
+	width:60px;
+	height: 60px;
+	margin:auto;
+	font-size: .8rem;
+	line-height: 60px;
+	margin-top: .8rem;
+}
+.content div.card.seats > div > div > div.seatbox > div.box+div.box{
+	margin-left: .8rem;
+}
+}

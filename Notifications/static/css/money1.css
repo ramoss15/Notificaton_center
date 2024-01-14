@@ -1,0 +1,74 @@
+#moneytopbuffer{
+	width:100%;
+	height:60px;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+#moneymaindiv{
+	width:100%;
+	height:calc(100vh - 60px);
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+	padding:50px 10% 50px;
+}
+
+.moneymaindivouter{
+	width:100%;
+	height:100%;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+
+.content{
+	width:100%;
+	height:100%;
+	margin:auto;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+}
+.content > div{
+	width:100%;
+	max-width: 450px;
+	height:auto;
+	margin: auto;
+	margin-top: 50px;
+	padding:20px 20px 10px;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+	border:1px solid #e8e8e8;
+   	-webkit-border-radius: 2px;
+    border-radius: 2px;
+    moz-border-radius: 2px;
+}
+
+.content p{
+	font-size: .9rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+#moneymaindiv{
+	padding:35px 20px 35px;
+}
+.content p{
+	font-size: .8rem;
+}
+}
+
+@media only screen and (max-width: 320px) {
+#moneymaindiv{
+	padding:20px 10px 20px;
+}
+.content p{
+	font-size: .7rem;
+}
+}
