@@ -1,0 +1,2614 @@
+{
+	"info": {
+		"_postman_id": "c411f396-3c50-45e0-ba2a-a79e40b42ed1",
+		"name": "virtualness",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32328411"
+	},
+	"item": [
+		{
+			"name": "Send Notification",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json; q=1.0, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab"
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "Origin",
+						"value": "http://localhost:8000"
+					},
+					{
+						"key": "Referer",
+						"value": "http://localhost:8000/notif/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "X-CSRFTOKEN",
+						"value": "Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6"
+					},
+					{
+						"key": "Authorization",
+						"value": "Token 21bfd6ffffe43740c2939453f946147d47dec7a6"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "Not_A"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "macOS"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n          \"receiver\": \"1958f130-8b91-445e-ace8-041d7c66d8e0\",\n          \"t\": \"Def\",\n          \"context\": \"hi\",\n          \"message_content\": \"hi\",\n          \"text\": \"\"\n        }"
+				},
+				"url": {
+					"raw": "http://localhost:8001/notif/message/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"notif",
+						"message",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Send Notification",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json; q=1.0, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,hi;q=0.8"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cookie",
+								"value": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab"
+							},
+							{
+								"key": "DNT",
+								"value": "1"
+							},
+							{
+								"key": "Origin",
+								"value": "http://localhost:8000"
+							},
+							{
+								"key": "Referer",
+								"value": "http://localhost:8000/notif/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "X-CSRFTOKEN",
+								"value": "Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token 21bfd6ffffe43740c2939453f946147d47dec7a6"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "Not_A"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "macOS"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n          \"receiver\": \"1958f130-8b91-445e-ace8-041d7c66d8e0\",\n          \"t\": \"Def\",\n          \"context\": \"hi\",\n          \"message_content\": \"hi\",\n          \"text\": \"\"\n        }"
+						},
+						"url": {
+							"raw": "http://localhost:8001/notif/message/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"notif",
+								"message",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 14 Jan 2024 22:47:46 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.9.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Origin"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, POST, PUT, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "170"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"d843c7ca-0656-4657-8a49-5b7379c4ace0\",\n    \"receiver\": \"1958f130-8b91-445e-ace8-041d7c66d8e0\",\n    \"t\": \"Def\",\n    \"context\": \"hi\",\n    \"message_content\": \"hi\",\n    \"text\": \"\",\n    \"expire_at\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Get notification",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json; q=1.0, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab"
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "Origin",
+						"value": "http://localhost:8000"
+					},
+					{
+						"key": "Referer",
+						"value": "http://localhost:8000/notif/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "X-CSRFTOKEN",
+						"value": "Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6"
+					},
+					{
+						"key": "Authorization",
+						"value": "Token 21bfd6ffffe43740c2939453f946147d47dec7a6"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "Not_A"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "macOS"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8001/notif/message/?offset=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"notif",
+						"message",
+						""
+					],
+					"query": [
+						{
+							"key": "offset",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get notification",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json; q=1.0, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,hi;q=0.8"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cookie",
+								"value": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab"
+							},
+							{
+								"key": "DNT",
+								"value": "1"
+							},
+							{
+								"key": "Origin",
+								"value": "http://localhost:8000"
+							},
+							{
+								"key": "Referer",
+								"value": "http://localhost:8000/notif/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "X-CSRFTOKEN",
+								"value": "Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token 21bfd6ffffe43740c2939453f946147d47dec7a6"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "Not_A"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "macOS"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8001/notif/message/?offset=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"notif",
+								"message",
+								""
+							],
+							"query": [
+								{
+									"key": "offset",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 14 Jan 2024 22:48:04 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.9.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Origin"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, POST, PUT, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1858"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"count\": 20,\n    \"next\": \"http://localhost:8001/notif/message/?limit=10&offset=12\",\n    \"previous\": \"http://localhost:8001/notif/message/?limit=10\",\n    \"results\": [\n        {\n            \"id\": \"f647037f-85e1-4176-a2ea-116406271316\",\n            \"receiver\": \"1958f130-8b91-445e-ace8-041d7c66d8e0\",\n            \"t\": \"Def\",\n            \"context\": \"hi\",\n            \"message_content\": \"hi\",\n            \"text\": \"\",\n            \"expire_at\": null\n        },\n        {\n            \"id\": \"7dc58a41-0d49-4a4c-a8a1-f714ed4086ed\",\n            \"receiver\": \"1958f130-8b91-445e-ace8-041d7c66d8e0\",\n            \"t\": \"Def\",\n            \"context\": \"hi\",\n            \"message_content\": \"hi\",\n            \"text\": \"\",\n            \"expire_at\": null\n        },\n        {\n            \"id\": \"476f80d9-d729-40b0-8509-674bf967261d\",\n            \"receiver\": \"1958f130-8b91-445e-ace8-041d7c66d8e0\",\n            \"t\": \"Def\",\n            \"context\": \"hi\",\n            \"message_content\": \"hi\",\n            \"text\": \"\",\n            \"expire_at\": null\n        },\n        {\n            \"id\": \"615a0776-41a4-440f-84ea-e84b72c8364d\",\n            \"receiver\": \"1958f130-8b91-445e-ace8-041d7c66d8e0\",\n            \"t\": \"Def\",\n            \"context\": \"hi\",\n            \"message_content\": \"hi\",\n            \"text\": \"\",\n            \"expire_at\": null\n        },\n        {\n            \"id\": \"795e2203-36d6-4b39-8764-fbe6ade5dc09\",\n            \"receiver\": \"1958f130-8b91-445e-ace8-041d7c66d8e0\",\n            \"t\": \"Def\",\n            \"context\": \"hi\",\n            \"message_content\": \"hi\",\n            \"text\": \"\",\n            \"expire_at\": null\n        },\n        {\n            \"id\": \"81086f1d-33cc-4c58-bb5a-b256a8c5a999\",\n            \"receiver\": \"1958f130-8b91-445e-ace8-041d7c66d8e0\",\n            \"t\": \"Def\",\n            \"context\": \"hi\",\n            \"message_content\": \"hi\",\n            \"text\": \"\",\n            \"expire_at\": null\n        },\n        {\n            \"id\": \"d920cb5e-635c-42ef-a93a-794c0368f764\",\n            \"receiver\": \"1958f130-8b91-445e-ace8-041d7c66d8e0\",\n            \"t\": \"Def\",\n            \"context\": \"hi\",\n            \"message_content\": \"hi\",\n            \"text\": \"\",\n            \"expire_at\": null\n        },\n        {\n            \"id\": \"f85ed56d-67f4-47ad-b549-647f520e1700\",\n            \"receiver\": \"1958f130-8b91-445e-ace8-041d7c66d8e0\",\n            \"t\": \"Def\",\n            \"context\": \"hi\",\n            \"message_content\": \"hi\",\n            \"text\": \"\",\n            \"expire_at\": null\n        },\n        {\n            \"id\": \"e6e93d80-35ad-4c9d-ade9-6ad0a046ffcd\",\n            \"receiver\": \"1958f130-8b91-445e-ace8-041d7c66d8e0\",\n            \"t\": \"Def\",\n            \"context\": \"hi\",\n            \"message_content\": \"hi\",\n            \"text\": \"\",\n            \"expire_at\": null\n        },\n        {\n            \"id\": \"1061cafb-50fc-4b7e-98c8-37aa9637063c\",\n            \"receiver\": \"1958f130-8b91-445e-ace8-041d7c66d8e0\",\n            \"t\": \"Def\",\n            \"context\": \"hi\",\n            \"message_content\": \"hi\",\n            \"text\": \"\",\n            \"expire_at\": null\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Get archived notification",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json; q=1.0, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab"
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "Origin",
+						"value": "http://localhost:8000"
+					},
+					{
+						"key": "Referer",
+						"value": "http://localhost:8000/notif/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "X-CSRFTOKEN",
+						"value": "Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6"
+					},
+					{
+						"key": "Authorization",
+						"value": "Token 21bfd6ffffe43740c2939453f946147d47dec7a6"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "Not_A"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "macOS"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8001/notif/message/?offset=2&archived=True",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"notif",
+						"message",
+						""
+					],
+					"query": [
+						{
+							"key": "offset",
+							"value": "2"
+						},
+						{
+							"key": "archived",
+							"value": "True"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get archived notification",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json; q=1.0, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,hi;q=0.8"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cookie",
+								"value": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab"
+							},
+							{
+								"key": "DNT",
+								"value": "1"
+							},
+							{
+								"key": "Origin",
+								"value": "http://localhost:8000"
+							},
+							{
+								"key": "Referer",
+								"value": "http://localhost:8000/notif/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "X-CSRFTOKEN",
+								"value": "Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token 21bfd6ffffe43740c2939453f946147d47dec7a6"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "Not_A"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "macOS"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8001/notif/message/?offset=2&archived=True",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"notif",
+								"message",
+								""
+							],
+							"query": [
+								{
+									"key": "offset",
+									"value": "2"
+								},
+								{
+									"key": "archived",
+									"value": "True"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 14 Jan 2024 22:48:12 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.9.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Origin"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, POST, PUT, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "279"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"count\": 3,\n    \"next\": null,\n    \"previous\": \"http://localhost:8001/notif/message/?archived=True&limit=10\",\n    \"results\": [\n        {\n            \"id\": \"55dd6fd0-96ee-4ae8-8909-ee03798291a0\",\n            \"receiver\": \"1958f130-8b91-445e-ace8-041d7c66d8e0\",\n            \"t\": \"Def\",\n            \"context\": \"hi\",\n            \"message_content\": \"hi\",\n            \"text\": \"\",\n            \"expire_at\": null\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Seen Notification",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json; q=1.0, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab"
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "Origin",
+						"value": "http://localhost:8000"
+					},
+					{
+						"key": "Referer",
+						"value": "http://localhost:8000/notif/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "X-CSRFTOKEN",
+						"value": "Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6"
+					},
+					{
+						"key": "Authorization",
+						"value": "Token 21bfd6ffffe43740c2939453f946147d47dec7a6"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "Not_A"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "macOS"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n          \"id\": \"f647037f-85e1-4176-a2ea-116406271316\",\n          \"seen\": true\n        }"
+				},
+				"url": {
+					"raw": "http://localhost:8001/notif/message/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"notif",
+						"message",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Seen Notification",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json; q=1.0, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,hi;q=0.8"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cookie",
+								"value": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab"
+							},
+							{
+								"key": "DNT",
+								"value": "1"
+							},
+							{
+								"key": "Origin",
+								"value": "http://localhost:8000"
+							},
+							{
+								"key": "Referer",
+								"value": "http://localhost:8000/notif/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "X-CSRFTOKEN",
+								"value": "Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token 21bfd6ffffe43740c2939453f946147d47dec7a6"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "Not_A"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "macOS"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n          \"id\": \"f647037f-85e1-4176-a2ea-116406271316\",\n          \"seen\": true\n        }"
+						},
+						"url": {
+							"raw": "http://localhost:8001/notif/message/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"notif",
+								"message",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 14 Jan 2024 22:48:18 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.9.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Origin"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, POST, PUT, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "116"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"receiver\": \"1958f130-8b91-445e-ace8-041d7c66d8e0\",\n    \"context\": \"hi\",\n    \"message_content\": \"hi\",\n    \"text\": \"\",\n    \"expire_at\": null\n}"
+				},
+				{
+					"name": "archived notifiction",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json; q=1.0, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,hi;q=0.8"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cookie",
+								"value": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab"
+							},
+							{
+								"key": "DNT",
+								"value": "1"
+							},
+							{
+								"key": "Origin",
+								"value": "http://localhost:8000"
+							},
+							{
+								"key": "Referer",
+								"value": "http://localhost:8000/notif/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "X-CSRFTOKEN",
+								"value": "Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token 21bfd6ffffe43740c2939453f946147d47dec7a6"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "Not_A"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "macOS"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n          \"id\": \"55dd6fd0-96ee-4ae8-8909-ee03798291a0\",\n          \"seen\": true\n        }"
+						},
+						"url": {
+							"raw": "http://localhost:8001/notif/message/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"notif",
+								"message",
+								""
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 14 Jan 2024 22:49:26 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.9.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Origin"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, POST, PUT, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "23"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"detail\": \"Not found.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Archive notification",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json; q=1.0, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab"
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "Origin",
+						"value": "http://localhost:8000"
+					},
+					{
+						"key": "Referer",
+						"value": "http://localhost:8000/notif/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "X-CSRFTOKEN",
+						"value": "Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6"
+					},
+					{
+						"key": "Authorization",
+						"value": "Token 21bfd6ffffe43740c2939453f946147d47dec7a6"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "Not_A"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "macOS"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n          \"id\": \"55dd6fd0-96ee-4ae8-8909-ee03798291a0\",\n          \"archived\": true\n        }"
+				},
+				"url": {
+					"raw": "http://localhost:8001/notif/message/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"notif",
+						"message",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "already Archived notification",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json; q=1.0, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,hi;q=0.8"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cookie",
+								"value": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab"
+							},
+							{
+								"key": "DNT",
+								"value": "1"
+							},
+							{
+								"key": "Origin",
+								"value": "http://localhost:8000"
+							},
+							{
+								"key": "Referer",
+								"value": "http://localhost:8000/notif/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "X-CSRFTOKEN",
+								"value": "Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token 21bfd6ffffe43740c2939453f946147d47dec7a6"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "Not_A"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "macOS"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n          \"id\": \"55dd6fd0-96ee-4ae8-8909-ee03798291a0\",\n          \"archived\": true\n        }"
+						},
+						"url": {
+							"raw": "http://localhost:8001/notif/message/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"notif",
+								"message",
+								""
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 14 Jan 2024 22:48:24 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.9.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Origin"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, POST, PUT, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "23"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"detail\": \"Not found.\"\n}"
+				},
+				{
+					"name": "New Archive notification",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json; q=1.0, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,hi;q=0.8"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cookie",
+								"value": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab"
+							},
+							{
+								"key": "DNT",
+								"value": "1"
+							},
+							{
+								"key": "Origin",
+								"value": "http://localhost:8000"
+							},
+							{
+								"key": "Referer",
+								"value": "http://localhost:8000/notif/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "X-CSRFTOKEN",
+								"value": "Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token 21bfd6ffffe43740c2939453f946147d47dec7a6"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "Not_A"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "macOS"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n          \"id\": \"d843c7ca-0656-4657-8a49-5b7379c4ace0\",\n          \"archived\": true\n        }"
+						},
+						"url": {
+							"raw": "http://localhost:8001/notif/message/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"notif",
+								"message",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 14 Jan 2024 22:50:55 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.9.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Origin"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, POST, PUT, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "35"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"archived successfully\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Notification",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json; q=1.0, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab"
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "Origin",
+						"value": "http://localhost:8000"
+					},
+					{
+						"key": "Referer",
+						"value": "http://localhost:8000/notif/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "X-CSRFTOKEN",
+						"value": "Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6"
+					},
+					{
+						"key": "Authorization",
+						"value": "Token 21bfd6ffffe43740c2939453f946147d47dec7a6"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "Not_A"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "macOS"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n          \"id\": \"9e3fec34-46a3-4a04-aa32-2262d24ccedd\"\n        }"
+				},
+				"url": {
+					"raw": "http://localhost:8001/notif/message/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"notif",
+						"message",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "already Deleted Notification",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json; q=1.0, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,hi;q=0.8"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cookie",
+								"value": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab"
+							},
+							{
+								"key": "DNT",
+								"value": "1"
+							},
+							{
+								"key": "Origin",
+								"value": "http://localhost:8000"
+							},
+							{
+								"key": "Referer",
+								"value": "http://localhost:8000/notif/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "X-CSRFTOKEN",
+								"value": "Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token 21bfd6ffffe43740c2939453f946147d47dec7a6"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "Not_A"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "macOS"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n          \"id\": \"9e3fec34-46a3-4a04-aa32-2262d24ccedd\"\n        }"
+						},
+						"url": {
+							"raw": "http://localhost:8001/notif/message/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"notif",
+								"message",
+								""
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 14 Jan 2024 22:50:17 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.9.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Origin"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, POST, PUT, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "23"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"detail\": \"Not found.\"\n}"
+				},
+				{
+					"name": "New Delete Notification",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json; q=1.0, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,hi;q=0.8"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cookie",
+								"value": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; Pycharm-b79d12b1=a81fbc5b-0a19-41e2-9a2a-805e1e04440f; tabstyle=raw-tab"
+							},
+							{
+								"key": "DNT",
+								"value": "1"
+							},
+							{
+								"key": "Origin",
+								"value": "http://localhost:8000"
+							},
+							{
+								"key": "Referer",
+								"value": "http://localhost:8000/notif/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "X-CSRFTOKEN",
+								"value": "Bearer 21bfd6ffffe43740c2939453f946147d47dec7a6"
+							},
+							{
+								"key": "Authorization",
+								"value": "Token 21bfd6ffffe43740c2939453f946147d47dec7a6"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "Not_A"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "macOS"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n          \"id\": \"f01c4b8e-027d-4008-908c-512a0bc5e161\"\n        }"
+						},
+						"url": {
+							"raw": "http://localhost:8001/notif/message/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"notif",
+								"message",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 14 Jan 2024 22:51:45 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.9.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Origin"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, POST, PUT, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "34"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"deleted successfully\"\n}"
+				}
+			]
+		},
+		{
+			"name": "User register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json; q=1.0, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; tabstyle=raw-tab"
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "Origin",
+						"value": "http://localhost:8000"
+					},
+					{
+						"key": "Referer",
+						"value": "http://localhost:8000/user/register/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "X-CSRFTOKEN",
+						"value": "YJwRyQcd1Bwm3yjl9uyIqzT99imDgW8CxeIMkBIqi89YsgRZkPzTxBqA7siSJK4d"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "Not_A"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "macOS"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n          \"username\": \"hi2\",\n          \"email\": \"hi@hi.hi12\",\n          \"password\": \"ji\"\n        }"
+				},
+				"url": {
+					"raw": "http://localhost:8001/user/register/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"user",
+						"register",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New User register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json; q=1.0, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,hi;q=0.8"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cookie",
+								"value": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; tabstyle=raw-tab"
+							},
+							{
+								"key": "DNT",
+								"value": "1"
+							},
+							{
+								"key": "Origin",
+								"value": "http://localhost:8000"
+							},
+							{
+								"key": "Referer",
+								"value": "http://localhost:8000/user/register/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "X-CSRFTOKEN",
+								"value": "YJwRyQcd1Bwm3yjl9uyIqzT99imDgW8CxeIMkBIqi89YsgRZkPzTxBqA7siSJK4d"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "Not_A"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "macOS"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n          \"username\": \"hi2\",\n          \"email\": \"hi@hi.hi12\",\n          \"password\": \"ji\"\n        }"
+						},
+						"url": {
+							"raw": "http://localhost:8001/user/register/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"user",
+								"register",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 14 Jan 2024 22:52:58 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.9.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie, Origin"
+						},
+						{
+							"key": "Allow",
+							"value": "POST, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "52"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"token\": \"4cdfdab75ec4746369587162713f38e33b8d3841\"\n}"
+				},
+				{
+					"name": "already registered User",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json; q=1.0, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,hi;q=0.8"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cookie",
+								"value": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; tabstyle=raw-tab"
+							},
+							{
+								"key": "DNT",
+								"value": "1"
+							},
+							{
+								"key": "Origin",
+								"value": "http://localhost:8000"
+							},
+							{
+								"key": "Referer",
+								"value": "http://localhost:8000/user/register/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "X-CSRFTOKEN",
+								"value": "YJwRyQcd1Bwm3yjl9uyIqzT99imDgW8CxeIMkBIqi89YsgRZkPzTxBqA7siSJK4d"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "Not_A"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "macOS"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n          \"username\": \"hi2\",\n          \"email\": \"hi@hi.hi12\",\n          \"password\": \"ji\"\n        }"
+						},
+						"url": {
+							"raw": "http://localhost:8001/user/register/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"user",
+								"register",
+								""
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 14 Jan 2024 22:53:39 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.9.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie, Origin"
+						},
+						{
+							"key": "Allow",
+							"value": "POST, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "107"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"username\": [\n        \"A user with that username already exists.\"\n    ],\n    \"email\": [\n        \"user with this email already exists.\"\n    ]\n}"
+				},
+				{
+					"name": "without field User register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json; q=1.0, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,hi;q=0.8"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cookie",
+								"value": "csrftoken=JFm5WVGnrHNMzSIOlvblhcHB8k6pDY6L; tabstyle=raw-tab"
+							},
+							{
+								"key": "DNT",
+								"value": "1"
+							},
+							{
+								"key": "Origin",
+								"value": "http://localhost:8000"
+							},
+							{
+								"key": "Referer",
+								"value": "http://localhost:8000/user/register/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "X-CSRFTOKEN",
+								"value": "YJwRyQcd1Bwm3yjl9uyIqzT99imDgW8CxeIMkBIqi89YsgRZkPzTxBqA7siSJK4d"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "Not_A"
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "macOS"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n          \"username\": \"\",\n          \"email\": \"hi@hi.hi12\",\n          \"password\": \"ji\"\n        }"
+						},
+						"url": {
+							"raw": "http://localhost:8001/user/register/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"user",
+								"register",
+								""
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 14 Jan 2024 22:54:10 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.9.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie, Origin"
+						},
+						{
+							"key": "Allow",
+							"value": "POST, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "94"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"username\": [\n        \"This field may not be blank.\"\n    ],\n    \"email\": [\n        \"user with this email already exists.\"\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "login user",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n          \"username\": \"hi1\",\n          \"password\": \"ji\"\n        }"
+				},
+				"url": {
+					"raw": "http://localhost:8000/user/login/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"user",
+						"login",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "sucessfully login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n          \"username\": \"hi1\",\n          \"password\": \"ji\"\n        }"
+						},
+						"url": {
+							"raw": "http://localhost:8001/user/login/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"user",
+								"login",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 14 Jan 2024 22:55:06 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.9.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Allow",
+							"value": "POST, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "52"
+						},
+						{
+							"key": "Vary",
+							"value": "Cookie, Origin"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"token\": \"7a219946634161ab09a822b4ef4cb691260b30fb\"\n}"
+				},
+				{
+					"name": "wrong pass",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n          \"username\": \"hi1\",\n          \"password\": \"jqi\"\n        }"
+						},
+						"url": {
+							"raw": "http://localhost:8001/user/login/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"user",
+								"login",
+								""
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 14 Jan 2024 22:55:52 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.9.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Allow",
+							"value": "POST, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "68"
+						},
+						{
+							"key": "Vary",
+							"value": "Cookie, Origin"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"non_field_errors\": [\n        \"Unable to log in with provided credentials.\"\n    ]\n}"
+				}
+			]
+		}
+	]
+}
